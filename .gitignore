@@ -1,5 +1,5 @@
 .DS_Store
 contacts-raw.txt
-contacts-students.csv
-contacts-teachers.csv
+contacts-students.json
+contacts-teachers.json
 *.xlsx

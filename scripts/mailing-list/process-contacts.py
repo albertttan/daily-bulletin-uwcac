@@ -1,5 +1,5 @@
 import re
-import csv
+import json
 
 
 # Input and setup
@@ -7,8 +7,8 @@ import csv
 with open("contacts-raw.txt", "r", encoding="utf-8") as file:
     lines = list(map(str.strip, file.readlines()))
     
-students = set()
-teachers = set()
+students = {}
+teachers = {}
 
 
 # Loop through raw contacts file
@@ -32,18 +32,14 @@ while i < len(lines):
         email = lines[i]
         i += 1
         if re.match(r'a\d{2}\w{3,4}@uwcatlantic\.org', email):
-            students.add((name, email))
+            students[name] = email
         else:
-            teachers.add((name, email))
+            teachers[name] = email
 
 
-# Output CSV files
+# Output JSON files
 
-def write_csv(file_path, data):
-    with open(file_path, 'w', encoding='utf-8', newline='') as file:
-        writer = csv.writer(file)
-        writer.writerow(["Name", "Email"])
-        writer.writerows(sorted(data))
-
-write_csv('contacts-students.csv', students)
-write_csv('contacts-teachers.csv', teachers)
+with open("contacts-students.json", 'w') as file:
+    json.dump(students, file, indent=4)
+with open("contacts-teachers.json", 'w') as file:
+    json.dump(teachers, file, indent=4)
