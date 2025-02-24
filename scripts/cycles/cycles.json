@@ -1,0 +1,532 @@
+{
+    "2025-02-28": {
+        "week_day": 5,
+        "code_day": "GABC",
+        "menu_week": "B"
+    },
+    "2025-03-01": {
+        "week_day": 6,
+        "code_day": null,
+        "menu_week": "B"
+    },
+    "2025-03-02": {
+        "week_day": 7,
+        "code_day": null,
+        "menu_week": "B"
+    },
+    "2025-03-03": {
+        "week_day": 1,
+        "code_day": null,
+        "menu_week": "C"
+    },
+    "2025-03-04": {
+        "week_day": 2,
+        "code_day": "ABCD",
+        "menu_week": "C"
+    },
+    "2025-03-05": {
+        "week_day": 3,
+        "code_day": "BCDE",
+        "menu_week": "C"
+    },
+    "2025-03-06": {
+        "week_day": 4,
+        "code_day": "CDEF",
+        "menu_week": "C"
+    },
+    "2025-03-07": {
+        "week_day": 5,
+        "code_day": "DEFG",
+        "menu_week": "C"
+    },
+    "2025-03-08": {
+        "week_day": 6,
+        "code_day": null,
+        "menu_week": "C"
+    },
+    "2025-03-09": {
+        "week_day": 7,
+        "code_day": null,
+        "menu_week": "C"
+    },
+    "2025-03-10": {
+        "week_day": 1,
+        "code_day": "EFGA",
+        "menu_week": "A"
+    },
+    "2025-03-11": {
+        "week_day": 2,
+        "code_day": "FGAB",
+        "menu_week": "A"
+    },
+    "2025-03-12": {
+        "week_day": 3,
+        "code_day": "GABC",
+        "menu_week": "A"
+    },
+    "2025-03-13": {
+        "week_day": 4,
+        "code_day": "ABCD",
+        "menu_week": "A"
+    },
+    "2025-03-14": {
+        "week_day": 5,
+        "code_day": "BCDE",
+        "menu_week": "A"
+    },
+    "2025-03-15": {
+        "week_day": 6,
+        "code_day": null,
+        "menu_week": "A"
+    },
+    "2025-03-16": {
+        "week_day": 7,
+        "code_day": null,
+        "menu_week": "A"
+    },
+    "2025-03-17": {
+        "week_day": 1,
+        "code_day": null,
+        "menu_week": "B"
+    },
+    "2025-03-18": {
+        "week_day": 2,
+        "code_day": "CDEF",
+        "menu_week": "B"
+    },
+    "2025-03-19": {
+        "week_day": 3,
+        "code_day": "DEFG",
+        "menu_week": "B"
+    },
+    "2025-03-20": {
+        "week_day": 4,
+        "code_day": "EFGA",
+        "menu_week": "B"
+    },
+    "2025-03-21": {
+        "week_day": 5,
+        "code_day": "FGAB",
+        "menu_week": "B"
+    },
+    "2025-03-22": {
+        "week_day": 6,
+        "code_day": null,
+        "menu_week": "B"
+    },
+    "2025-03-23": {
+        "week_day": 7,
+        "code_day": null,
+        "menu_week": "B"
+    },
+    "2025-03-24": {
+        "week_day": 1,
+        "code_day": "GABC",
+        "menu_week": "C"
+    },
+    "2025-03-25": {
+        "week_day": 2,
+        "code_day": "ABCD",
+        "menu_week": "C"
+    },
+    "2025-03-26": {
+        "week_day": 3,
+        "code_day": "BCDE",
+        "menu_week": "C"
+    },
+    "2025-03-27": {
+        "week_day": 4,
+        "code_day": "CDEF",
+        "menu_week": "C"
+    },
+    "2025-03-28": {
+        "week_day": 5,
+        "code_day": "DEFG",
+        "menu_week": "C"
+    },
+    "2025-03-29": {
+        "week_day": 6,
+        "code_day": null,
+        "menu_week": "C"
+    },
+    "2025-03-30": {
+        "week_day": 7,
+        "code_day": null,
+        "menu_week": "C"
+    },
+    "2025-03-31": {
+        "week_day": 1,
+        "code_day": null,
+        "menu_week": "A"
+    },
+    "2025-04-01": {
+        "week_day": 2,
+        "code_day": null,
+        "menu_week": "A"
+    },
+    "2025-04-02": {
+        "week_day": 3,
+        "code_day": null,
+        "menu_week": "A"
+    },
+    "2025-04-03": {
+        "week_day": 4,
+        "code_day": null,
+        "menu_week": "A"
+    },
+    "2025-04-04": {
+        "week_day": 5,
+        "code_day": null,
+        "menu_week": "A"
+    },
+    "2025-04-05": {
+        "week_day": 6,
+        "code_day": null,
+        "menu_week": "A"
+    },
+    "2025-04-06": {
+        "week_day": 7,
+        "code_day": null,
+        "menu_week": "A"
+    },
+    "2025-04-07": {
+        "week_day": 1,
+        "code_day": "EFGA",
+        "menu_week": "B"
+    },
+    "2025-04-08": {
+        "week_day": 2,
+        "code_day": "FGAB",
+        "menu_week": "B"
+    },
+    "2025-04-09": {
+        "week_day": 3,
+        "code_day": "GABC",
+        "menu_week": "B"
+    },
+    "2025-04-10": {
+        "week_day": 4,
+        "code_day": "ABCD",
+        "menu_week": "B"
+    },
+    "2025-04-11": {
+        "week_day": 5,
+        "code_day": "BCDE",
+        "menu_week": "B"
+    },
+    "2025-04-12": {
+        "week_day": 6,
+        "code_day": null,
+        "menu_week": "B"
+    },
+    "2025-04-13": {
+        "week_day": 7,
+        "code_day": null,
+        "menu_week": "B"
+    },
+    "2025-04-14": {
+        "week_day": 1,
+        "code_day": null,
+        "menu_week": "C"
+    },
+    "2025-04-15": {
+        "week_day": 2,
+        "code_day": "CDEF",
+        "menu_week": "C"
+    },
+    "2025-04-16": {
+        "week_day": 3,
+        "code_day": "DEFG",
+        "menu_week": "C"
+    },
+    "2025-04-17": {
+        "week_day": 4,
+        "code_day": "EFGA",
+        "menu_week": "C"
+    },
+    "2025-04-18": {
+        "week_day": 5,
+        "code_day": "FGAB",
+        "menu_week": "C"
+    },
+    "2025-04-19": {
+        "week_day": 6,
+        "code_day": null,
+        "menu_week": "C"
+    },
+    "2025-04-20": {
+        "week_day": 7,
+        "code_day": null,
+        "menu_week": "C"
+    },
+    "2025-04-21": {
+        "week_day": 1,
+        "code_day": null,
+        "menu_week": "A"
+    },
+    "2025-04-22": {
+        "week_day": 2,
+        "code_day": "GABC",
+        "menu_week": "A"
+    },
+    "2025-04-23": {
+        "week_day": 3,
+        "code_day": "ABCD",
+        "menu_week": "A"
+    },
+    "2025-04-24": {
+        "week_day": 4,
+        "code_day": "BCDE",
+        "menu_week": "A"
+    },
+    "2025-04-25": {
+        "week_day": 5,
+        "code_day": "CDEF",
+        "menu_week": "A"
+    },
+    "2025-04-26": {
+        "week_day": 6,
+        "code_day": null,
+        "menu_week": "A"
+    },
+    "2025-04-27": {
+        "week_day": 7,
+        "code_day": null,
+        "menu_week": "A"
+    },
+    "2025-04-28": {
+        "week_day": 1,
+        "code_day": "DEFG",
+        "menu_week": "B"
+    },
+    "2025-04-29": {
+        "week_day": 2,
+        "code_day": "EFGA",
+        "menu_week": "B"
+    },
+    "2025-04-30": {
+        "week_day": 3,
+        "code_day": "FGAB",
+        "menu_week": "B"
+    },
+    "2025-05-01": {
+        "week_day": 4,
+        "code_day": "GABC",
+        "menu_week": "B"
+    },
+    "2025-05-02": {
+        "week_day": 5,
+        "code_day": "ABCD",
+        "menu_week": "B"
+    },
+    "2025-05-03": {
+        "week_day": 6,
+        "code_day": null,
+        "menu_week": "B"
+    },
+    "2025-05-04": {
+        "week_day": 7,
+        "code_day": null,
+        "menu_week": "B"
+    },
+    "2025-05-05": {
+        "week_day": 1,
+        "code_day": null,
+        "menu_week": "C"
+    },
+    "2025-05-06": {
+        "week_day": 2,
+        "code_day": null,
+        "menu_week": "C"
+    },
+    "2025-05-07": {
+        "week_day": 3,
+        "code_day": null,
+        "menu_week": "C"
+    },
+    "2025-05-08": {
+        "week_day": 4,
+        "code_day": null,
+        "menu_week": "C"
+    },
+    "2025-05-09": {
+        "week_day": 5,
+        "code_day": null,
+        "menu_week": "C"
+    },
+    "2025-05-10": {
+        "week_day": 6,
+        "code_day": null,
+        "menu_week": "C"
+    },
+    "2025-05-11": {
+        "week_day": 7,
+        "code_day": null,
+        "menu_week": "C"
+    },
+    "2025-05-12": {
+        "week_day": 1,
+        "code_day": null,
+        "menu_week": "A"
+    },
+    "2025-05-13": {
+        "week_day": 2,
+        "code_day": "BCDE",
+        "menu_week": "A"
+    },
+    "2025-05-14": {
+        "week_day": 3,
+        "code_day": "CDEF",
+        "menu_week": "A"
+    },
+    "2025-05-15": {
+        "week_day": 4,
+        "code_day": "DEFG",
+        "menu_week": "A"
+    },
+    "2025-05-16": {
+        "week_day": 5,
+        "code_day": "EFGA",
+        "menu_week": "A"
+    },
+    "2025-05-17": {
+        "week_day": 6,
+        "code_day": null,
+        "menu_week": "A"
+    },
+    "2025-05-18": {
+        "week_day": 7,
+        "code_day": null,
+        "menu_week": "A"
+    },
+    "2025-05-19": {
+        "week_day": 1,
+        "code_day": "FGAB",
+        "menu_week": "B"
+    },
+    "2025-05-20": {
+        "week_day": 2,
+        "code_day": "GABC",
+        "menu_week": "B"
+    },
+    "2025-05-21": {
+        "week_day": 3,
+        "code_day": "ABCD",
+        "menu_week": "B"
+    },
+    "2025-05-22": {
+        "week_day": 4,
+        "code_day": "BCDE",
+        "menu_week": "B"
+    },
+    "2025-05-23": {
+        "week_day": 5,
+        "code_day": "CDEF",
+        "menu_week": "B"
+    },
+    "2025-05-24": {
+        "week_day": 6,
+        "code_day": null,
+        "menu_week": "B"
+    },
+    "2025-05-25": {
+        "week_day": 7,
+        "code_day": null,
+        "menu_week": "B"
+    },
+    "2025-05-26": {
+        "week_day": 1,
+        "code_day": null,
+        "menu_week": "C"
+    },
+    "2025-05-27": {
+        "week_day": 2,
+        "code_day": "DEFG",
+        "menu_week": "C"
+    },
+    "2025-05-28": {
+        "week_day": 3,
+        "code_day": "EFGA",
+        "menu_week": "C"
+    },
+    "2025-05-29": {
+        "week_day": 4,
+        "code_day": "FGAB",
+        "menu_week": "C"
+    },
+    "2025-05-30": {
+        "week_day": 5,
+        "code_day": "GABC",
+        "menu_week": "C"
+    },
+    "2025-05-31": {
+        "week_day": 6,
+        "code_day": null,
+        "menu_week": "C"
+    },
+    "2025-06-01": {
+        "week_day": 7,
+        "code_day": null,
+        "menu_week": "C"
+    },
+    "2025-06-02": {
+        "week_day": 1,
+        "code_day": "ABCD",
+        "menu_week": "A"
+    },
+    "2025-06-03": {
+        "week_day": 2,
+        "code_day": "BCDE",
+        "menu_week": "A"
+    },
+    "2025-06-04": {
+        "week_day": 3,
+        "code_day": "CDEF",
+        "menu_week": "A"
+    },
+    "2025-06-05": {
+        "week_day": 4,
+        "code_day": "DEFG",
+        "menu_week": "A"
+    },
+    "2025-06-06": {
+        "week_day": 5,
+        "code_day": "EFGA",
+        "menu_week": "A"
+    },
+    "2025-06-07": {
+        "week_day": 6,
+        "code_day": null,
+        "menu_week": "A"
+    },
+    "2025-06-08": {
+        "week_day": 7,
+        "code_day": null,
+        "menu_week": "A"
+    },
+    "2025-06-09": {
+        "week_day": 1,
+        "code_day": "FGAB",
+        "menu_week": "B"
+    },
+    "2025-06-10": {
+        "week_day": 2,
+        "code_day": null,
+        "menu_week": "B"
+    },
+    "2025-06-11": {
+        "week_day": 3,
+        "code_day": "GABC",
+        "menu_week": "B"
+    },
+    "2025-06-12": {
+        "week_day": 4,
+        "code_day": "ABCD",
+        "menu_week": "B"
+    },
+    "2025-06-13": {
+        "week_day": 5,
+        "code_day": "BCDE",
+        "menu_week": "B"
+    }
+}
