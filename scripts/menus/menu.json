@@ -92,7 +92,7 @@
     "B4": {
         "breakfast": "Bread, Cheese & Ham",
         "brunch": null,
-        "grazing": null,
+        "grazing": "Donut \ud83c\udf31",
         "lunch_1": "Gochujang Mac & Cheese \ud83c\udf31",
         "lunch_2": "Green Risotto \ud83c\udf31",
         "dinner_1": "Jerk Chicken",
@@ -101,7 +101,7 @@
     "B5": {
         "breakfast": "Scrambled Eggs \ud83c\udf31",
         "brunch": null,
-        "grazing": null,
+        "grazing": "Chocolate Twist \ud83c\udf31",
         "lunch_1": "Fish & Chips",
         "lunch_2": "Crispy Buttermilk Quorn \ud83c\udf31",
         "dinner_1": "Veggie Chili \ud83c\udf31",

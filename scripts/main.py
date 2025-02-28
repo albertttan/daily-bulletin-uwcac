@@ -123,5 +123,7 @@ output = template.render(
 
 with open(f"../pages/{date[0].isoformat()}.html", "w") as file: 
 	file.write(output)
+with open(f"../pages/latest.html", "w") as file: 
+	file.write(output)
 
 compile_email(date[0].isoformat(), "contacts-example", output)
