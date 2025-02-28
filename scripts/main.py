@@ -3,7 +3,7 @@ import json
 import datetime
 import markdown as md
 from jinja2 import Environment, FileSystemLoader
-from compile_email import compile_email
+from compile import compile_email
 
 
 # Parameters
