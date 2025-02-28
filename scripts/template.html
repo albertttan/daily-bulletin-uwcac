@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Daily Bulletin {{ cycle_info[0].iso }}</title>
+	<link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+	<header>
+		<p>
+			<a href="https://www.uwcatlantic.org"><img class="header-logo" src="../static/uwcac.svg" title="UWC Atlantic College"></a>&emsp;<a href="mailto:wellco@uwcatlantic.org"><img class="header-logo" src="../static/wellco.svg" title="Wellbeing Council"></a>
+		</p>
+		<h1>
+			Daily Bulletin
+		</h1>
+		<p>
+			<time>
+				{{ cycle_info[0].iso }}
+			</time>
+			<br>
+			{{ cycle_info[0].weekday_str }}
+			{% if cycle_info[0].codes %}
+				<br>
+				Codes <b>{{ cycle_info[0].codes }}</b>
+			{% endif %}
+		</p>
+		<p class="note" style="color: crimson; font-weight: bold;">Internal Trial Version</p>
+	</header>
+	<article>
+		<p>
+			Happy {{ cycle_info[0].weekday_str }}! Thank you for supporting the Daily Bulletin project. 
+		</p>
+		<ul>
+			<li>
+				<a href="">Book</a> a meeting with the WellCo chairs.
+			</li>
+			<li>
+				<a href="">Chat</a> with the WellCo chairs through WellCo Line.
+			</li>
+			<li>
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSdeUJjGAcvn4ZO0zBNzX_6dxTnrzdr-CuNpoMYu_wP_j-T2Dg/viewform">Suggest</a> improvements to the Daily Bulletin project.
+			</li>
+			<li>
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSc4havWz_MXyyt3PYe4dwcwqW1BleGt2mmepBGKb6tm00Qwkg/viewform">Unsubscribe</a> if you no longer wish to receive emails from the Daily Bulletin project.
+			</li>
+		</ul>
+		<h2>
+			Wellbeing Inspirations
+		</h2>
+		<p>
+			Want to contribute to a future Daily Bulletin? <a href="https://docs.google.com/forms/d/e/1FAIpQLSdsKAzrklTWytv9KDYFEAU0KB-dMiTCkbHzKPAYGTTceCS6Mg/viewform">Share</a> your inspirations to give everyone some morning wellbeing energy!
+		</p>
+		{{ inspirations }}
+<!--
+Blockquote example:
+
+<blockquote>
+	<p>
+		Look at the air, listen to the buzzing of the sun, the same as yesterday and the day before. Today is Monday too.
+	</p>
+	<p class="note">
+		– José Arcadio Buendía
+	</p>
+</blockquote>
+
+Blocklink example:
+
+<div class="blocklink">
+	<a class="invisible" href="https://mp.weixin.qq.com/s?__biz=MzkwMzYxNDQ3NA==&mid=2247483952&idx=2&sn=d9202823dc1342722b4e065bf12e3d4e">
+		<img class="blocklink" src="../static/wellco-square.png">
+		<div>
+			<p class="blocklink">
+				February in Lull: New Year's Special
+			</p>
+			<p class="note">
+				Orangecat Lab
+			</p>
+		</div>
+	</a>
+</div>
+-->
+		{% if exam_info %}
+			<h2>
+				Exam Arrangements
+			</h2>
+			{{ exam_info }}
+		{% endif %}
+		<h2>
+			Delicious Dinings
+		</h2>
+		<table>
+			<colgroup>
+				<col class="width-5">
+				<col class="width-10">
+				<col>
+			</colgroup>
+			<thead>
+				<tr>
+					<th scope="col">
+						Day
+					</th>
+					<th scope="col">
+						Meal
+					</th>
+					<th scope="col">
+						Options
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for index in [0, 1] %}
+					{% if menu_info[index].breakfast %}
+						<tr {% if index == 0 %} class="highlight" {% endif %}>
+							<th scope="rowgroup" rowspan={{ menu_len[index] }}>
+								{{ cycle_info[index].weekday_str[:3] }}
+							</th>
+							<th class="secondary" scope="row">
+								Breakfast
+							</th>
+							<td>
+								{{ menu_info[index].breakfast }}
+							</td>
+						</tr>
+					{% endif %}
+					{% if menu_info[index].brunch %}
+						<tr {% if index == 0 %} class="highlight" {% endif %}>
+							<th scope="rowgroup" rowspan={{ menu_len[index] }}>
+								{{ cycle_info[index].weekday_str[:3] }}
+							</th>
+							<th class="secondary" scope="row">
+								Brunch
+							</th>
+							<td>
+								{{ menu_info[index].brunch }}
+							</td>
+						</tr>
+					{% endif %}
+					{% if menu_info[index].grazing %}
+						<tr {% if index == 0 %} class="highlight" {% endif %}>
+							<th class="secondary" scope="row">
+								Grazing
+							</th>
+							<td>
+								{{ menu_info[index].grazing }}
+							</td>
+						</tr>
+					{% endif %}
+					{% if menu_info[index].lunch_1 %}
+						<tr {% if index == 0 %} class="highlight" {% endif %}>
+							<th class="secondary" scope="row" {% if menu_info[0].lunch_2 %} rowspan=2 {% endif %}>
+								Lunch
+							</th>
+							<td>
+								{{ menu_info[index].lunch_1 }}
+							</td>
+						</tr>
+					{% endif %}
+					{% if menu_info[index].lunch_2 %}
+						<tr {% if index == 0 %} class="highlight" {% endif %}>
+							<td>
+								{{ menu_info[index].lunch_2 }}
+							</td>
+						</tr>
+					{% endif %}
+					{% if menu_info[index].dinner_1 %}
+						<tr {% if index == 0 %} class="highlight" {% endif %}>
+							<th class="secondary" scope="row" {% if menu_info[index].dinner_2 %} rowspan=2 {% endif %}>
+								Dinner
+							</th>
+							<td>
+								{{ menu_info[index].dinner_1 }}
+							</td>
+						</tr>
+					{% endif %}
+					{% if menu_info[index].dinner_2 %}
+						<tr {% if index == 0 %} class="highlight" {% endif %}>
+							<td>
+								{{ menu_info[index].dinner_2 }}
+							</td>
+						</tr>
+					{% endif %}
+				{% endfor %}
+			</tbody>
+		</table>
+		<p class="note">
+			Retrieved from <a href="https://docs.google.com/file/d/1Ml4ivq899r0Lyn4CPOmdVU-ItYVfiyj9/edit">Shared Weekly Menu</a>.
+		</p>
+		<h2>
+			Important Events
+		</h2>
+		<table>
+			<colgroup>
+				<col class="width-5">
+				<col class="width-10">
+				<col>
+				<col class="width-10">
+			</colgroup>
+			<thead>
+				<tr>
+					<th scope="col">
+						Day
+					</th>
+					<th scope="col">
+						Time
+					</th>
+					<th scope="col">
+						Event
+					</th>
+					<th scope="col">
+						Location
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for index in [0, 1] %}
+					{% for event in range(event_len[index]) %}
+						<tr {% if index == 0 %} class="highlight" {% endif %}>
+							{% if event == 0 %}
+								<th scope="rowgroup" rowspan={{ event_len[index] }}>
+									{{ cycle_info[index].weekday_str[:3] }}
+								</th>
+							{% endif %}
+							<th class="secondary" scope="row">
+								{{ event_info[index][event].when }}
+							</th>
+							<td>
+								{{ event_info[index][event].what }}
+							</td>
+							<td>
+								{{ event_info[index][event].where }}
+							</td>
+						</tr>
+					{% endfor %}
+				{% endfor %}
+			</tbody>
+		</table>
+		<p class="note">
+			Retrieved from <a href="https://docs.google.com/spreadsheets/d/10utzHFZaCT_4gW9h9JkF0N9WsRjWoDQZq84_Gv0O5cI/edit">What's On This Week</a>.
+		</p>
+		<h2>
+			On This Day
+		</h2>
+		{{ on_this_day }}
+		<p class="note">
+			Retrieved from <a href="https://en.wikipedia.org/wiki/Main_Page#mp-itn-h2">Wikipedia</a>.
+		</p>
+		<h2>
+			In the News
+		</h2>
+		{{in_the_news}}
+		<p class="note">
+			Retrieved from <a href="https://en.wikipedia.org/wiki/Main_Page#mp-otd-h2">Wikipedia</a>.
+		</p>
+	</article>
+	<footer>
+		<p>
+			<a href="../">Home Page</a> · <a href="./">Archive</a>
+		</p>
+	</footer>
+</body>
+</html>

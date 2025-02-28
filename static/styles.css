@@ -1,0 +1,216 @@
+@font-face {
+	font-family: "Inter";
+	font-weight: 400;
+	src: url(https://albertttan.github.io/daily-bulletin/files/Inter-Regular.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "Inter";
+	font-weight: 700;
+	src: url(https://albertttan.github.io/daily-bulletin/files/Inter-Bold.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "Noto Sans SC";
+	font-weight: 400;
+	src: url(https://albertttan.github.io/daily-bulletin/files/NotoSansSC-Regular.otf) format("opentype");
+}
+
+@font-face {
+	font-family: "Noto Sans SC";
+	font-weight: 700;
+	src: url(https://albertttan.github.io/daily-bulletin/files/NotoSansSC-Bold.otf) format("opentype");
+}
+
+html {
+	font-family: -apple-system, BlinkMacSystemFont, "SF Pro", "Inter", "Noto Sans SC", sans-serif;
+	--uwc-blue: rgb(0, 100, 166); /* Pantone 2945 */
+	--uwc-green: rgb(0, 144, 136); /* Pantone 3285 */
+	--wellco-lightblue: rgb(121, 175, 215);
+}
+
+body {
+	max-width: 60rem;
+	margin: auto;
+	padding: 1rem;
+}
+
+header {
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+footer {
+	margin-top: 2rem;
+	text-align: center;
+}
+
+h1 {
+	margin: 0.5rem;
+}
+
+h2 {
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+h3, h4, h5, h6 {
+	margin-top: 1rem;
+	margin-bottom: 0.75rem;
+}
+
+p {
+	margin: 0;
+}
+
+p.note {
+	font-size: small;
+	color: gray;
+}
+
+p.blocklink {
+	color: black;
+	font-weight: bold;
+	font-size: large;
+}
+
+p + p, p + ul, ul + p, p + ol, ol + p, table + p {
+	margin-top: 0.5rem;
+}
+
+p.blocklink + p.note {
+	margin-top: 0;
+}
+
+ul, ol {
+	margin: 0;
+	padding-inline-start: 1.25rem
+}
+
+span.note {
+	color: gray;
+}
+
+span.serif {
+	font-family: "New York", "Baskerville", "Noto Serif SC", serif;
+}
+
+a {
+	color: var(--uwc-green);
+}
+
+a:visited {
+	color: var(--uwc-green);
+}
+
+a.invisible {
+	color: none;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+blockquote {
+	position: relative;
+	margin-left: 1.25rem;
+}
+
+blockquote:before {
+	content: "";
+	position: absolute;
+	left: -1.25rem;
+	top: 0;
+	bottom: 0;
+	width: 0.1rem;
+	background-color: gray;
+}
+
+pre {
+	font-family: "SF Mono", "Menlo", "Consolas", monospace;
+	font-size: small;
+	background-color: whitesmoke;
+	padding: 0.5rem;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border: 0.1rem solid gray;
+	font-size: small;
+}
+
+col {
+	min-width: 6rem;
+}
+
+col.width-5 {
+	width: 5%;
+	min-width: 2rem;
+}
+
+col.width-10 {
+	width: 10%;
+}
+
+col.width-half {
+	width: 42.5%;
+}
+
+tr {
+	color: gray;
+}
+
+tr.highlight {
+	color: black;
+	background-color: lightcyan;
+}
+
+td, th {
+	text-align: center;
+	border: 0.05rem solid gray;
+	padding: 0.5rem 0.5rem;
+}
+
+th {
+	color: black;
+	text-decoration: none;
+	background-color: whitesmoke;
+}
+
+th.secondary {
+	font-weight: normal;
+}
+
+div.blocklink {
+	min-height: 4rem;
+	padding: 0.5rem;
+	background-color: whitesmoke;
+}
+
+img.header-logo {
+	height: 1rem;
+}
+
+img {
+	max-width: 100%;
+	max-height: 60rem;
+}
+
+img.embed {
+	width: 40%;
+	float: right;
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+}
+
+img.blocklink {
+	height: 3rem;
+	width: 3rem;
+	float: left;
+	margin: 0.5rem;
+}
+
+hr {
+	border: 0.1rem solid gray;
+}

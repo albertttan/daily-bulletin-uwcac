@@ -1,0 +1,129 @@
+{
+    "2025-02-24": [
+        {
+            "when": "17:00\u201318:00",
+            "what": "Cisgender Female Only Gym Session",
+            "where": "Gym"
+        },
+        {
+            "when": "14:00\u201315:00",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "15:00\u201316:00",
+            "what": "IB 1Community Gathering",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "16:15\u201317:15",
+            "what": "Chinese Phonetic Session",
+            "where": "Great Hall"
+        },
+        {
+            "when": "18:00\u201318:30",
+            "what": "SLACC",
+            "where": "Great Hall"
+        },
+        {
+            "when": "19:15\u201320:00",
+            "what": "PADxAC",
+            "where": "Great Hall"
+        },
+        {
+            "when": "20:00\u201321:00",
+            "what": "StuCo",
+            "where": "Great Hall"
+        },
+        {
+            "when": "20:00\u201321:00",
+            "what": "StuCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-02-25": [
+        {
+            "when": "12:30\u201314:00",
+            "what": "College Bank Open",
+            "where": "Admin Building"
+        },
+        {
+            "when": "18:00\u201319:00",
+            "what": "FEMO",
+            "where": "Great Hall"
+        },
+        {
+            "when": "20:00\u201321:00",
+            "what": "SusCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-02-26": [
+        {
+            "when": "06:36\u201307:30",
+            "what": "KHC",
+            "where": "Indoor Pool"
+        },
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "18:00\u201319:00",
+            "what": "WellCo \u2600\ufe0f",
+            "where": "Great Hall"
+        },
+        {
+            "when": "19:00\u201320:00",
+            "what": "P6",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-02-27": [
+        {
+            "when": "13:30\u201314:00",
+            "what": "College Bank",
+            "where": "Above STP"
+        },
+        {
+            "when": "15:00\u201316:00",
+            "what": "EAL Drop-in",
+            "where": "TLC"
+        },
+        {
+            "when": "18:00\u201319:00",
+            "what": "PeaCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-02-28": [
+        {
+            "when": "14:00\u201315:30",
+            "what": "Hot Chocolate Club",
+            "where": "Morgannwg"
+        },
+        {
+            "when": "15:00\u201317:00",
+            "what": "FNL Workshop",
+            "where": "Online"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        }
+    ],
+    "2025-03-01": [
+        {
+            "when": "10:00\u201323:59",
+            "what": "Race4Rights",
+            "where": "Sports Hall"
+        }
+    ]
+}

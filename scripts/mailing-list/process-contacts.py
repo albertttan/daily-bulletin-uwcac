@@ -37,7 +37,7 @@ while i < len(lines):
             teachers[name] = email
 
 
-# Output JSON files
+# Save to JSON files
 
 with open("contacts-students.json", 'w') as file:
     json.dump(students, file, indent=4)

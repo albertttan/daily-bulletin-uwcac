@@ -2,4 +2,8 @@
 contacts-raw.txt
 contacts-students.json
 contacts-teachers.json
+contacts-trial.json
 *.xlsx
+emails/
+__pycache__/
+
