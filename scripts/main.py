@@ -147,8 +147,6 @@ def render_html(date_iso=None, recipients="contacts-trial"):
 
 	with open(f"../pages/{date_iso}.html") as file: 
 		output = file.read()
-	with open(f"../pages/latest.html", "w") as file: 
-		file.write(output)
 
 	compile_email(date_iso, recipients, output)
 	os.system(f"open -a 'Mail' ../emails/Daily\ Bulletin\ {date_iso}.eml")
@@ -156,7 +154,8 @@ def render_html(date_iso=None, recipients="contacts-trial"):
 	update_pages(date_iso)
 
 	os.chdir("..")
-	os.system(f"git commit -m 'Uploaded Daily Bulletin {date_iso}' -a")
+	os.system("git add .")
+	os.system(f"git commit -m 'Reuploaded Daily Bulletin {date_iso}'")
 	os.system("git push origin main")
 
 
