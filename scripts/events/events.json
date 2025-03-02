@@ -125,16 +125,6 @@
             "where": "Gym"
         },
         {
-            "when": "14:00\u201315:00",
-            "what": "Tutorial",
-            "where": "Tutor Rooms"
-        },
-        {
-            "when": "15:00\u201316:00",
-            "what": "Community Gathering",
-            "where": "Bradenstoke"
-        },
-        {
             "when": "16:15\u201317:15",
             "what": "Chinese Phonetic Session",
             "where": "Great Hall"
@@ -147,11 +137,6 @@
         {
             "when": "19:15\u201320:00",
             "what": "PADxAC",
-            "where": "Great Hall"
-        },
-        {
-            "when": "20:00\u201321:00",
-            "what": "StuCo",
             "where": "Great Hall"
         }
     ]

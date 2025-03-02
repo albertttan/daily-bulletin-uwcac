@@ -52,3 +52,28 @@ Content-Type: text/html; charset=UTF-8
 
 {encoded_html}
 ''')
+
+
+def update_pages(date_iso): 
+	
+	with open(f"../pages/latest.html", "r+") as file: 
+		soup = BeautifulSoup(file.read(), "html.parser")
+		soup.find("meta")["content"] = f'0; url="{date_iso}.html"'
+		file.seek(0)
+		file.write(str(soup))
+		file.truncate()
+
+	with open(f"../pages/index.html", "r+") as file:
+		soup = BeautifulSoup(file.read(), "html.parser")
+		if soup.find("a", href=f"{date_iso}.html"): 
+			return
+		new_entry = soup.new_tag("li")
+		new_link = soup.new_tag("a", href=f"{date_iso}.html")
+		new_link.string = date_iso
+		new_entry.append(new_link)
+		soup.find("ul").insert(0, new_entry)
+		file.seek(0)
+		file.write(str(soup))
+		file.truncate()
+
+update_pages("2025-03-03")
