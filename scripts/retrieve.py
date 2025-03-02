@@ -12,6 +12,8 @@ def retrieve_history(date_iso):
     date_history = date_name.find_next("ul").find_all("li")
 
     for element in date_history:
+        for link in element.find_all("a"):
+            link["href"] = "https://en.wikipedia.org" + link["href"]
         for italics in element.find_all('i'):
             if italics.text.startswith("("):
                 italics.decompose()

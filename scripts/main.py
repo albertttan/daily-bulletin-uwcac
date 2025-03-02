@@ -155,7 +155,7 @@ def render_html(date_iso=None, recipients="contacts-trial"):
 
 	os.chdir("..")
 	os.system("git add .")
-	os.system(f"git commit -m 'Reuploaded Daily Bulletin {date_iso}'")
+	os.system(f"git commit -m 'Corrected Wikipedia links'")
 	os.system("git push origin main")
 
 
