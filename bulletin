@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd scripts || exit 1
+python3 -c "from main import render_html; render_html('$1')"
