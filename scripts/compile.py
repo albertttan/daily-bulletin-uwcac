@@ -21,7 +21,7 @@ def encode_image(path):
 def compile_email(date_iso, contacts, html): 
 
 	# Load relevant files
-	with open(f"mailing-list/{contacts}.json") as file: 
+	with open(f"contacts/{contacts}.json") as file: 
 		recipients = ', '.join(f'{k} <{v}>' for k, v in json.load(file).items())
 	with open("../static/styles.css") as file: 
 		css = file.read()
@@ -43,8 +43,7 @@ def compile_email(date_iso, contacts, html):
 
 	# Output
 	with open(f"../emails/Daily Bulletin {date_iso}.eml", "w") as file: 
-		file.write(f'''
-Subject: Daily Bulletin {date_iso}
+		file.write(f'''Subject: Daily Bulletin {date_iso}
 From: WellCo Daily Bulletin <wellco@uwcatlantic.org>
 Cc: Albert Tan <a24ytan@uwcatlantic.org>, Jane Xu <a24jxu@uwcatlantic.org>, Adonis Rodulfo <a24arod@uwcatlantic.org>
 Bcc: {recipients}

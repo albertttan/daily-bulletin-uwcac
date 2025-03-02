@@ -5,9 +5,12 @@ import pandas as pd
 
 # Initialization
 
-df = pd.read_excel("events.xlsx", sheet_name="Sheet1")[["Day", "When", "What", "Where"]]
-data = {}
+df = pd.read_excel("events.xlsx", sheet_name="2402 -0203", skiprows=2)[["Unnamed: 0", "When", "What", "Where"]]
+df.rename(columns={"Unnamed: 0": "Day"}, inplace=True)
 date = ""
+
+with open("events.json") as file:
+    data = json.load(file)
 
 
 # Formatting

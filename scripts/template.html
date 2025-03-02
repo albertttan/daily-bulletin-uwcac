@@ -120,7 +120,7 @@
 					{% endif %}
 					{% if menu_info[index].lunch_1 %}
 						<tr {% if index == 0 %} class="highlight" {% endif %}>
-							<th class="secondary" scope="row" {% if menu_info[0].lunch_2 %} rowspan=2 {% endif %}>
+							<th class="secondary" scope="row" {% if menu_info[index].lunch_2 %} rowspan=2 {% endif %}>
 								Lunch
 							</th>
 							<td>
@@ -210,27 +210,35 @@
 		<p class="note">
 			Retrieved from <a href="https://docs.google.com/spreadsheets/d/10utzHFZaCT_4gW9h9JkF0N9WsRjWoDQZq84_Gv0O5cI/edit">What's On This Week</a>.
 		</p>
-		<h2>
-			On This Day
-		</h2>
-		{{ on_this_day }}
-		<p class="note">
-			Retrieved from <a href="https://en.wikipedia.org/wiki/Main_Page#mp-itn-h2">Wikipedia</a>.
-		</p>
-		<h2>
-			In the News
-		</h2>
-		<ul>
-			<li>
-				{{ news_info[0] }}
-			</li>
-			<li>
-				{{ news_info[1] }}
-			</li>
-		</ul>
-		<p class="note">
-			Retrieved from <a href="https://en.wikipedia.org/wiki/Main_Page#mp-otd-h2">Wikipedia</a>.
-		</p>
+		<div class="columns">
+			<div class="column">
+				<h2>
+					Today in History
+				</h2>
+				<ul>
+					{{ history_info[0] }}
+					{{ history_info[1] }}
+				</ul>
+				<p class="note">
+					Retrieved from <a href="https://en.wikipedia.org/wiki/Wikipedia:Selected_anniversaries">Wikipedia</a>.
+				</p>
+			</div>
+			<div class="column">
+				<h2>
+					Today in News
+				</h2>
+				<ul>
+					{% for index in range(3) %}
+						<li>
+							{{ news_info[index] }}
+						</li>
+					{% endfor %}
+				</ul>
+				<p class="note">
+					Retrieved from <a href="https://apnews.com/">The Associated Press</a>.
+				</p>
+			</div>
+		</div>
 	</article>
 	<footer>
 		<p>

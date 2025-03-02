@@ -4,6 +4,6 @@ contacts-students.json
 contacts-teachers.json
 contacts-trial.json
 *.xlsx
-emails/
+*.eml
 __pycache__/
 
