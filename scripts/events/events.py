@@ -41,6 +41,7 @@ for index in df.index:
     if not pd.isna(row["When"]): 
         time = row["When"][:5] + "–" + row["When"][-5:]
         entry_day.append({"when": time, "what": row["What"], "where": row["Where"]})
+    data[date] = entry_day
 
 
 # Save to JSON file
