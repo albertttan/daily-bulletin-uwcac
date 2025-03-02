@@ -10,6 +10,12 @@ def retrieve_history(date_iso):
     soup = BeautifulSoup(requests.get(url).text, "html.parser")
     date_name = soup.find_all("a", title=selected_date.strftime("%B %-d"))[1].parent.parent
     date_history = date_name.find_next("ul").find_all("li")
+
+    for element in date_history:
+        for italics in element.find_all('i'):
+            if italics.text.startswith("("):
+                italics.decompose()
+
     return [date_history[0], date_history[-1]]
 
 

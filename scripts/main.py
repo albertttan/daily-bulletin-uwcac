@@ -151,7 +151,7 @@ def render_html(date_iso=None, recipients="contacts-trial"):
 		file.write(output)
 
 	compile_email(date_iso, recipients, output)
-	os.system(f"open -a 'Mail' ../emails/{date_iso}.eml")
+	os.system(f"open -a 'Mail' ../emails/Daily\ Bulletin\ {date_iso}.eml")
 
 	update_pages(date_iso)
 

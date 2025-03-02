@@ -33,11 +33,6 @@
     ],
     "2025-02-25": [
         {
-            "when": "12:30\u201314:00",
-            "what": "College Bank Open",
-            "where": "Admin Building"
-        },
-        {
             "when": "18:00\u201319:00",
             "what": "FEMO",
             "where": "Great Hall"
@@ -137,6 +132,23 @@
         {
             "when": "19:15\u201320:00",
             "what": "PADxAC",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-03-04": [
+        {
+            "when": "12:30\u201314:00",
+            "what": "College Bank Open",
+            "where": "Admin Building"
+        },
+        {
+            "when": "18:00\u201319:00",
+            "what": "FEMO",
+            "where": "Great Hall"
+        },
+        {
+            "when": "20:00\u201321:00",
+            "what": "SusCo",
             "where": "Great Hall"
         }
     ]

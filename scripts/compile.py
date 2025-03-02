@@ -2,17 +2,31 @@ import os
 import json
 import base64
 import datetime
+import requests
 from bs4 import BeautifulSoup
 
 
 def encode_image(path):
 	filetype = path.split(".")[-1].lower()
+
+	# Check file type
 	if filetype == "jpg": 
 		filetype = "jpeg"
 	elif filetype == "svg": 
 		filetype = "svg+xml"
-	with open(path, "rb") as file: 
-		raw = file.read()
+
+	# Load image
+	if path.startswith("http://") or path.startswith("https://"):
+		response = requests.get(path)
+		response.raise_for_status()
+		raw = response.content
+	elif os.path.isfile(path):
+		with open(path, "rb") as file: 
+			raw = file.read()
+	else:
+		raise FileNotFoundError(f"No such file or URL: '{path}'")
+
+	# Encode image
 	encoded = base64.b64encode(raw).decode("utf-8", "surrogateescape")
 	encoded = f"data:image/{filetype};base64," + encoded
 	return encoded
@@ -47,6 +61,7 @@ def compile_email(date_iso, contacts, html):
 From: WellCo Daily Bulletin <wellco@uwcatlantic.org>
 Cc: Albert Tan <a24ytan@uwcatlantic.org>, Jane Xu <a24jxu@uwcatlantic.org>, Adonis Rodulfo <a24arod@uwcatlantic.org>
 Bcc: {recipients}
+Reply-To: UWCA WellCo <wellco@uwcatlantic.org>
 Content-Transfer-Encoding: base64
 Content-Type: text/html; charset=UTF-8
 
