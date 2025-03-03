@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>Daily Bulletin {{ cycle_info[0].iso }}</title>
-	<link rel="stylesheet" href="../static/styles.css">
+	<link rel="stylesheet" href="../static/styles.css" />
 </head>
 <body>
-	<header>
+	<center><header align="center">
 		<p>
 			<a href="https://www.uwcatlantic.org"><img class="header-logo" src="../static/uwcac.svg" title="UWC Atlantic College"></a>&emsp;<a href="mailto:wellco@uwcatlantic.org"><img class="header-logo" src="../static/wellco.svg" title="Wellbeing Council"></a>
 		</p>
@@ -18,16 +18,16 @@
 			<time>
 				{{ cycle_info[0].iso }}
 			</time>
-			<br>
+			<br />
 			{{ cycle_info[0].weekday_str }}
 			{% if cycle_info[0].codes %}
-				<br>
+				<br />
 				Codes <b>{{ cycle_info[0].codes }}</b>
 			{% endif %}
 		</p>
 		<p class="note" style="color: crimson; font-weight: bold;">Internal Trial Version</p>
-	</header>
-	<article>
+	</header></center>
+	<main>
 		<p>
 			Happy {{ cycle_info[0].weekday_str }}! Thank you for supporting the Daily Bulletin project. 
 		</p>
@@ -63,9 +63,9 @@
 		</h2>
 		<table>
 			<colgroup>
-				<col class="width-5">
-				<col class="width-10">
-				<col>
+				<col class="width-5" />
+				<col class="width-10" />
+				<col />
 			</colgroup>
 			<thead>
 				<tr>
@@ -163,10 +163,10 @@
 		</h2>
 		<table>
 			<colgroup>
-				<col class="width-5">
-				<col class="width-10">
-				<col>
-				<col class="width-10">
+				<col class="width-5" />
+				<col class="width-10" />
+				<col />
+				<col class="width-10" />
 			</colgroup>
 			<thead>
 				<tr>
@@ -239,7 +239,7 @@
 				</p>
 			</div>
 		</div>
-	</article>
+	</main>
 	<footer>
 		<p>
 			<a href="../">Home Page</a> · <a href="./">Archive</a>
