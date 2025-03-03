@@ -147,7 +147,9 @@ def render_html(date_iso=None, recipients="contacts-trial"):
     update_pages(date_iso)
 
     os.system("git add ..")
-    os.system("git commit -m 'Corrected Wikipedia links'")
+    subprocess.run(
+        ["git", "commit", "-m", f"Daily Bulletin {date_iso}"], check=True
+    )
     os.system("git push origin main")
 
 
