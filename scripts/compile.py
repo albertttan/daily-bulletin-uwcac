@@ -75,14 +75,14 @@ Content-Type: text/html; charset=UTF-8
 
 def update_pages(date_iso):
 
-    with open(f"../pages/latest.html", "r+") as file:
+    with open("../pages/latest.html", "r+") as file:
         soup = BeautifulSoup(file.read(), "html.parser")
         soup.find("meta")["content"] = f'0; url="{date_iso}.html"'
         file.seek(0)
         file.write(str(soup))
         file.truncate()
 
-    with open(f"../pages/index.html", "r+") as file:
+    with open("../pages/index.html", "r+") as file:
         soup = BeautifulSoup(file.read(), "html.parser")
         if soup.find("a", href=f"{date_iso}.html"):
             return
