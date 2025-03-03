@@ -123,7 +123,7 @@ def render_html(date_iso=None, recipients="contacts-trial"):
         action = input("[V]iew / [E]dit / [Q]uit / [C]onfirm: ")
         if action.lower() == "c" or action.lower() == "confirm":
             continue
-        elif action.lower() == "v" or action.lower() == "view":
+        if action.lower() == "v" or action.lower() == "view":
             os.system(f"open -a 'Firefox' ../pages/{date_iso}.html")
         elif action.lower() == "e" or action.lower() == "edit":
             os.system(f"open -a 'Sublime Text' ../pages/{date_iso}.html")
