@@ -2,3 +2,10 @@
 
 cd scripts || exit 1
 python3 -c "from main import render_html; render_html('$1')"
+
+printf '<!DOCTYPE html>\n<html>\n<head>\n<meta charset="utf-8" />\n<title>Daily Bulletin Index</title>\n</head>\n<body><ul>\n' > pages/index.html
+for page in pages/*; do
+	filename="${page##*/}"
+	printf '<li><a href="%s">%s</a></li>\n' "$filename" "$filename" >> pages/index.html
+done
+printf '</ul></body>\n</html>' >> pages/index.html
