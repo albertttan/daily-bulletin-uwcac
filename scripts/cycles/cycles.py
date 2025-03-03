@@ -41,10 +41,9 @@ while date <= end_date:
     codes: Optional[str] = None
     if weekday_int <= 5 and iso_date not in exceptions:
         codes = next(codes_sets)
-    else:
-        codes = None
 
     # Assign menu_week
+    menu_week: Optional[str] = None
     if weekday_int == 1 or date == start_date:
         menu_week = next(menu_weeks)
 
