@@ -10,7 +10,7 @@ def retrieve_history(date_iso):
         "https://en.wikipedia.org/wiki/Wikipedia:Selected_anniversaries/"
         + selected_date.strftime("%B")
     )
-    soup = BeautifulSoup(requests.get(url).text, "html.parser")
+    soup = BeautifulSoup(requests.get(url, timeout=30).text, "html.parser")
     date_name = soup.find_all("a", title=selected_date.strftime("%B %-d"))[
         1
     ].parent.parent
@@ -29,7 +29,7 @@ def retrieve_history(date_iso):
 def retrieve_news():
 
     url = "https://apnews.com"
-    soup = BeautifulSoup(requests.get(url).text, "html.parser")
+    soup = BeautifulSoup(requests.get(url, timeout=30).text, "html.parser")
     output = []
 
     for element in soup.find_all("div", class_="PageListStandardE-leadPromo-info"):

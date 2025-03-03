@@ -16,7 +16,7 @@ def encode_image(path):
 
     # Load image
     if path.startswith("http://") or path.startswith("https://"):
-        response = requests.get(path)
+        response = requests.get(path, timeout=30)
         response.raise_for_status()
         raw = response.content
     elif os.path.isfile(path):
