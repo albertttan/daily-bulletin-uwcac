@@ -1,6 +1,7 @@
 import json
 import datetime
 from itertools import cycle, islice
+from typing import Optional
 
 
 # Parameters
@@ -13,8 +14,8 @@ start_codes = "GABC"
 
 # Define rotation and exceptions
 
-menu_weeks = ["A", "B", "C"]
-codes_sets = ["ABCD", "BCDE", "CDEF", "DEFG", "EFGA", "FGAB", "GABC"]
+menu_weeks_list = ["A", "B", "C"]
+codes_sets_list = ["ABCD", "BCDE", "CDEF", "DEFG", "EFGA", "FGAB", "GABC"]
 with open("exceptions.txt", "r") as file:
     exceptions = list(map(str.strip, file.readlines()))
 
@@ -22,8 +23,8 @@ with open("exceptions.txt", "r") as file:
 # Define start values
 
 data = {}
-menu_weeks = islice(cycle(menu_weeks), menu_weeks.index(start_menu_week), None)
-codes_sets = islice(cycle(codes_sets), codes_sets.index(start_codes), None)
+menu_weeks = islice(cycle(menu_weeks_list), menu_weeks_list.index(start_menu_week), None)
+codes_sets = islice(cycle(codes_sets_list), codes_sets_list.index(start_codes), None)
 date = start_date
 
 
@@ -37,6 +38,7 @@ while date <= end_date:
     weekday_str = date.strftime("%A")
 
     # Assign codes
+    codes: Optional[str] = None
     if weekday_int <= 5 and iso_date not in exceptions:
         codes = next(codes_sets)
     else:
