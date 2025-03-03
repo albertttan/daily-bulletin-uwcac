@@ -31,21 +31,21 @@ date = start_date
 
 while date <= end_date:
     iso_date = date.isoformat()
-    
+
     # Assign weekday
     weekday_int = date.weekday() + 1
-    weekday_str = date.strftime('%A')
-    
+    weekday_str = date.strftime("%A")
+
     # Assign codes
     if weekday_int <= 5 and iso_date not in exceptions:
         codes = next(codes_sets)
     else:
         codes = None
-    
+
     # Assign menu_week
     if weekday_int == 1 or date == start_date:
         menu_week = next(menu_weeks)
-    
+
     date += datetime.timedelta(days=1)
     data[iso_date] = {
         "iso": iso_date,
