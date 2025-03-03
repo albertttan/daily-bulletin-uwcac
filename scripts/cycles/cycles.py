@@ -8,8 +8,8 @@ from typing import Optional
 
 start_date = datetime.date(2025, 2, 28)
 end_date = datetime.date(2025, 6, 13)
-start_menu_week = "B"
-start_codes = "GABC"
+START_MENU_WEEK = "B"
+START_CODES = "GABC"
 
 
 # Define rotation and exceptions
@@ -23,8 +23,8 @@ with open("exceptions.txt", "r") as file:
 # Define start values
 
 data = {}
-menu_weeks = islice(cycle(menu_weeks_list), menu_weeks_list.index(start_menu_week), None)
-codes_sets = islice(cycle(codes_sets_list), codes_sets_list.index(start_codes), None)
+menu_weeks = islice(cycle(menu_weeks_list), menu_weeks_list.index(START_MENU_WEEK), None)
+codes_sets = islice(cycle(codes_sets_list), codes_sets_list.index(START_CODES), None)
 date = start_date
 
 
