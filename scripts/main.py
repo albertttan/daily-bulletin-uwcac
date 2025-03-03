@@ -29,7 +29,7 @@ def render_html(date_iso=None, recipients="contacts-trial"):
 
     env = Environment(loader=FileSystemLoader("."))
     template = env.get_template("template.html")
-    print("Processed date and template...")
+    print("Processed date and template...", file=sys.stderr)
 
     # Cycles
 
@@ -37,7 +37,7 @@ def render_html(date_iso=None, recipients="contacts-trial"):
         cycles = json.load(file)
 
     cycle_info = [cycles[date_iso], cycles[date[1].isoformat()]]
-    print("Processed cycle information...")
+    print("Processed cycle information...", file=sys.stderr)
 
     # Inspirations
 
@@ -47,7 +47,7 @@ def render_html(date_iso=None, recipients="contacts-trial"):
     inspirations = inspirations.replace("<p><strong>", '<p class="note">').replace(
         "</strong></p>", "</p>"
     )
-    print("Processed inspirations...")
+    print("Processed inspirations...", file=sys.stderr)
 
     # Exams
 
@@ -56,7 +56,7 @@ def render_html(date_iso=None, recipients="contacts-trial"):
             exam_info = file.read()
     else:
         exam_info = None
-    print("Processed exam information...")
+    print("Processed exam information...", file=sys.stderr)
 
     # Menus
 
@@ -78,7 +78,7 @@ def render_html(date_iso=None, recipients="contacts-trial"):
         sum(1 for i in menu_info[0].values() if i),
         sum(1 for i in menu_info[1].values() if i),
     ]
-    print("Processed menu information...")
+    print("Processed menu information...", file=sys.stderr)
 
     # Events
 
@@ -91,13 +91,13 @@ def render_html(date_iso=None, recipients="contacts-trial"):
         event_info = [events[date_iso], {}]
 
     event_len = [len(event_info[0]), len(event_info[1])]
-    print("Processed event information...")
+    print("Processed event information...", file=sys.stderr)
 
     # On This Day / In the News
 
     history_info = retrieve_history(date_iso)
     news_info = retrieve_news()
-    print("Processed On This Day and In the News...")
+    print("Processed On This Day and In the News...", file=sys.stderr)
 
     # Render and save page
 
@@ -114,7 +114,7 @@ def render_html(date_iso=None, recipients="contacts-trial"):
     )
     with open(f"../pages/{date_iso}.html", "w") as file:
         file.write(output)
-    print("Render successful!")
+    print("Render successful!", file=sys.stderr)
 
     # Manual confirmation to proceed
 
