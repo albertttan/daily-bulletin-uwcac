@@ -23,7 +23,9 @@ with open("exceptions.txt", "r") as file:
 # Define start values
 
 data = {}
-menu_weeks = islice(cycle(menu_weeks_list), menu_weeks_list.index(START_MENU_WEEK), None)
+menu_weeks = islice(
+    cycle(menu_weeks_list), menu_weeks_list.index(START_MENU_WEEK), None
+)
 codes_sets = islice(cycle(codes_sets_list), codes_sets_list.index(START_CODES), None)
 date = start_date
 
