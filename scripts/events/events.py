@@ -5,7 +5,9 @@ import pandas as pd
 
 # Initialization
 
-df = pd.read_excel("events.xlsx", sheet_name="2402 -0203", skiprows=2)[["Unnamed: 0", "When", "What", "Where"]]
+df = pd.read_excel("events.xlsx", sheet_name="2402 -0203", skiprows=2)[
+    ["Unnamed: 0", "When", "What", "Where"]
+]
 df.rename(columns={"Unnamed: 0": "Day"}, inplace=True)
 date = ""
 
@@ -15,11 +17,37 @@ with open("events.json") as file:
 
 # Formatting
 
+
 def title_case(s):
     if type(s) != str:
         return s
 
-    exceptions = ["and", "as", "but", "for", "if", "nor", "or", "so", "yet", "a", "an", "the", "as", "at", "by", "for", "in", "of", "off", "on", "per", "to", "up", "via"] # https://apastyle.apa.org/style-grammar-guidelines/capitalization/title-case
+    exceptions = [
+        "and",
+        "as",
+        "but",
+        "for",
+        "if",
+        "nor",
+        "or",
+        "so",
+        "yet",
+        "a",
+        "an",
+        "the",
+        "as",
+        "at",
+        "by",
+        "for",
+        "in",
+        "of",
+        "off",
+        "on",
+        "per",
+        "to",
+        "up",
+        "via",
+    ]  # https://apastyle.apa.org/style-grammar-guidelines/capitalization/title-case
     words = s.split()
     result = []
     for i, word in enumerate(words):
@@ -29,6 +57,7 @@ def title_case(s):
             result.append(word.lower())
     return " ".join(result).replace("Drop in", "Drop-in").replace("WellCo", "WellCo ☀️")
 
+
 df = df.map(title_case)
 
 
@@ -36,12 +65,12 @@ df = df.map(title_case)
 
 for index in df.index:
     row = df.loc[index]
-    if type(row["Day"]) == datetime.datetime: 
+    if type(row["Day"]) == datetime.datetime:
         if date:
             data[date] = entry_day
         date = row["Day"].date().isoformat()
         entry_day = []
-    if not pd.isna(row["When"]): 
+    if not pd.isna(row["When"]):
         time = row["When"][:5] + "–" + row["When"][-5:]
         entry_day.append({"when": time, "what": row["What"], "where": row["Where"]})
     data[date] = entry_day
