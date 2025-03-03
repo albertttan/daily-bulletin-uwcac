@@ -19,7 +19,7 @@ with open("events.json") as file:
 
 
 def title_case(s):
-    if type(s) != str:
+    if isinstance(s, str):
         return s
 
     exceptions = [
@@ -65,7 +65,7 @@ df = df.map(title_case)
 
 for index in df.index:
     row = df.loc[index]
-    if type(row["Day"]) == datetime.datetime:
+    if isinstance(row["Day"], datetime.datetime):
         if date:
             data[date] = entry_day
         date = row["Day"].date().isoformat()
