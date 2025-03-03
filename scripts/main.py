@@ -1,4 +1,5 @@
 import os
+import sys
 import json
 import datetime
 import markdown as md
@@ -127,7 +128,7 @@ def render_html(date_iso=None, recipients="contacts-trial"):
         elif action.lower() == "e" or action.lower() == "edit":
             os.system(f"open -a 'Sublime Text' ../pages/{date_iso}.html")
         elif action.lower() == "q" or action.lower() == "quit":
-            quit()
+            sys.exit(0)
         action = ""
 
     # Compile email & upload page
