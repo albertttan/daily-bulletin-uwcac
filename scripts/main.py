@@ -2,6 +2,7 @@ import os
 import sys
 import json
 import datetime
+import subprocess
 import markdown as md
 from jinja2 import Environment, FileSystemLoader
 from compile import compile_email, update_pages
@@ -112,7 +113,9 @@ def render_html(date_iso=None, recipients="contacts-trial"):
         history_info=history_info,
         news_info=news_info,
     )
-    with open(f"../pages/{date_iso}.html", "w") as file:
+
+    output_path = f"../pages/{date_iso}.html"
+    with open(output_path, "w") as file:
         file.write(output)
     print("Render successful!", file=sys.stderr)
 
@@ -124,9 +127,9 @@ def render_html(date_iso=None, recipients="contacts-trial"):
         if action.lower() == "c" or action.lower() == "confirm":
             continue
         if action.lower() == "v" or action.lower() == "view":
-            os.system(f"open -a 'Firefox' ../pages/{date_iso}.html")
+            subprocess.run(["open", "-a", "Firefox", output_path], check=True)
         elif action.lower() == "e" or action.lower() == "edit":
-            os.system(f"open -a 'Sublime Text' ../pages/{date_iso}.html")
+            subprocess.run(["open", "-a", "Sublime Text", output_path], check=True)
         elif action.lower() == "q" or action.lower() == "quit":
             sys.exit(0)
         action = ""
@@ -137,12 +140,13 @@ def render_html(date_iso=None, recipients="contacts-trial"):
         output = file.read()
 
     compile_email(date_iso, recipients, output)
-    os.system(f"open -a 'Mail' ../emails/Daily\ Bulletin\ {date_iso}.eml")
+    subprocess.run(
+        ["open", "-a", "Mail", f"../emails/Daily Bulletin {date_iso}.eml"], check=True
+    )
 
     update_pages(date_iso)
 
-    os.chdir("..")
-    os.system("git add .")
+    os.system("git add ..")
     os.system("git commit -m 'Corrected Wikipedia links'")
     os.system("git push origin main")
 
