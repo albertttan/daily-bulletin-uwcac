@@ -1,7 +1,6 @@
 import os
 import json
 import base64
-import datetime
 import requests
 from bs4 import BeautifulSoup
 
