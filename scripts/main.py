@@ -9,7 +9,7 @@ from compile import compile_email, update_pages
 from retrieve import retrieve_history, retrieve_news
 
 
-def render_html(date_iso=None, recipients="contacts-trial"):
+def render_html(date_iso=None, recipients="contacts-example"):
 
     # Initialization
 
