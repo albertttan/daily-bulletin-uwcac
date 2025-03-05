@@ -6,18 +6,19 @@ from typing import Optional
 
 # Parameters
 
-start_date = datetime.date(2025, 2, 28)
+start_date = datetime.date(2025, 3, 6)
 end_date = datetime.date(2025, 6, 13)
-START_MENU_WEEK = "B"
-START_CODES = "GABC"
+START_MENU_WEEK = "C"
+START_CODES = "EFGA"
 
 
 # Define rotation and exceptions
 
 menu_weeks_list = ["A", "B", "C"]
-codes_sets_list = ["ABCD", "BCDE", "CDEF", "DEFG", "EFGA", "FGAB", "GABC"]
-with open("exceptions.txt", "r") as file:
-    exceptions = list(map(str.strip, file.readlines()))
+codes_sets_list = ["ABCD", "EFGA", "BCDE", "FGAB", "CDEF", "GABC", "DEFG"]
+with open("exceptions.json", "r") as file:
+    exceptions = json.load(file)
+    exceptions_days = exceptions
 
 
 # Define start values
@@ -41,12 +42,11 @@ while date <= end_date:
 
     # Assign codes
     codes: Optional[str] = None
-    if weekday_int <= 5 and iso_date not in exceptions:
+    if weekday_int <= 5 and iso_date not in exceptions["days"]:
         codes = next(codes_sets)
 
     # Assign menu_week
-    menu_week: Optional[str] = None
-    if weekday_int == 1 or date == start_date:
+    if (weekday_int == 1 or date == start_date) and iso_date not in exceptions["weeks"]:
         menu_week = next(menu_weeks)
 
     date += datetime.timedelta(days=1)
@@ -61,5 +61,5 @@ while date <= end_date:
 
 # Save to JSON file
 
-with open("cycles.json", "w") as json_file:
-    json.dump(data, json_file, indent=4)
+with open("cycles.json", "w") as file:
+    json.dump(data, file, indent=4)

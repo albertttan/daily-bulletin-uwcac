@@ -61,7 +61,7 @@ def compile_email(date_iso, contacts, html):
         file.write(
             f"""Subject: Daily Bulletin {date_iso}
 From: WellCo Daily Bulletin <wellco@uwcatlantic.org>
-Cc: Albert Tan <a24ytan@uwcatlantic.org>, Jane Xu <a24jxu@uwcatlantic.org>, Adonis Rodulfo <a24arod@uwcatlantic.org>
+Cc: Albert Tan <a24ytan@uwcatlantic.org>, Jane Xu <a24jxu@uwcatlantic.org>, Adonis Alexis <a24arod@uwcatlantic.org>
 Bcc: {recipients}
 Reply-To: UWCA WellCo <wellco@uwcatlantic.org>
 Content-Transfer-Encoding: base64
