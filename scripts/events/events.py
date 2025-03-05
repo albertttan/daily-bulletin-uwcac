@@ -5,7 +5,7 @@ import pandas as pd
 
 # Initialization
 
-df = pd.read_excel("events.xlsx", sheet_name="2402 -0203", skiprows=2)[
+df = pd.read_excel("events.xlsx", sheet_name="03-090325", skiprows=2)[
     ["Unnamed: 0", "When", "What", "Where"]
 ]
 df.rename(columns={"Unnamed: 0": "Day"}, inplace=True)
@@ -23,30 +23,10 @@ def title_case(s):
         return s
 
     exceptions = [
-        "and",
-        "as",
-        "but",
-        "for",
-        "if",
-        "nor",
-        "or",
-        "so",
-        "yet",
-        "a",
-        "an",
-        "the",
-        "as",
-        "at",
-        "by",
-        "for",
-        "in",
-        "of",
-        "off",
-        "on",
-        "per",
-        "to",
-        "up",
-        "via",
+        "and", "as", "but", "for", "if", "nor", 
+        "or", "so", "yet", "a", "an", "the",
+        "as", "at", "by", "for", "in", "of", 
+        "off", "on", "per", "to", "up", "via",
     ]  # https://apastyle.apa.org/style-grammar-guidelines/capitalization/title-case
     words = s.split()
     result = []
