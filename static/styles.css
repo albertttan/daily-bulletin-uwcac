@@ -113,17 +113,9 @@ a.invisible {
 
 blockquote {
 	position: relative;
-	margin-left: 1.25rem;
-}
-
-blockquote:before {
-	content: "";
-	position: absolute;
-	left: -1.25rem;
-	top: 0;
-	bottom: 0;
-	width: 0.1rem;
-	background-color: gray;
+	margin-left: 0.25rem;
+	padding-left: 1rem;
+	border-left: 0.1rem solid gray;
 }
 
 pre {
