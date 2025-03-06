@@ -146,7 +146,7 @@
     "C3": {
         "breakfast": "Sausage, Mushroom & Baked Beans",
         "brunch": null,
-        "grazing": null,
+        "grazing": "Croissant",
         "lunch_1": "Ginger & Chili Beef with Mushroom & Onion",
         "lunch_2": "Curried Cauliflower Gratin \ud83c\udf31",
         "dinner_1": "Halloumi & Roast Pepper Fusilli Bake \ud83c\udf31",
@@ -155,11 +155,11 @@
     "C4": {
         "breakfast": "Bread, Cheese & Ham",
         "brunch": null,
-        "grazing": null,
-        "lunch_1": "Falafel \ud83c\udf31",
+        "grazing": "Cinnamon Rolls",
+        "lunch_1": "Mac & Cheese \ud83c\udf31",
         "lunch_2": null,
-        "dinner_1": "Swedish Beef & Cabbage Pudding",
-        "dinner_2": "Baked Bubble & Squeak \ud83c\udf31"
+        "dinner_1": "Chicken Shawarma",
+        "dinner_2": "Mushroom Shawarma \ud83c\udf31"
     },
     "C5": {
         "breakfast": "Scrambled Eggs \ud83c\udf31",
@@ -171,7 +171,7 @@
         "dinner_2": null
     },
     "C6": {
-        "breakfast": null,
+        "breakfast": "test",
         "brunch": null,
         "grazing": null,
         "lunch_1": "Korean Chicken Burger",

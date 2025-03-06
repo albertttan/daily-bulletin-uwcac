@@ -89,14 +89,14 @@
             "where": "Morgannwg"
         },
         {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        },
+        {
             "when": "15:00\u201317:00",
             "what": "FNL Workshop",
             "where": "Online"
-        },
-        {
-            "when": "20:30\u201322:00",
-            "what": "Hideout",
-            "where": "Moondance"
         }
     ],
     "2025-03-01": [
@@ -198,14 +198,14 @@
             "where": "Bradenstoke"
         },
         {
-            "when": "20:30\u201322:00",
-            "what": "SOSH",
-            "where": "Tythe Barn"
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
         },
         {
             "when": "20:30\u201322:00",
-            "what": "Hideout",
-            "where": "Moondance"
+            "what": "SOSH",
+            "where": "Tythe Barn"
         }
     ],
     "2025-03-08": [
