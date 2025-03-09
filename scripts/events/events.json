@@ -273,5 +273,17 @@
             "what": "StuCo",
             "where": "Great Hall"
         }
+    ],
+    "2025-03-11": [
+        {
+            "when": "18:00\u201319:00",
+            "what": "FEMO",
+            "where": "Great Hall"
+        },
+        {
+            "when": "20:00\u201321:00",
+            "what": "SusCo",
+            "where": "Great Hall"
+        }
     ]
 }
