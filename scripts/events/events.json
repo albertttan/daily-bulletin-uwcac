@@ -115,8 +115,8 @@
     ],
     "2025-03-03": [
         {
-            "when": "\u2014", 
-            "what": "No Codes Day", 
+            "when": "\u2014",
+            "what": "No Codes Day",
             "where": "\u2014"
         }
     ],
@@ -276,6 +276,16 @@
     ],
     "2025-03-11": [
         {
+            "when": "12:30\u201314:00",
+            "what": "College Bank Open",
+            "where": "Admin Building"
+        },
+        {
+            "when": "17:00\u201320:00",
+            "what": "College Shop Open",
+            "where": "Art Centre Gallery"
+        },
+        {
             "when": "18:00\u201319:00",
             "what": "FEMO",
             "where": "Great Hall"
@@ -284,6 +294,91 @@
             "when": "20:00\u201321:00",
             "what": "SusCo",
             "where": "Great Hall"
+        }
+    ],
+    "2025-03-12": [
+        {
+            "when": "06:36\u201307:30",
+            "what": "KHC",
+            "where": "Indoor Pool"
+        },
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "18:00\u201319:00",
+            "what": "WellCo \u2600\ufe0f",
+            "where": "Great Hall"
+        },
+        {
+            "when": "19:00\u201320:00",
+            "what": "Drag Show",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2025-03-13": [
+        {
+            "when": "13:30\u201314:00",
+            "what": "College Bank Open",
+            "where": "Admin Building"
+        },
+        {
+            "when": "15:00\u201316:00",
+            "what": "EAL Drop-in",
+            "where": "TLC"
+        },
+        {
+            "when": "18:00\u201319:00",
+            "what": "PeaCo",
+            "where": "Great Hall"
+        },
+        {
+            "when": "19:30\u201321:00",
+            "what": "North American National Evening",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2025-03-14": [
+        {
+            "when": "14:00\u201315:30",
+            "what": "Hot Chocolate Club",
+            "where": "Morgannwg"
+        },
+        {
+            "when": "16:00\u201317:00",
+            "what": "Friday Night Lecture: Charlie Stuart",
+            "where": "Library"
+        },
+        {
+            "when": "16:00\u201318:00",
+            "what": "Cafe Concert",
+            "where": "Glassroom"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2025-03-15": [
+        {
+            "when": "19:00\u201321:30",
+            "what": "Rave on for the Avon Movie Screening",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2025-03-16": [
+        {
+            "when": "10:00\u201316:00",
+            "what": "Futures Conference",
+            "where": "Around Campus"
         }
     ]
 }

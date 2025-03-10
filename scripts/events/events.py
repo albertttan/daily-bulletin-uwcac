@@ -5,7 +5,7 @@ import pandas as pd
 
 # Initialization
 
-df = pd.read_excel("events.xlsx", sheet_name="03-090325", skiprows=2)[
+df = pd.read_excel("events.xlsx", sheet_name="1003 - 1703", skiprows=2)[
     ["Unnamed: 0", "When", "What", "Where"]
 ]
 df.rename(columns={"Unnamed: 0": "Day"}, inplace=True)
@@ -19,7 +19,7 @@ with open("events.json") as file:
 
 
 def title_case(s):
-    if isinstance(s, str):
+    if not isinstance(s, str):
         return s
 
     exceptions = [

@@ -34,7 +34,7 @@ def retrieve_news():
 
     for element in soup.find_all("div", class_="PageListStandardE-leadPromo-info"):
         output.append(element.find("a"))
-    output = output[:2]
+    output = output[:3]
 
     for element in soup.find("div", class_="PageList-items").find_all(
         "h3", class_="PagePromo-title"
