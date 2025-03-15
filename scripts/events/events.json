@@ -376,9 +376,61 @@
     ],
     "2025-03-16": [
         {
-            "when": "10:00\u201316:00",
-            "what": "Futures Conference",
-            "where": "Around Campus"
+            "when": "10:00\u201311:00",
+            "what": "FuturesCon: Opening Ceremony",
+            "where": "—"
+        },
+        {
+            "when": "11:15\u201312:25",
+            "what": "FuturesCon: Tools and Skills Workshops",
+            "where": "—"
+        },
+        {
+            "when": "14:00\u201316:15",
+            "what": "FuturesCon: Intervening in Systems Workshops",
+            "where": "—"
+        },
+        {
+            "when": "16:30\u201317:30",
+            "what": "FuturesCon: Meet the Guest Speakers",
+            "where": "—"
+        }
+    ],
+    "2025-03-17": [
+        {
+            "when": "09:15\u201310:30",
+            "what": "FuturesCon: Re-opening Plenary",
+            "where": "—"
+        },
+        {
+            "when": "10:45\u201312:00",
+            "what": "FuturesCon: Impact Area Workshops",
+            "where": "—"
+        },
+        {
+            "when": "13:30\u201314:00",
+            "what": "FuturesCon: Conference Reflection",
+            "where": "—"
+        },
+        {
+            "when": "14:00\u201315:00",
+            "what": "FuturesCon: Reverse Reality Roundtable",
+            "where": "—"
+        },
+        {
+            "when": "18:00\u201318:30",
+            "what": "SLACC",
+            "where": "Great Hall"
+        },
+        {
+            "when": "19:15\u201320:00",
+            "what": "PADxAC",
+            "where": "Great Hall"
+        },
+        {
+            "when": "20:00\u201321:00",
+            "what": "StuCo",
+            "where": "Great Hall"
         }
     ]
 }

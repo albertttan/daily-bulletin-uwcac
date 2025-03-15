@@ -42,7 +42,9 @@ def render_html(date_iso=None, recipients="contacts-example"):
     with open(f"inspirations/{date_iso}.md") as file:
         inspirations = md.markdown(file.read(), output_format="html")
 
-    inspirations = inspirations.replace("<p><strong>", '<p class="note">').replace(
+    inspirations = inspirations.replace(
+        "<p><strong>", '<p class="note">'
+    ).replace(
         "</strong></p>", "</p>"
     )
     print("Processed inspirations...", file=sys.stderr)

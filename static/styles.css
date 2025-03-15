@@ -199,7 +199,8 @@ img {
 }
 
 img.embed {
-	width: 40%;
+	max-height: 100%;
+	max-width: calc(50% - 0.5rem);
 	float: right;
 	margin-left: 1rem;
 	margin-bottom: 1rem;
