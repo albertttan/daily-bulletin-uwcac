@@ -5,17 +5,17 @@ from bs4 import BeautifulSoup
 
 def retrieve_history(date_iso):
 
+    # Retrieve page
     selected_date = datetime.date.fromisoformat(date_iso)
     url = (
         "https://en.wikipedia.org/wiki/Wikipedia:Selected_anniversaries/"
         + selected_date.strftime("%B")
     )
-    soup = BeautifulSoup(requests.get(url, timeout=30).text, "html.parser")
-    date_name = soup.find_all("a", title=selected_date.strftime("%B %-d"))[
-        1
-    ].parent.parent
+    soup = BeautifulSoup(requests.get(url, timeout=10).text, "html.parser")
+    date_name = soup.find_all("a", title=selected_date.strftime("%B %-d"))[1].parent.parent
     date_history = date_name.find_next("ul").find_all("li")
 
+    # Clean results
     for element in date_history:
         for link in element.find_all("a"):
             link["href"] = "https://en.wikipedia.org" + link["href"]
@@ -28,24 +28,19 @@ def retrieve_history(date_iso):
 
 def retrieve_news():
 
-    url = "https://apnews.com"
-    soup = BeautifulSoup(requests.get(url, timeout=30).text, "html.parser")
+    # Retrieve page
+    url = "https://apnews.com/world-news"
+    soup = BeautifulSoup(requests.get(url, timeout=10).text, "html.parser")
     output = []
 
-    for element in soup.find_all("div", class_="PageListStandardE-leadPromo-info"):
-        output.append(element.find("a"))
-    output = output[:3]
-
-    for element in soup.find("div", class_="PageList-items").find_all(
-        "h3", class_="PagePromo-title"
-    ):
-        output.append(element.find("a"))
-
+    # Locate headings
+    for element in soup.find_all("div", class_="PagePromo-content")[:3]:
+        heading = element.find("h3")
+        output.append(heading.find("a"))
+    
+    # Clean results
     for element in output:
         del element["class"]
         element.find("span").unwrap()
 
     return output
-
-
-retrieve_news()
