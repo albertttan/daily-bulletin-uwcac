@@ -9,22 +9,11 @@ from compile import compile_email, update_pages
 from retrieve import retrieve_history, retrieve_news
 
 
-def render_html(date_iso=None, recipients="contacts-example"):
+def render_html(date):
 
     # Initialization
 
-    if date_iso:
-        date = [
-            datetime.date.fromisoformat(date_iso),
-            datetime.date.fromisoformat(date_iso) + datetime.timedelta(days=1),
-        ]
-    else:
-        date = [
-            datetime.date.today() + datetime.timedelta(days=1),
-            datetime.date.today() + datetime.timedelta(days=2),
-        ]
-        date_iso = date[0].isoformat()
-
+    date_iso = date[0].isoformat()
     env = Environment(loader=FileSystemLoader("."))
     template = env.get_template("template.html")
     print("Processed date and template...", file=sys.stderr)
@@ -97,7 +86,7 @@ def render_html(date_iso=None, recipients="contacts-example"):
 
     history_info = retrieve_history(date_iso)
     news_info = retrieve_news()
-    print("Processed On This Day and In the News...", file=sys.stderr)
+    print("Processed Today in History and News...", file=sys.stderr)
 
     # Render and save page
 
@@ -118,17 +107,36 @@ def render_html(date_iso=None, recipients="contacts-example"):
         file.write(output)
     print("Render successful!", file=sys.stderr)
 
-    # Manual confirmation to proceed
 
+def main(date_iso=None, recipients=None):
+
+    if date_iso:
+        date = [
+            datetime.date.fromisoformat(date_iso),
+            datetime.date.fromisoformat(date_iso) + datetime.timedelta(days=1),
+        ]
+    else:
+        date = [
+            datetime.date.today() + datetime.timedelta(days=1),
+            datetime.date.today() + datetime.timedelta(days=2),
+        ]
+        date_iso = date[0].isoformat()
+
+    # Manual confirmation to proceed
+    render_html(date)
+
+    output_path = f"../pages/{date_iso}.html"
     action = ""
     while not action:
-        action = input("[V]iew / [E]dit / [Q]uit / [C]onfirm: ")
+        action = input("[V]iew / [E]dit / [R]erun / [Q]uit / [C]onfirm: ")
         if action.lower() == "c" or action.lower() == "confirm":
             continue
         if action.lower() == "v" or action.lower() == "view":
             subprocess.run(["open", "-a", "Firefox", output_path], check=True)
         elif action.lower() == "e" or action.lower() == "edit":
             subprocess.run(["open", "-a", "Sublime Text", output_path], check=True)
+        elif action.lower() == "r" or action.lower() == "rerun": 
+            render_html(date)
         elif action.lower() == "q" or action.lower() == "quit":
             sys.exit(0)
         action = ""
@@ -138,10 +146,11 @@ def render_html(date_iso=None, recipients="contacts-example"):
     with open(f"../pages/{date_iso}.html") as file:
         output = file.read()
 
-    compile_email(date_iso, recipients, output)
-    subprocess.run(
-        ["open", "-a", "Mail", f"../emails/Daily Bulletin {date_iso}.eml"], check=True
-    )
+    if recipients: 
+        compile_email(date_iso, recipients, output)
+        subprocess.run(
+            ["open", "-a", "Mail", f"../emails/Daily Bulletin {date_iso}.eml"], check=True
+        )
 
     update_pages(date_iso)
 
@@ -151,4 +160,4 @@ def render_html(date_iso=None, recipients="contacts-example"):
 
 
 if __name__ == "__main__":
-    render_html()
+    main()

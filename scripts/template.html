@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="../static/styles.css" />
 </head>
 <body>
-	<center><header align="center">
+	<center><header>
 		<p>
 			<a href="https://www.uwcatlantic.org"><img class="header-logo" src="../static/uwcac.png" title="UWC Atlantic College"></a>&emsp;<a href="mailto:wellco@uwcatlantic.org"><img class="header-logo" src="../static/wellco.png" title="Wellbeing Council"></a>
 		</p>
@@ -86,7 +86,7 @@
 				{% for index in [0, 1] %}
 					{% if menu_info[index].breakfast %}
 						<tr {% if index == 0 %} class="highlight" {% endif %}>
-							<th scope="rowgroup" rowspan={{ menu_len[index] }}>
+							<th scope="rowgroup" rowspan={{ menu_len[index] - 1 }}>
 								{{ cycle_info[index].weekday_str[:3] }}
 							</th>
 							<th class="secondary" scope="row">
@@ -110,6 +110,7 @@
 							</td>
 						</tr>
 					{% endif %}
+<!--
 					{% if menu_info[index].grazing %}
 						<tr {% if index == 0 %} class="highlight" {% endif %}>
 							<th class="secondary" scope="row">
@@ -120,6 +121,7 @@
 							</td>
 						</tr>
 					{% endif %}
+-->
 					{% if menu_info[index].lunch_1 %}
 						<tr {% if index == 0 %} class="highlight" {% endif %}>
 							<th class="secondary" scope="row" {% if menu_info[index].lunch_2 %} rowspan=2 {% endif %}>
@@ -242,7 +244,7 @@
 			</div>
 		</div>
 	</main>
-	<center><footer align="center">
+	<center><footer>
 		<p class="note" style="margin-top: 2rem">
 			Part of the Daily Bulletin Project<br>by <b>Albert Tan</b>
 		</p>
