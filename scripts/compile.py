@@ -93,6 +93,3 @@ def update_pages(date_iso):
         file.seek(0)
         file.write(str(soup))
         file.truncate()
-
-
-update_pages("2025-03-03")
