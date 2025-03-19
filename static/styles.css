@@ -114,7 +114,7 @@ a.invisible {
 blockquote {
 	position: relative;
 	margin-left: 0.25rem;
-	padding-inline-start: 1rem;
+	padding-left: 1rem;
 	border-left: 0.1rem solid gray;
 }
 
