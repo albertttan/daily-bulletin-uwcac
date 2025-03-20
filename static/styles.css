@@ -30,7 +30,7 @@ html {
 }
 
 body {
-	max-width: 40rem;
+	max-width: 60rem;
 	margin: auto;
 	padding: 1rem;
 }
@@ -195,7 +195,7 @@ img.header-logo {
 
 img {
 	max-width: 100%;
-	max-height: 60rem;
+	max-height: 40rem;
 }
 
 img.embed {
