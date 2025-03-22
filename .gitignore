@@ -6,4 +6,4 @@ contacts-trial.json
 *.xlsx
 *.eml
 __pycache__/
-
+google-auth/

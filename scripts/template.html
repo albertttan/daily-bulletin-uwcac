@@ -239,7 +239,12 @@
 					{% endfor %}
 				</ul>
 				<p class="note">
-					Retrieved from <a href="https://apnews.com/world-news">the Associated Press</a>.
+					Retrieved
+					{% if news_info[-1] %}
+						by Peaco News Taskforce.
+					{% else %}
+						from <a href="https://apnews.com/world-news">the Associated Press</a>.
+					{% endif %}
 				</p>
 			</div>
 		</div>
