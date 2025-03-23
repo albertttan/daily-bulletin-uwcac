@@ -6,11 +6,6 @@
             "where": "Tutor Rooms"
         },
         {
-            "when": "16:15\u201317:15",
-            "what": "Chinese Phonetic Session",
-            "where": "Great Hall"
-        },
-        {
             "when": "18:00\u201318:30",
             "what": "SLACC",
             "where": "Great Hall"
@@ -508,6 +503,40 @@
             "when": "19:00\u201320:00",
             "what": "Western European National Evening",
             "where": "Tythe Barn"
+        }
+    ],
+    "2025-03-24": [
+        {
+            "when": "14:00\u201315:00",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "18:00\u201318:30",
+            "what": "SLACC",
+            "where": "Great Hall"
+        },
+        {
+            "when": "19:15\u201320:00",
+            "what": "PADxAC",
+            "where": "Great Hall"
+        },
+        {
+            "when": "20:00\u201321:00",
+            "what": "StuCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-03-25": [
+        {
+            "when": "18:00\u201319:00",
+            "what": "FEMO",
+            "where": "Great Hall"
+        },
+        {
+            "when": "20:00\u201321:00",
+            "what": "SusCo",
+            "where": "Great Hall"
         }
     ]
 }

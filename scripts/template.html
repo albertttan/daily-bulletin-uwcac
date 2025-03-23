@@ -87,7 +87,7 @@
 				{% for index in [0, 1] %}
 					{% if menu_info[index].breakfast %}
 						<tr {% if index == 0 %} class="highlight" {% endif %}>
-							<th scope="rowgroup" rowspan={{ menu_len[index] - 1 }}>
+							<th scope="rowgroup" rowspan={{ menu_len[index] }}>
 								{{ cycle_info[index].weekday_str[:3] }}
 							</th>
 							<th class="secondary" scope="row">
