@@ -85,6 +85,7 @@
 			</thead>
 			<tbody>
 				{% for index in [0, 1] %}
+<!--
 					{% if menu_info[index].breakfast %}
 						<tr {% if index == 0 %} class="highlight" {% endif %}>
 							<th scope="rowgroup" rowspan={{ menu_len[index] }}>
@@ -98,6 +99,7 @@
 							</td>
 						</tr>
 					{% endif %}
+-->
 					{% if menu_info[index].brunch %}
 						<tr {% if index == 0 %} class="highlight" {% endif %}>
 							<th scope="rowgroup" rowspan={{ menu_len[index] }}>
@@ -125,6 +127,9 @@
 -->
 					{% if menu_info[index].lunch_1 %}
 						<tr {% if index == 0 %} class="highlight" {% endif %}>
+							<th scope="rowgroup" rowspan={{ menu_len[index] - 1 }}>
+								{{ cycle_info[index].weekday_str[:3] }}
+							</th>
 							<th class="secondary" scope="row" {% if menu_info[index].lunch_2 %} rowspan=2 {% endif %}>
 								Lunch
 							</th>

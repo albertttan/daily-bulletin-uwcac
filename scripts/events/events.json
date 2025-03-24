@@ -507,6 +507,11 @@
     ],
     "2025-03-24": [
         {
+            "when": "17:00\u201318:00",
+            "what": "Cisgender Female Only Gym Session",
+            "where": "Gym"
+        },
+        {
             "when": "14:00\u201315:00",
             "what": "Tutorial",
             "where": "Tutor Rooms"
@@ -517,9 +522,29 @@
             "where": "Sports Hall"
         },
         {
+            "when": "16:00\u201317:00",
+            "what": "Online Safety Session",
+            "where": "Tythe Barn"
+        },
+        {
+            "when": "16:15\u201317:15",
+            "what": "Chinese Phonetic Session",
+            "where": "Great Hall"
+        },
+        {
+            "when": "17:00\u201318:00",
+            "what": "Online Safety Session",
+            "where": "Tythe Barn"
+        },
+        {
             "when": "18:00\u201318:30",
             "what": "SLACC",
             "where": "Great Hall"
+        },
+        {
+            "when": "19:00\u201321:00",
+            "what": "Art Exhibition Opening",
+            "where": "Bradenstoke"
         },
         {
             "when": "19:15\u201320:00",
@@ -530,9 +555,24 @@
             "when": "20:00\u201321:00",
             "what": "StuCo",
             "where": "Great Hall"
+        },
+        {
+            "when": "20:00\u201321:00",
+            "what": "StuCo",
+            "where": "Great Hall"
         }
     ],
     "2025-03-25": [
+        {
+            "when": "12:30\u201314:00",
+            "what": "College Bank Open",
+            "where": "Admin Building"
+        },
+        {
+            "when": "17:00\u201320:00",
+            "what": "College Shop Open",
+            "where": "Art Centre Gallery"
+        },
         {
             "when": "18:00\u201319:00",
             "what": "FEMO",
@@ -542,6 +582,71 @@
             "when": "20:00\u201321:00",
             "what": "SusCo",
             "where": "Great Hall"
+        }
+    ],
+    "2025-03-26": [
+        {
+            "when": "06:36\u201307:30",
+            "what": "KHC",
+            "where": "Indoor Pool"
+        },
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "18:00\u201319:00",
+            "what": "WellCo \u2600\ufe0f",
+            "where": "Great Hall"
+        },
+        {
+            "when": "19:00\u201320:00",
+            "what": "Drag Show",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2025-03-27": [
+        {
+            "when": "13:30\u201314:00",
+            "what": "College Bank Open",
+            "where": "Admin Building"
+        },
+        {
+            "when": "15:00\u201316:00",
+            "what": "EAL Drop-in",
+            "where": "TLC"
+        },
+        {
+            "when": "18:00\u201319:00",
+            "what": "PeaCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-03-28": [
+        {
+            "when": "14:00\u201316:00",
+            "what": "Project Week Prep Meetings",
+            "where": "—"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "PeaCo Monologues",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2025-03-29": [
+        {
+            "when": "20:00\u201322:00",
+            "what": "Move Show",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2025-03-30": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "Subconti National Evening",
+            "where": "Tythe Barn"
         }
     ]
 }
