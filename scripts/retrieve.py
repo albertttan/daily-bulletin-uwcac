@@ -4,6 +4,7 @@ import html
 import json
 import datetime
 import requests
+import webbrowser
 import urllib.parse
 from bs4 import BeautifulSoup
 from google.oauth2.credentials import Credentials
@@ -22,7 +23,7 @@ def retrieve_history(date_iso):
         + selected_date.strftime("%B")
     )
     soup = BeautifulSoup(requests.get(url, timeout=10).text, "html.parser")
-    date_name = soup.find_all("a", title=selected_date.strftime("%B %-d"))[1].parent.parent
+    date_name = soup.find_all("a", title=selected_date.strftime("%B %-d"))[0 if selected_date.day == 1 else 1].parent.parent
     date_history = date_name.find_next("ul").find_all("li")
 
     # Clean results
@@ -50,6 +51,8 @@ def google_credentials():
     
     # Log in and save credentials if invalid
     if not creds or not creds.valid:
+        if creds and creds.expired and creds.refresh_token:
+            creds.refresh(Request())
         flow = InstalledAppFlow.from_client_secrets_file(
             "google-auth/credentials.json", SCOPES)
         creds = flow.run_local_server(port=0)
@@ -107,3 +110,6 @@ def retrieve_news(document_id="1ChvbzaBUOMUft4mUmKghzQpI_VnBbOUsBHGxbfyed4w"):
     
     output.append(True)
     return output
+
+if __name__ == "__main__": 
+    print(google_credentials())
