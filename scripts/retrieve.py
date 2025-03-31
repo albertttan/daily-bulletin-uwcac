@@ -110,6 +110,3 @@ def retrieve_news(document_id="1ChvbzaBUOMUft4mUmKghzQpI_VnBbOUsBHGxbfyed4w"):
     
     output.append(True)
     return output
-
-if __name__ == "__main__": 
-    print(google_credentials())
