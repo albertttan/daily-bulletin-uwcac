@@ -107,6 +107,8 @@ def render_html(date):
         file.write(output)
     print("Render successful!", file=sys.stderr)
 
+    return news_info[-1]
+
 
 def main(date_iso=None, recipients=None):
 
@@ -123,7 +125,7 @@ def main(date_iso=None, recipients=None):
         date_iso = date[0].isoformat()
 
     # Manual confirmation to proceed
-    render_html(date)
+    news_timestamp = render_html(date)
 
     output_path = f"../pages/{date_iso}.html"
     action = ""
@@ -136,12 +138,16 @@ def main(date_iso=None, recipients=None):
         elif action.lower() == "e" or action.lower() == "edit":
             subprocess.run(["open", "-a", "Sublime Text", output_path], check=True)
         elif action.lower() == "r" or action.lower() == "rerun": 
-            render_html(date)
+            news_timestamp = render_html(date)
         elif action.lower() == "q" or action.lower() == "quit":
             sys.exit(0)
         action = ""
 
     # Compile email & upload page
+
+    if news_timestamp: 
+        with open("google-auth/timestamp.txt", "w") as file:
+            file.write(news_timestamp)
 
     with open(f"../pages/{date_iso}.html") as file:
         output = file.read()

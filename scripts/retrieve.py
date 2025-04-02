@@ -88,9 +88,10 @@ def retrieve_news(document_id="1ChvbzaBUOMUft4mUmKghzQpI_VnBbOUsBHGxbfyed4w"):
     service = build("drive", "v3", credentials=creds)
 
     # Check if file is up-to-date
-    timestamp = service.files().get(fileId=document_id, fields="modifiedTime").execute()["modifiedTime"]
-    from_ap = datetime.datetime.fromisoformat(timestamp).date() != datetime.date.today()
-    if from_ap:
+    with open("google-auth/timestamp.txt") as file:
+        last_timestamp = file.read()
+    current_timestamp = service.files().get(fileId=document_id, fields="modifiedTime").execute()["modifiedTime"]
+    if current_timestamp == last_timestamp:
         return retrieve_news_ap()
 
     # Retrieve document content as HTML
@@ -108,5 +109,5 @@ def retrieve_news(document_id="1ChvbzaBUOMUft4mUmKghzQpI_VnBbOUsBHGxbfyed4w"):
             link["href"] = urllib.parse.parse_qs(urllib.parse.urlparse(link.get("href", "")).query).get("q", [""])[0]
         output += element.contents
     
-    output.append(True)
+    output.append(current_timestamp)
     return output
