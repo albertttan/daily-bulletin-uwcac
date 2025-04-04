@@ -683,5 +683,24 @@
             "what": "Project Week",
             "where": "–"
         }
+    ],
+    "2025-04-05": [
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2025-04-06": [
+        {
+            "when": "09:00\u201315:00",
+            "what": "Lighthouse Prize",
+            "where": "Great Hall"
+        },
+        {
+            "when": "18:30\u201319:30",
+            "what": "UWY Human Library",
+            "where": "Library"
+        }
     ]
 }
