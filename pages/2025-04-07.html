@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Daily Bulletin {{ cycle_info[0].iso }}</title>
+	<title>Daily Bulletin 2025-04-07</title>
 	<link rel="stylesheet" href="../static/styles.css" />
 	<script defer src="https://cloud.umami.is/script.js" data-website-id="c78b1615-da26-47f0-b9b2-c1eb114c4733"></script>
 </head>
@@ -17,22 +17,22 @@
 		</h1>
 		<p>
 			<time>
-				{{ cycle_info[0].iso }}
+				2025-04-07
 			</time>
 			<br />
-			{{ cycle_info[0].weekday_str }}
-			{% if cycle_info[0].codes %}
+			Monday
+			
 				<br />
-				Codes <b>{{ cycle_info[0].codes }}</b>
-			{% endif %}
+				Codes <b>FGAB</b>
+			
 		</p>
 		<p class="note" style="margin-bottom: 2rem">
-			Does the email look ugly?<br>Check the <a href="https://albertttan.github.io/daily-bulletin-uwcac/pages/{{ cycle_info[0].iso }}.html">online version</a>!
+			Does the email look ugly?<br>Check the <a href="https://albertttan.github.io/daily-bulletin-uwcac/pages/2025-04-07.html">online version</a>!
 		</p>
 	</header></center>
 	<main>
 		<p>
-			Happy {{ cycle_info[0].weekday_str }}! Thank you for supporting the Daily Bulletin project. 
+			Happy Monday! Thank you for supporting the Daily Bulletin project. 
 		</p>
 		<ul>
 			<li>
@@ -57,13 +57,10 @@
 		<p>
 			Want to contribute to a future Daily Bulletin? <a href="https://docs.google.com/forms/d/e/1FAIpQLSdsKAzrklTWytv9KDYFEAU0KB-dMiTCkbHzKPAYGTTceCS6Mg/viewform">Share</a> your inspirations to give everyone some morning wellbeing energy!
 		</p>
-		{{ inspirations }}
-		{% if exam_info %}
-			<h2>
-				Exam Arrangements
-			</h2>
-			{{ exam_info }}
-		{% endif %}
+		<h3>Art of the Day</h3>
+<p><img src="../static/harald-sohlberg.webp" alt="Winter Night in the Mountains"></p>
+<p class="note">Created by <a href="https://www.nasjonalmuseet.no/en/collection/producer/54878/harald-sohlberg">Harald Sohlberg</a>. Retrieved from <a href="https://www.nasjonalmuseet.no/en/collection/object/NG.M.01185">Nasjonalmuseet</a>.</p>
+		
 		<h2>
 			Delicious Dinings
 		</h2>
@@ -87,68 +84,99 @@
 				</tr>
 			</thead>
 			<tbody>
-				{% for index in [0, 1] %}
-					{% if menu_info[index].breakfast %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
-							<th scope="rowgroup" rowspan={{ menu_len[index] }}>
-								{{ cycle_info[index].weekday_str[:3] }}
+				
+					
+						<tr  class="highlight" >
+							<th scope="rowgroup" rowspan=4>
+								Mon
 							</th>
 							<th class="secondary" scope="row">
 								Breakfast
 							</th>
 							<td>
-								{{ menu_info[index].breakfast }}
+								Crêpe 🌱
 							</td>
 						</tr>
-					{% endif %}
-					{% if menu_info[index].brunch %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
-							<th scope="rowgroup" rowspan={{ menu_len[index] }}>
-								{{ cycle_info[index].weekday_str[:3] }}
-							</th>
-							<th class="secondary" scope="row">
-								Brunch
-							</th>
-							<td>
-								{{ menu_info[index].brunch }}
-							</td>
-						</tr>
-					{% endif %}
-					{% if menu_info[index].lunch_1 %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
-							<th class="secondary" scope="row" {% if menu_info[index].lunch_2 %} rowspan=2 {% endif %}>
+					
+					
+					
+						<tr  class="highlight" >
+							<th class="secondary" scope="row"  rowspan=2 >
 								Lunch
 							</th>
 							<td>
-								{{ menu_info[index].lunch_1 }}
+								Classic Lasagne
 							</td>
 						</tr>
-					{% endif %}
-					{% if menu_info[index].lunch_2 %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
+					
+					
+						<tr  class="highlight" >
 							<td>
-								{{ menu_info[index].lunch_2 }}
+								Quorn Lasagne 🌱
 							</td>
 						</tr>
-					{% endif %}
-					{% if menu_info[index].dinner_1 %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
-							<th class="secondary" scope="row" {% if menu_info[index].dinner_2 %} rowspan=2 {% endif %}>
+					
+					
+						<tr  class="highlight" >
+							<th class="secondary" scope="row" >
 								Dinner
 							</th>
 							<td>
-								{{ menu_info[index].dinner_1 }}
+								Mild Cauliflower Curry 🌱
 							</td>
 						</tr>
-					{% endif %}
-					{% if menu_info[index].dinner_2 %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
+					
+					
+				
+					
+						<tr >
+							<th scope="rowgroup" rowspan=5>
+								Tue
+							</th>
+							<th class="secondary" scope="row">
+								Breakfast
+							</th>
 							<td>
-								{{ menu_info[index].dinner_2 }}
+								Bread, Cheese & Ham
 							</td>
 						</tr>
-					{% endif %}
-				{% endfor %}
+					
+					
+					
+						<tr >
+							<th class="secondary" scope="row"  rowspan=2 >
+								Lunch
+							</th>
+							<td>
+								Cauliflower & Sweet Potato Gratin 🌱
+							</td>
+						</tr>
+					
+					
+						<tr >
+							<td>
+								Chili Non Carne 🌱
+							</td>
+						</tr>
+					
+					
+						<tr >
+							<th class="secondary" scope="row"  rowspan=2 >
+								Dinner
+							</th>
+							<td>
+								Beef Taco
+							</td>
+						</tr>
+					
+					
+						<tr >
+							<td>
+								Black Bean Taco 🌱
+							</td>
+						</tr>
+					
+				
 			</tbody>
 		</table>
 		<p class="note">
@@ -181,26 +209,80 @@
 				</tr>
 			</thead>
 			<tbody>
-				{% for index in [0, 1] %}
-					{% for event in range(event_len[index]) %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
-							{% if event == 0 %}
-								<th scope="rowgroup" rowspan={{ event_len[index] }}>
-									{{ cycle_info[index].weekday_str[:3] }}
+				
+					
+						<tr  class="highlight" >
+							
+								<th scope="rowgroup" rowspan=5>
+									Mon
 								</th>
-							{% endif %}
+							
 							<th class="secondary" scope="row">
-								{{ event_info[index][event].when }}
+								14:00–15:00
 							</th>
 							<td>
-								{{ event_info[index][event].what }}
+								Tutorial
 							</td>
 							<td>
-								{{ event_info[index][event].where }}
+								Tutor Rooms
 							</td>
 						</tr>
-					{% endfor %}
-				{% endfor %}
+					
+						<tr  class="highlight" >
+							
+							<th class="secondary" scope="row">
+								15:00–16:00
+							</th>
+							<td>
+								Community Gathering
+							</td>
+							<td>
+								Sports Hall
+							</td>
+						</tr>
+					
+						<tr  class="highlight" >
+							
+							<th class="secondary" scope="row">
+								18:00–18:30
+							</th>
+							<td>
+								SLACC
+							</td>
+							<td>
+								Great Hall
+							</td>
+						</tr>
+					
+						<tr  class="highlight" >
+							
+							<th class="secondary" scope="row">
+								19:15–20:00
+							</th>
+							<td>
+								PADxAC
+							</td>
+							<td>
+								Great Hall
+							</td>
+						</tr>
+					
+						<tr  class="highlight" >
+							
+							<th class="secondary" scope="row">
+								20:00–21:00
+							</th>
+							<td>
+								StuCo
+							</td>
+							<td>
+								Great Hall
+							</td>
+						</tr>
+					
+				
+					
+				
 			</tbody>
 		</table>
 		<p class="note">
@@ -212,8 +294,8 @@
 					Today in History
 				</h2>
 				<ul>
-					{{ history_info[0] }}
-					{{ history_info[1] }}
+					<li><a href="https://en.wikipedia.org/wiki/1655" title="1655">1655</a> – After <b><a href="https://en.wikipedia.org/wiki/1655_papal_conclave" title="1655 papal conclave">a conclave lasting eighty days</a></b>, the <a href="https://en.wikipedia.org/wiki/College_of_Cardinals" title="College of Cardinals">College of Cardinals</a> elected Fabio Chigi as <b><a href="https://en.wikipedia.org/wiki/Pope_Alexander_VII" title="Pope Alexander VII">Pope Alexander VII</a></b> .</li>
+					<li><a href="https://en.wikipedia.org/wiki/2001" title="2001">2001</a> – <a href="https://en.wikipedia.org/wiki/NASA" title="NASA">NASA</a>'s <i><b><a href="https://en.wikipedia.org/wiki/2001_Mars_Odyssey" title="2001 Mars Odyssey">2001 Mars Odyssey</a></b></i> , the longest-surviving continually active spacecraft in orbit around a planet other than Earth, launched from <a href="https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Force_Station" title="Cape Canaveral Space Force Station">Cape Canaveral</a>.</li>
 				</ul>
 				<p class="note">
 					Retrieved from <a href="https://en.wikipedia.org/wiki/Wikipedia:Selected_anniversaries">Wikipedia</a>.
@@ -224,19 +306,25 @@
 					Today in News
 				</h2>
 				<ul>
-					{% for index in range(3) %}
+					
 						<li>
-							{{ news_info[index] }}
+							<a href="https://apnews.com/article/trump-tariffs-recession-financial-markets-negotiations-retaliation-860760cdc1aa2cc58853c9aab987e36d">Trump advisers say 50-plus countries have reached out for tariff talks with White House</a>
 						</li>
-					{% endfor %}
+					
+						<li>
+							<a href="https://apnews.com/article/yemen-houthis-us-airstrikes-israel-hamas-war-87ca0be8a841ce3e939d65ee72d2c021">Yemen’s Houthis say US strikes kill 4 as Trump’s bombing video suggests higher overall death toll</a>
+						</li>
+					
+						<li>
+							<a href="https://apnews.com/article/israel-palestinians-hamas-war-news-ceasefire-hostages-04-06-2025-1e8006e86210560a594e48106456173f">Israeli strikes on Gaza kill 32, mostly women and children</a>
+						</li>
+					
 				</ul>
 				<p class="note">
 					Retrieved
-					{% if news_info[-1] %}
-						by PeaCo News Taskforce.
-					{% else %}
+					
 						from <a href="https://apnews.com/world-news">the Associated Press</a>.
-					{% endif %}
+					
 				</p>
 			</div>
 		</div>

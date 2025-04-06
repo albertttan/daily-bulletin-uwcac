@@ -2,7 +2,6 @@
     "A1": {
         "breakfast": "Pancake",
         "brunch": null,
-        "grazing": "Pain au Chocolat \ud83c\udf31",
         "lunch_1": "Beef & Mushroom Stroganoff",
         "lunch_2": "Penne with Pesto, Spinach & Fresh Tomatoes \ud83c\udf31",
         "dinner_1": "Smokey Mushroom, Vegetable & Chickpea Fajitas \ud83c\udf31",
@@ -11,7 +10,6 @@
     "A2": {
         "breakfast": "Bread, Cheese & Ham",
         "brunch": null,
-        "grazing": null,
         "lunch_1": "Leek & Potato Pie \ud83c\udf31",
         "lunch_2": "Crispy Gnocchi \ud83c\udf31",
         "dinner_1": "Tuna Fish Cakes",
@@ -20,7 +18,6 @@
     "A3": {
         "breakfast": "Sausage, Mushroom & Baked Beans",
         "brunch": null,
-        "grazing": null,
         "lunch_1": "Pasta with Bolognese",
         "lunch_2": "Pasta with Cheese Sauce \ud83c\udf31",
         "dinner_1": "Mild Thai Green Vegetable & Coconut Curry \ud83c\udf31",
@@ -29,7 +26,6 @@
     "A4": {
         "breakfast": "Bread, Cheese & Ham",
         "brunch": null,
-        "grazing": null,
         "lunch_1": "Tofu Katsu \ud83c\udf31",
         "lunch_2": "Harissa Spiced Cauliflower Bake \ud83c\udf31",
         "dinner_1": "Barbecue Chicken Legs",
@@ -38,7 +34,6 @@
     "A5": {
         "breakfast": "Scrambled Eggs \ud83c\udf31",
         "brunch": null,
-        "grazing": null,
         "lunch_1": "Fish & Chips",
         "lunch_2": "Crispy Buttermilk Quorn \ud83c\udf31",
         "dinner_1": "Pepperoni Pizza",
@@ -47,7 +42,6 @@
     "A6": {
         "breakfast": null,
         "brunch": null,
-        "grazing": null,
         "lunch_1": "Loaded Beefy Cheese Burgers",
         "lunch_2": "Loaded Veggie Cheese Burgers \ud83c\udf31",
         "dinner_1": "Sweet Potato & Red Lentil Coconut Curry \ud83c\udf31",
@@ -56,7 +50,6 @@
     "A7": {
         "breakfast": null,
         "brunch": "Sausage, Mushroom & Baked Beans",
-        "grazing": null,
         "lunch_1": null,
         "lunch_2": null,
         "dinner_1": "UWC Fried Chicken",
@@ -65,7 +58,6 @@
     "B1": {
         "breakfast": "Cr\u00eape \ud83c\udf31",
         "brunch": null,
-        "grazing": "Samosa \ud83c\udf31",
         "lunch_1": "Classic Lasagne",
         "lunch_2": "Quorn Lasagne \ud83c\udf31",
         "dinner_1": "Mild Cauliflower Curry \ud83c\udf31",
@@ -74,7 +66,6 @@
     "B2": {
         "breakfast": "Bread, Cheese & Ham",
         "brunch": null,
-        "grazing": "Croissant \ud83c\udf31",
         "lunch_1": "Cauliflower & Sweet Potato Gratin \ud83c\udf31",
         "lunch_2": "Chili Non Carne \ud83c\udf31",
         "dinner_1": "Beef Taco",
@@ -83,7 +74,6 @@
     "B3": {
         "breakfast": "Sausage, Mushroom & Baked Beans",
         "brunch": null,
-        "grazing": "Raisin Cookie \ud83c\udf31",
         "lunch_1": "Sesame Chicken with Mushroom, Broccoli & Red Onion",
         "lunch_2": "Bombay Potato Frittata \ud83c\udf31",
         "dinner_1": "Crispy Gnocchi \ud83c\udf31",
@@ -92,7 +82,6 @@
     "B4": {
         "breakfast": "Bread, Cheese & Ham",
         "brunch": null,
-        "grazing": "Donut \ud83c\udf31",
         "lunch_1": "Gochujang Mac & Cheese \ud83c\udf31",
         "lunch_2": "Green Risotto \ud83c\udf31",
         "dinner_1": "Jerk Chicken",
@@ -101,7 +90,6 @@
     "B5": {
         "breakfast": "Scrambled Eggs \ud83c\udf31",
         "brunch": null,
-        "grazing": "Chocolate Twist \ud83c\udf31",
         "lunch_1": "Fish & Chips",
         "lunch_2": "Crispy Buttermilk Quorn \ud83c\udf31",
         "dinner_1": "Veggie Chili \ud83c\udf31",
@@ -110,7 +98,6 @@
     "B6": {
         "breakfast": "Placeholder",
         "brunch": null,
-        "grazing": null,
         "lunch_1": "Smokey Chicken Sausage Potato Roll",
         "lunch_2": "Vegetable Sausage Potato Roll \ud83c\udf31",
         "dinner_1": "Roast Aubergine Flatbread \ud83c\udf31",
@@ -119,7 +106,6 @@
     "B7": {
         "breakfast": null,
         "brunch": "Sausage, Mushroom & Baked Beans",
-        "grazing": null,
         "lunch_1": null,
         "lunch_2": null,
         "dinner_1": "Chicken Shawarma",
@@ -128,7 +114,6 @@
     "C1": {
         "breakfast": "Pancake \ud83c\udf31",
         "brunch": null,
-        "grazing": null,
         "lunch_1": "Chicken, Root Vegetable & Barley Hot Pot",
         "lunch_2": "Tomato & Vegetable Mac & Cheese \ud83c\udf31",
         "dinner_1": "Leek & Greens Lasagne \ud83c\udf31",
@@ -137,7 +122,6 @@
     "C2": {
         "breakfast": "Bread, Cheese & Ham",
         "brunch": null,
-        "grazing": null,
         "lunch_1": "Butterbean & Chicken Jambalaya",
         "lunch_2": "Feta, Savoy & Kale Loaded Sweet Potato \ud83c\udf31",
         "dinner_1": "Sweet & Sour Turkey",
@@ -146,7 +130,6 @@
     "C3": {
         "breakfast": "Sausage, Mushroom & Baked Beans",
         "brunch": null,
-        "grazing": "Croissant",
         "lunch_1": "Ginger & Chili Beef with Mushroom & Onion",
         "lunch_2": "Curried Cauliflower Gratin \ud83c\udf31",
         "dinner_1": "Halloumi & Roast Pepper Fusilli Bake \ud83c\udf31",
@@ -155,7 +138,6 @@
     "C4": {
         "breakfast": "Bread, Cheese & Ham",
         "brunch": null,
-        "grazing": "Cinnamon Rolls",
         "lunch_1": "Mac & Cheese \ud83c\udf31",
         "lunch_2": null,
         "dinner_1": "Chicken Shawarma",
@@ -164,7 +146,6 @@
     "C5": {
         "breakfast": "Scrambled Eggs \ud83c\udf31",
         "brunch": null,
-        "grazing": null,
         "lunch_1": "Fish & Chips",
         "lunch_2": "Crispy Buttermilk Quorn \ud83c\udf31",
         "dinner_1": "Burrito \ud83c\udf31",
@@ -173,7 +154,6 @@
     "C6": {
         "breakfast": "test",
         "brunch": null,
-        "grazing": null,
         "lunch_1": "Korean Chicken Burger",
         "lunch_2": "Korean Tofu Burger \ud83c\udf31",
         "dinner_1": "Sweet Potato & Red Lentil Coconut Curry \ud83c\udf31",
@@ -182,7 +162,6 @@
     "C7": {
         "breakfast": null,
         "brunch": "Sausage, Mushroom & Baked Beans",
-        "grazing": null,
         "lunch_1": null,
         "lunch_2": null,
         "dinner_1": "Moroccan Lamb Mince Tagine with Lemon and Olives",
