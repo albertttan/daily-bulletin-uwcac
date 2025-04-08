@@ -771,7 +771,12 @@
         {
             "when": "06:36\u201307:30",
             "what": "KHC",
-            "where": "Indoor Pool"
+            "where": "—"
+        },
+        {
+            "when": "14:30\u201315:30",
+            "what": "CAS3 Assembly",
+            "where": "Glassroom"
         },
         {
             "when": "17:00\u201319:00",
@@ -794,6 +799,11 @@
             "when": "13:30\u201314:00",
             "what": "College Bank Open",
             "where": "Admin Building"
+        },
+        {
+            "when": "14:30\u201315:30",
+            "what": "CAS3 Assembly",
+            "where": "Glassroom"
         },
         {
             "when": "15:00\u201316:00",
