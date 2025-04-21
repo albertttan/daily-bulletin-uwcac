@@ -51,7 +51,7 @@ def google_credentials():
     
     # Log in and save credentials if invalid
     if not creds or not creds.valid:
-        if creds and creds.expired and creds.refresh_token:
+        if False:
             creds.refresh(Request())
         else: 
             os.system("defaultbrowser safari")

@@ -771,7 +771,7 @@
         {
             "when": "06:36\u201307:30",
             "what": "KHC",
-            "where": "—"
+            "where": "\u2014"
         },
         {
             "when": "14:30\u201315:30",
@@ -835,5 +835,88 @@
             "where": "Cowbridge"
         }
     ],
-    "2025-04-13": []
+    "2025-04-13": [],
+    "2025-04-21": [
+        {
+            "when": "17:00\u201318:00",
+            "what": "Cisgender Female Only Gym Session",
+            "where": "Gym"
+        }
+    ],
+    "2025-04-22": [
+        {
+            "when": "18:00\u201319:00",
+            "what": "FEMO",
+            "where": "Great Hall"
+        },
+        {
+            "when": "20:00\u201321:00",
+            "what": "SusCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-04-23": [
+        {
+            "when": "06:36\u201307:30",
+            "what": "KHC",
+            "where": "—"
+        },
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "18:00\u201319:00",
+            "what": "WellCo \u2600\ufe0f",
+            "where": "Great Hall"
+        },
+        {
+            "when": "19:00\u201320:00",
+            "what": "P6",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-04-24": [
+        {
+            "when": "13:30\u201314:00",
+            "what": "College Bank Open",
+            "where": "Admin Building"
+        },
+        {
+            "when": "15:00\u201316:00",
+            "what": "EAL Drop-in",
+            "where": "TLC"
+        },
+        {
+            "when": "18:00\u201319:00",
+            "what": "PeaCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-04-25": [
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2025-04-26": [
+        {
+            "when": "—",
+            "what": "Holi and Songkran",
+            "where": "Jousting Field"
+        },
+        {
+            "when": "19:00\u201322:00",
+            "what": "Duino Movie Screening",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2025-04-27": []
 }
