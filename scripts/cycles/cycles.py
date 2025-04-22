@@ -6,50 +6,56 @@ from typing import Optional
 
 # Parameters
 
-start_date = datetime.date(2025, 3, 6)
+start_date = datetime.date(2025, 4, 22)
 end_date = datetime.date(2025, 6, 13)
-START_MENU_WEEK = "C"
-START_CODES = "EFGA"
+START_MENU = "C"
+START_CODE = "D"
 
 
 # Define rotation and exceptions
 
-menu_weeks_list = ["A", "B", "C"]
-codes_sets_list = ["ABCD", "EFGA", "BCDE", "FGAB", "CDEF", "GABC", "DEFG"]
+menu_alphabet = list("ABC")
+code_alphabet = list("ABCDEFG")
+
 with open("exceptions.json", "r") as file:
     exceptions = json.load(file)
-    exceptions_days = exceptions
 
 
-# Define start values
+# Initialize values
 
 data = {}
-menu_weeks = islice(
-    cycle(menu_weeks_list), menu_weeks_list.index(START_MENU_WEEK), None
-)
-codes_sets = islice(cycle(codes_sets_list), codes_sets_list.index(START_CODES), None)
 date = start_date
+menu_sequence = islice(cycle(menu_alphabet), menu_alphabet.index(START_MENU), None)
+code_sequence = islice(cycle(code_alphabet), code_alphabet.index(START_CODE), None)
 
 
-# Loop through the selected dates
+# Helper: Get the next n codes from the iterator
+
+def get_next_codes(n, code_iter):
+    return ''.join(next(code_iter) for _ in range(n))
+
+
+# Loop through dates
 
 while date <= end_date:
     iso_date = date.isoformat()
 
-    # Assign weekday
-    weekday_int = date.weekday() + 1
+    # Assign weekdays
+    weekday_int = date.weekday() + 1  # Monday = 1
     weekday_str = date.strftime("%A")
 
     # Assign codes
     codes: Optional[str] = None
     if weekday_int <= 5 and iso_date not in exceptions["days"]:
-        codes = next(codes_sets)
+        if weekday_int in [2, 3, 4]:  # Tues–Thurs: 5 codes
+            codes = get_next_codes(5, code_sequence)
+        else:  # Mon/Fri: 4 codes
+            codes = get_next_codes(4, code_sequence)
 
-    # Assign menu_week
+    # Assign menus
     if (weekday_int == 1 or date == start_date) and iso_date not in exceptions["weeks"]:
-        menu_week = next(menu_weeks)
+        menu_week = next(menu_sequence)
 
-    date += datetime.timedelta(days=1)
     data[iso_date] = {
         "iso": iso_date,
         "weekday_int": str(weekday_int),
@@ -58,8 +64,10 @@ while date <= end_date:
         "menu_week": menu_week,
     }
 
+    date += datetime.timedelta(days=1)
 
-# Save to JSON file
+
+# Save to JSON
 
 with open("cycles.json", "w") as file:
     json.dump(data, file, indent=4)

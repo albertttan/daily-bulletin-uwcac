@@ -51,9 +51,9 @@ def google_credentials():
     
     # Log in and save credentials if invalid
     if not creds or not creds.valid:
-        if False:
+        try:
             creds.refresh(Request())
-        else: 
+        except: 
             os.system("defaultbrowser safari")
             flow = InstalledAppFlow.from_client_secrets_file(
                 "google-auth/credentials.json", SCOPES)
