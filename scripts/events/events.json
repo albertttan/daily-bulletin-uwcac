@@ -859,7 +859,7 @@
         {
             "when": "06:36\u201307:30",
             "what": "KHC",
-            "where": "—"
+            "where": "Seafront"
         },
         {
             "when": "17:00\u201319:00",
@@ -896,14 +896,14 @@
     ],
     "2025-04-25": [
         {
-            "when": "20:00\u201322:00",
-            "what": "Hideout",
-            "where": "Moondance"
-        },
-        {
             "when": "20:30\u201322:00",
             "what": "SOSH",
             "where": "Tythe Barn"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
         }
     ],
     "2025-04-26": [

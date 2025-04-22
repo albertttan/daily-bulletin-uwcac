@@ -2,58 +2,58 @@
     "A1": {
         "breakfast": "Pancake",
         "brunch": null,
-        "lunch_1": "Beef & Mushroom Stroganoff",
-        "lunch_2": "Penne with Pesto, Spinach & Fresh Tomatoes \ud83c\udf31",
-        "dinner_1": "Smokey Mushroom, Vegetable & Chickpea Fajitas \ud83c\udf31",
+        "lunch_1": "Pasta w/ Beef Bolognese",
+        "lunch_2": "Pasta w/ Cheese Sauce \ud83c\udf31",
+        "dinner_1": "Vegan Pad Krapaw \ud83c\udf31",
         "dinner_2": null
     },
     "A2": {
         "breakfast": "Bread, Cheese & Ham",
         "brunch": null,
-        "lunch_1": "Leek & Potato Pie \ud83c\udf31",
-        "lunch_2": "Crispy Gnocchi \ud83c\udf31",
-        "dinner_1": "Tuna Fish Cakes",
-        "dinner_2": "Spinach Falafels \ud83c\udf31"
+        "lunch_1": "Mushroom & Celeriac Bourguignon \ud83c\udf31",
+        "lunch_2": "Spinach Falafel, Roast Onion & Jalapeno \ud83c\udf31",
+        "dinner_1": "Lamb Koftas",
+        "dinner_2": "Grilled Aubergine \ud83c\udf31"
     },
     "A3": {
         "breakfast": "Sausage, Mushroom & Baked Beans",
         "brunch": null,
-        "lunch_1": "Pasta with Bolognese",
-        "lunch_2": "Pasta with Cheese Sauce \ud83c\udf31",
-        "dinner_1": "Mild Thai Green Vegetable & Coconut Curry \ud83c\udf31",
-        "dinner_2": "Roast Veggie Pasta Bake \ud83c\udf31"
+        "lunch_1": "Moroccan Turkey Ragu",
+        "lunch_2": "Green Veg & Pesto Mac & Cheese \ud83c\udf31",
+        "dinner_1": "Halloumi Traybake \ud83c\udf31",
+        "dinner_2": "Roast Red Pepper Risotto \ud83c\udf31"
     },
     "A4": {
         "breakfast": "Bread, Cheese & Ham",
         "brunch": null,
-        "lunch_1": "Tofu Katsu \ud83c\udf31",
-        "lunch_2": "Harissa Spiced Cauliflower Bake \ud83c\udf31",
-        "dinner_1": "Barbecue Chicken Legs",
-        "dinner_2": "Crispy Buttermilk Quorn \ud83c\udf31"
+        "lunch_1": "Crispy Tofu \ud83c\udf31",
+        "lunch_2": "Creamy Broccoli Gnocchi \ud83c\udf31",
+        "dinner_1": "Ginger & Chili Beef",
+        "dinner_2": "Crispy Pea Protein & Mushroom Stir Fry \ud83c\udf31"
     },
     "A5": {
         "breakfast": "Scrambled Eggs \ud83c\udf31",
         "brunch": null,
         "lunch_1": "Fish & Chips",
-        "lunch_2": "Crispy Buttermilk Quorn \ud83c\udf31",
-        "dinner_1": "Pepperoni Pizza",
-        "dinner_2": "Roast Pepper & Balsamic Pizza \ud83c\udf31"
+        "lunch_2": "Crispy Gluten Free Cauliflower \ud83c\udf31",
+        "dinner_1": "Veggie Enchiladas",
+        "dinner_2": "Chilli Tortillas Jalapenos \ud83c\udf31"
     },
     "A6": {
         "breakfast": null,
         "brunch": null,
-        "lunch_1": "Loaded Beefy Cheese Burgers",
-        "lunch_2": "Loaded Veggie Cheese Burgers \ud83c\udf31",
-        "dinner_1": "Sweet Potato & Red Lentil Coconut Curry \ud83c\udf31",
-        "dinner_2": null
+        "lunch_1": "Tortellini \ud83c\udf31",
+        "lunch_2": "Smokey Shakshouka \ud83c\udf31",
+        "dinner_1": "Loaded Beefy Cheese Burgers",
+        "dinner_2": "Loaded Veggie Cheese Burgers \ud83c\udf31"
     },
     "A7": {
         "breakfast": null,
         "brunch": "Sausage, Mushroom & Baked Beans",
         "lunch_1": null,
         "lunch_2": null,
-        "dinner_1": "UWC Fried Chicken",
-        "dinner_2": null
+        "dinner_1": "Korean BBQ Chicken Legs",
+        "dinner_2": "Vegan Bibimbap Bowls w/ Bang Bang Cauliflower \ud83c\udf31"
     },
     "B1": {
         "breakfast": "Cr\u00eape \ud83c\udf31",

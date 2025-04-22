@@ -8,7 +8,7 @@ from typing import Optional
 
 start_date = datetime.date(2025, 4, 22)
 end_date = datetime.date(2025, 6, 13)
-START_MENU = "C"
+START_MENU = "A"
 START_CODE = "D"
 
 
