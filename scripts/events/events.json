@@ -908,7 +908,7 @@
     ],
     "2025-04-26": [
         {
-            "when": "—",
+            "when": "15:15\u201317:15",
             "what": "Holi and Songkran",
             "where": "Jousting Field"
         },
@@ -918,5 +918,88 @@
             "where": "Tythe Barn"
         }
     ],
-    "2025-04-27": []
+    "2025-04-27": [],
+    "2025-04-28": [
+        {
+            "when": "07:00\u201320:00",
+            "what": "IB1 ToK Trip to Oxford",
+            "where": "Oxford"
+        }
+    ],
+    "2025-04-29": [
+        {
+            "when": "18:00\u201319:00",
+            "what": "FEMO",
+            "where": "Great Hall"
+        },
+        {
+            "when": "20:00\u201321:00",
+            "what": "SusCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-04-30": [
+        {
+            "when": "06:36\u201307:30",
+            "what": "KHC",
+            "where": "–"
+        },
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "18:00\u201319:00",
+            "what": "WellCo \u2600\ufe0f",
+            "where": "Great Hall"
+        },
+        {
+            "when": "19:00\u201320:00",
+            "what": "P6",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-05-01": [
+        {
+            "when": "13:30\u201314:00",
+            "what": "College Bank Open",
+            "where": "Admin Building"
+        },
+        {
+            "when": "15:00\u201316:00",
+            "what": "EAL Drop-in",
+            "where": "TLC"
+        },
+        {
+            "when": "18:00\u201319:00",
+            "what": "PeaCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-05-02": [
+        {
+            "when": "14:00\u201316:00",
+            "what": "IB1 University Guidance Session",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        }
+    ],
+    "2025-05-03": [
+        {
+            "when": "7:30 \u201311:00",
+            "what": "SAT Test",
+            "where": NaN
+        }
+    ],
+    "2025-05-04": []
 }

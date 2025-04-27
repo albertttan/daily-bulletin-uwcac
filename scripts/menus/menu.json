@@ -8,7 +8,7 @@
         "dinner_2": null
     },
     "A2": {
-        "breakfast": "Bread, Cheese & Ham",
+        "breakfast": "Continental",
         "brunch": null,
         "lunch_1": "Mushroom & Celeriac Bourguignon \ud83c\udf31",
         "lunch_2": "Spinach Falafel, Roast Onion & Jalapeno \ud83c\udf31",
@@ -16,7 +16,7 @@
         "dinner_2": "Grilled Aubergine \ud83c\udf31"
     },
     "A3": {
-        "breakfast": "Sausage, Mushroom & Baked Beans",
+        "breakfast": "Sausages",
         "brunch": null,
         "lunch_1": "Moroccan Turkey Ragu",
         "lunch_2": "Green Veg & Pesto Mac & Cheese \ud83c\udf31",
@@ -24,7 +24,7 @@
         "dinner_2": "Roast Red Pepper Risotto \ud83c\udf31"
     },
     "A4": {
-        "breakfast": "Bread, Cheese & Ham",
+        "breakfast": "Continental",
         "brunch": null,
         "lunch_1": "Crispy Tofu \ud83c\udf31",
         "lunch_2": "Creamy Broccoli Gnocchi \ud83c\udf31",
@@ -32,7 +32,7 @@
         "dinner_2": "Crispy Pea Protein & Mushroom Stir Fry \ud83c\udf31"
     },
     "A5": {
-        "breakfast": "Scrambled Eggs \ud83c\udf31",
+        "breakfast": "Burrito \ud83c\udf31",
         "brunch": null,
         "lunch_1": "Fish & Chips",
         "lunch_2": "Crispy Gluten Free Cauliflower \ud83c\udf31",
@@ -40,7 +40,7 @@
         "dinner_2": "Chilli Tortillas Jalapenos \ud83c\udf31"
     },
     "A6": {
-        "breakfast": null,
+        "breakfast": "Sausages",
         "brunch": null,
         "lunch_1": "Tortellini \ud83c\udf31",
         "lunch_2": "Smokey Shakshouka \ud83c\udf31",
@@ -49,67 +49,66 @@
     },
     "A7": {
         "breakfast": null,
-        "brunch": "Sausage, Mushroom & Baked Beans",
+        "brunch": "Sausages",
         "lunch_1": null,
         "lunch_2": null,
         "dinner_1": "Korean BBQ Chicken Legs",
         "dinner_2": "Vegan Bibimbap Bowls w/ Bang Bang Cauliflower \ud83c\udf31"
     },
     "B1": {
-        "breakfast": "Cr\u00eape \ud83c\udf31",
+        "breakfast": "Pancake",
         "brunch": null,
-        "lunch_1": "Classic Lasagne",
-        "lunch_2": "Quorn Lasagne \ud83c\udf31",
-        "dinner_1": "Mild Cauliflower Curry \ud83c\udf31",
+        "lunch_1": "Lamb & Root Vegetable Stew",
+        "lunch_2": "Sundried Tomato & Basil Gnocchi \ud83c\udf31",
+        "dinner_1": "Vegan Lasagne \ud83c\udf31",
         "dinner_2": null
     },
     "B2": {
-        "breakfast": "Bread, Cheese & Ham",
+        "breakfast": "Continental",
         "brunch": null,
-        "lunch_1": "Cauliflower & Sweet Potato Gratin \ud83c\udf31",
-        "lunch_2": "Chili Non Carne \ud83c\udf31",
-        "dinner_1": "Beef Taco",
-        "dinner_2": "Black Bean Taco \ud83c\udf31"
+        "lunch_1": "Harissa Spiced Cauliflower Bake \ud83c\udf31",
+        "lunch_2": "Sweet Pea & Cannellini Bean Orzo in Tomato Sauce \ud83c\udf31",
+        "dinner_1": "Honey & Mustard Roast Chicken Leg",
+        "dinner_2": "Glamorgan Sausages, Thyme Roast Onion \ud83c\udf31"
     },
     "B3": {
-        "breakfast": "Sausage, Mushroom & Baked Beans",
+        "breakfast": "Sausages",
         "brunch": null,
-        "lunch_1": "Sesame Chicken with Mushroom, Broccoli & Red Onion",
-        "lunch_2": "Bombay Potato Frittata \ud83c\udf31",
-        "dinner_1": "Crispy Gnocchi \ud83c\udf31",
+        "lunch_1": "Beefy Macaroni",
+        "lunch_2": "Mushroom & Leek Risotto \ud83c\udf31",
+        "dinner_1": "Fried Rice w/ All the Veggies \ud83c\udf31",
         "dinner_2": null
     },
     "B4": {
-        "breakfast": "Bread, Cheese & Ham",
+        "breakfast": "Continental",
         "brunch": null,
-        "lunch_1": "Gochujang Mac & Cheese \ud83c\udf31",
-        "lunch_2": "Green Risotto \ud83c\udf31",
-        "dinner_1": "Jerk Chicken",
-        "dinner_2": "Jerk Tofu \ud83c\udf31"
+        "lunch_1": "Veggie Massaman \ud83c\udf31",
+        "lunch_2": "Hoisin Marinated Roast Tofu & Peppers \ud83c\udf31",
+        "dinner_1": "Turkey Mince & Potato Pie",
+        "dinner_2": "Roast Field Mushrooms & Courgette \ud83c\udf31"
     },
     "B5": {
-        "breakfast": "Scrambled Eggs \ud83c\udf31",
+        "breakfast": "Burrito",
         "brunch": null,
         "lunch_1": "Fish & Chips",
         "lunch_2": "Crispy Buttermilk Quorn \ud83c\udf31",
-        "dinner_1": "Veggie Chili \ud83c\udf31",
-        "dinner_2": null
+        "dinner_1": "Vegetable Paella \ud83c\udf31",
+        "dinner_2": "Lemon Roast Courgette \ud83c\udf31"
     },
     "B6": {
-        "breakfast": "Placeholder",
+        "breakfast": "Sausages",
         "brunch": null,
-        "lunch_1": "Smokey Chicken Sausage Potato Roll",
-        "lunch_2": "Vegetable Sausage Potato Roll \ud83c\udf31",
-        "dinner_1": "Roast Aubergine Flatbread \ud83c\udf31",
-        "dinner_2": "Roast Halloumi \ud83c\udf31"
+        "lunch_1": "Szechuan Broccoli, Mushroom & Chinese Cabbage \ud83c\udf31",
+        "lunch_2": "Roast Sweet Potato \ud83c\udf31",
+        "dinner_1": "Hot Dogs"
     },
     "B7": {
         "breakfast": null,
-        "brunch": "Sausage, Mushroom & Baked Beans",
+        "brunch": "Sausages",
         "lunch_1": null,
         "lunch_2": null,
-        "dinner_1": "Chicken Shawarma",
-        "dinner_2": "Mushroom Shawarma \ud83c\udf31"
+        "dinner_1": "UWC Fried Chicken",
+        "dinner_2": "UWC Crispy Tofu \ud83c\udf31"
     },
     "C1": {
         "breakfast": "Pancake \ud83c\udf31",
@@ -120,7 +119,7 @@
         "dinner_2": null
     },
     "C2": {
-        "breakfast": "Bread, Cheese & Ham",
+        "breakfast": "Continental",
         "brunch": null,
         "lunch_1": "Butterbean & Chicken Jambalaya",
         "lunch_2": "Feta, Savoy & Kale Loaded Sweet Potato \ud83c\udf31",
@@ -128,7 +127,7 @@
         "dinner_2": "Crispy Garlic Mushrooms \ud83c\udf31"
     },
     "C3": {
-        "breakfast": "Sausage, Mushroom & Baked Beans",
+        "breakfast": "Sausages",
         "brunch": null,
         "lunch_1": "Ginger & Chili Beef with Mushroom & Onion",
         "lunch_2": "Curried Cauliflower Gratin \ud83c\udf31",
@@ -136,7 +135,7 @@
         "dinner_2": "Creamy Pesto & Courgette Risotto \ud83c\udf31"
     },
     "C4": {
-        "breakfast": "Bread, Cheese & Ham",
+        "breakfast": "Continental",
         "brunch": null,
         "lunch_1": "Mac & Cheese \ud83c\udf31",
         "lunch_2": null,
@@ -144,7 +143,7 @@
         "dinner_2": "Mushroom Shawarma \ud83c\udf31"
     },
     "C5": {
-        "breakfast": "Scrambled Eggs \ud83c\udf31",
+        "breakfast": "Burrito",
         "brunch": null,
         "lunch_1": "Fish & Chips",
         "lunch_2": "Crispy Buttermilk Quorn \ud83c\udf31",
@@ -152,7 +151,7 @@
         "dinner_2": null
     },
     "C6": {
-        "breakfast": "test",
+        "breakfast": "Sausages",
         "brunch": null,
         "lunch_1": "Korean Chicken Burger",
         "lunch_2": "Korean Tofu Burger \ud83c\udf31",
@@ -161,7 +160,7 @@
     },
     "C7": {
         "breakfast": null,
-        "brunch": "Sausage, Mushroom & Baked Beans",
+        "brunch": "Sausages",
         "lunch_1": null,
         "lunch_2": null,
         "dinner_1": "Moroccan Lamb Mince Tagine with Lemon and Olives",
