@@ -37,7 +37,7 @@
         "lunch_1": "Fish & Chips",
         "lunch_2": "Crispy Gluten Free Cauliflower \ud83c\udf31",
         "dinner_1": "Veggie Enchiladas",
-        "dinner_2": "Chilli Tortillas Jalapenos \ud83c\udf31"
+        "dinner_2": "Chili Tortillas Jalapenos \ud83c\udf31"
     },
     "A6": {
         "breakfast": "Sausages",
@@ -121,49 +121,49 @@
     "C2": {
         "breakfast": "Continental",
         "brunch": null,
-        "lunch_1": "Butterbean & Chicken Jambalaya",
-        "lunch_2": "Feta, Savoy & Kale Loaded Sweet Potato \ud83c\udf31",
-        "dinner_1": "Sweet & Sour Turkey",
-        "dinner_2": "Crispy Garlic Mushrooms \ud83c\udf31"
+        "lunch_1": "Falafel \ud83c\udf31",
+        "lunch_2": null,
+        "dinner_1": "Gnocchi w/ Tuscan Sausage Stew",
+        "dinner_2": "Gnocchi w/ Creamy Mushroom Sauce \ud83c\udf31"
     },
     "C3": {
         "breakfast": "Sausages",
         "brunch": null,
-        "lunch_1": "Ginger & Chili Beef with Mushroom & Onion",
-        "lunch_2": "Curried Cauliflower Gratin \ud83c\udf31",
-        "dinner_1": "Halloumi & Roast Pepper Fusilli Bake \ud83c\udf31",
-        "dinner_2": "Creamy Pesto & Courgette Risotto \ud83c\udf31"
+        "lunch_1": "Roast Peri Peri Chicken Legs",
+        "lunch_2": "BBQ Mushroom & Pea Protein Wrap \ud83c\udf31",
+        "dinner_1": "Black Bean Chili \ud83c\udf31",
+        "dinner_2": "Chili Tortillas w/ Cheese Sauce \ud83c\udf31"
     },
     "C4": {
         "breakfast": "Continental",
         "brunch": null,
-        "lunch_1": "Mac & Cheese \ud83c\udf31",
-        "lunch_2": null,
-        "dinner_1": "Chicken Shawarma",
-        "dinner_2": "Mushroom Shawarma \ud83c\udf31"
+        "lunch_1": "Crispy Tofy & Pea Protein \ud83c\udf31",
+        "lunch_2": "Cauliflower Cheese Risotto \ud83c\udf31",
+        "dinner_1": "Bangars & Mash",
+        "dinner_2": null
     },
     "C5": {
         "breakfast": "Burrito",
         "brunch": null,
         "lunch_1": "Fish & Chips",
         "lunch_2": "Crispy Buttermilk Quorn \ud83c\udf31",
-        "dinner_1": "Burrito \ud83c\udf31",
-        "dinner_2": null
+        "dinner_1": "BBQ Chicken Pizza",
+        "dinner_2": "Roast Peppers & Balsamic Syrup Pizza \ud83c\udf31"
     },
     "C6": {
         "breakfast": "Sausages",
         "brunch": null,
-        "lunch_1": "Korean Chicken Burger",
-        "lunch_2": "Korean Tofu Burger \ud83c\udf31",
-        "dinner_1": "Sweet Potato & Red Lentil Coconut Curry \ud83c\udf31",
-        "dinner_2": null
+        "lunch_1": "Gochujang Mac & Cheese \ud83c\udf31",
+        "lunch_2": null,
+        "dinner_1": "Beef Soft Taco",
+        "dinner_2":  "Bean Soft Taco \ud83c\udf31"
     },
     "C7": {
         "breakfast": null,
         "brunch": "Sausages",
         "lunch_1": null,
         "lunch_2": null,
-        "dinner_1": "Moroccan Lamb Mince Tagine with Lemon and Olives",
-        "dinner_2": "Spaghetti with Creamy “Peanut” Sauce, Peppers and Spring Onion \ud83c\udf31"
+        "dinner_1": "Roast Chicken Drumsticks",
+        "dinner_2": "Roast Tofu & Flat Cap Mushrooms \ud83c\udf31"
     }
 }
