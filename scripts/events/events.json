@@ -1200,5 +1200,133 @@
         }
     ],
     "2025-05-17": [],
-    "2025-05-18": []
+    "2025-05-18": [],
+    "2025-05-19": [
+        {
+            "when": "17:00\u201318:00",
+            "what": "Cisgender Female Only Gym Session",
+            "where": "Gym"
+        },
+        {
+            "when": "14:00\u201314:30",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "14:30\u201316:30",
+            "what": "IB1 Uni Fair",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "18:00\u201318:30",
+            "what": "SLACC",
+            "where": "Great Hall"
+        },
+        {
+            "when": "19:15\u201320:00",
+            "what": "PADxAC",
+            "where": "Great Hall"
+        },
+        {
+            "when": "20:00\u201321:00",
+            "what": "StuCo",
+            "where": "Great Hall"
+        },
+        {
+            "when": "20:00\u201321:00",
+            "what": "StuCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-05-20": [
+        {
+            "when": "12:30\u201314:00",
+            "what": "College Bank Open",
+            "where": "Admin Building"
+        },
+        {
+            "when": "17:00\u201320:00",
+            "what": "College Shop Open",
+            "where": "Art Centre Gallery"
+        },
+        {
+            "when": "18:00\u201319:00",
+            "what": "FEMO",
+            "where": "Great Hall"
+        },
+        {
+            "when": "20:00\u201321:00",
+            "what": "SusCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-05-21": [
+        {
+            "when": "06:36\u201307:30",
+            "what": "KHC",
+            "where": NaN
+        },
+        {
+            "when": "16:00\u201317:30",
+            "what": "Pool and Outdoor Pool Open!",
+            "where": "Pool"
+        },
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "18:00\u201319:00",
+            "what": "WellCo \u2600\ufe0f",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-05-22": [
+        {
+            "when": "13:30\u201314:00",
+            "what": "College Bank Open",
+            "where": "Admin Building"
+        },
+        {
+            "when": "10:00\u201312:00",
+            "what": "Climbing Wall and Archery",
+            "where": "Climbing Wall"
+        },
+        {
+            "when": "13:00\u201314:00",
+            "what": "Outdoor Pool Games",
+            "where": "Pool"
+        },
+        {
+            "when": "18:00\u201319:00",
+            "what": "PeaCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-05-23": [
+        {
+            "when": "15:00\u201316:30",
+            "what": "IB2 Graduation Rehearsal",
+            "where": "Climbing Wall"
+        },
+        {
+            "when": "16:20\u201316:50",
+            "what": "IB1 Graduation Rehearsal Guard of Honour",
+            "where": "Climbing Wall"
+        },
+        {
+            "when": "19:00\u201322:00",
+            "what": "Farewell Ceremony and Prom",
+            "where": "Top Lawn/Bradenstoke"
+        }
+    ],
+    "2025-05-24": [
+        {
+            "when": "21:45\u201322:15",
+            "what": "Bus to Heathrow",
+            "where": "Outer Arch"
+        }
+    ],
+    "2025-05-25": []
 }
