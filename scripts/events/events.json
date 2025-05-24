@@ -1328,5 +1328,119 @@
             "where": "Outer Arch"
         }
     ],
-    "2025-05-25": []
+    "2025-05-25": [],
+    "2025-05-26": [
+        {
+            "when": "08:30\u201309:00",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "09:00\u201310:00",
+            "what": "Community Gathering",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "18:00\u201318:30",
+            "what": "SLACC",
+            "where": "Great Hall"
+        },
+        {
+            "when": "19:15\u201320:00",
+            "what": "PADxAC",
+            "where": "Great Hall"
+        },
+        {
+            "when": "20:00\u201321:00",
+            "what": "StuCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-05-27": [
+        {
+            "when": "12:30\u201314:00",
+            "what": "College Bank Open",
+            "where": "Admin Building"
+        },
+        {
+            "when": "17:00\u201320:00",
+            "what": "College Shop Open",
+            "where": "Art Centre Gallery"
+        },
+        {
+            "when": "18:00\u201319:00",
+            "what": "FEMO",
+            "where": "Great Hall"
+        },
+        {
+            "when": "20:00\u201321:00",
+            "what": "SusCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-05-28": [
+        {
+            "when": "06:36\u201307:30",
+            "what": "KHC",
+            "where": "Indoor Pool"
+        },
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "18:00\u201319:00",
+            "what": "WellCo \u2600\ufe0f",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-05-29": [
+        {
+            "when": "13:30\u201315:00",
+            "what": "College Bank Open",
+            "where": "Admin Building"
+        },
+        {
+            "when": "15:00\u201316:00",
+            "what": "EAL Drop-in",
+            "where": "TLC"
+        },
+        {
+            "when": "18:00\u201319:00",
+            "what": "PeaCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-05-30": [
+        {
+            "when": "16:00\u201318:00",
+            "what": "Cafe Concert",
+            "where": "Glassroom"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        }
+    ],
+    "2025-05-31": [
+        {
+            "when": "\u2014",
+            "what": "Hay Festival Trip",
+            "where": "\u2014"
+        }
+    ],
+    "2025-06-01": [
+        {
+            "when": "\u2014",
+            "what": "Hay Festival Trip",
+            "where": "\u2014"
+        }
+    ]
 }
