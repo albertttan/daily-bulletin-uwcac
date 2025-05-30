@@ -1414,9 +1414,14 @@
     ],
     "2025-05-30": [
         {
+            "when": "8:00 \u201316:00",
+            "what": "Pianothon",
+            "where": "Bradenstoke"
+        },
+        {
             "when": "16:00\u201318:00",
             "what": "Cafe Concert",
-            "where": "Glassroom"
+            "where": "Bradenstoke"
         },
         {
             "when": "20:30\u201322:00",
@@ -1431,16 +1436,36 @@
     ],
     "2025-05-31": [
         {
-            "when": "\u2014",
+            "when": "8:00 \u201320:00",
             "what": "Hay Festival Trip",
-            "where": "\u2014"
+            "where": "Hay on Wye"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Champions League Final",
+            "where": "Tythe Barn"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "Film Club",
+            "where": "Great Hall"
         }
     ],
     "2025-06-01": [
         {
-            "when": "\u2014",
-            "what": "Hay Festival Trip",
-            "where": "\u2014"
+            "when": "12:00\u201315:00",
+            "what": "P6 Painting",
+            "where": "Top Lawn"
+        },
+        {
+            "when": "9:45 \u201314:00",
+            "what": "Vine Church",
+            "where": "Bridgend"
+        },
+        {
+            "when": "17:00\u201319:00",
+            "what": "Hot to Go",
+            "where": "Blue Garden"
         }
     ]
 }
