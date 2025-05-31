@@ -34,7 +34,7 @@ def retrieve_history(date_iso):
             if italics.text.startswith("("):
                 italics.decompose()
 
-    return [date_history[0], date_history[-1]]
+    return date_history
 
 
 def google_credentials():

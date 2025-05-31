@@ -1467,5 +1467,58 @@
             "what": "Hot to Go",
             "where": "Blue Garden"
         }
-    ]
+    ],
+    "2025-06-02": [
+        {
+            "when": "17:00\u201318:00",
+            "what": "Cisgender Female Only Gym Session",
+            "where": "Gym"
+        }
+    ],
+    "2025-06-03": [
+        {
+            "when": "12:30\u201314:00",
+            "what": "College Bank Open",
+            "where": "Admin Building"
+        },
+        {
+            "when": "17:00\u201320:00",
+            "what": "College Shop Open",
+            "where": "Art Centre Gallery"
+        }
+    ],
+    "2025-06-04": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        }
+    ],
+    "2025-06-05": [
+        {
+            "when": "13:30\u201315:00",
+            "what": "College Bank Open",
+            "where": "Admin Building"
+        }
+    ],
+    "2025-06-06": [
+        {
+            "when": "16:00\u201318:00",
+            "what": "Cafe Concert",
+            "where": "Glassroom"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        }
+    ],
+    "2025-06-07": [
+        {
+            "when": "7:30 \u201311:00",
+            "what": "SAT Test",
+            "where": "Sports Hall"
+        }
+    ],
+    "2025-06-08": []
 }
