@@ -1468,13 +1468,7 @@
             "where": "Blue Garden"
         }
     ],
-    "2025-06-02": [
-        {
-            "when": "17:00\u201318:00",
-            "what": "Cisgender Female Only Gym Session",
-            "where": "Gym"
-        }
-    ],
+    "2025-06-02": [],
     "2025-06-03": [
         {
             "when": "12:30\u201314:00",
@@ -1515,10 +1509,21 @@
     ],
     "2025-06-07": [
         {
-            "when": "7:30 \u201311:00",
+            "when": "—",
+            "what": "Summer Fayre",
+            "where": "—"
+        },
+        {
+            "when": "07:30\u201311:00",
             "what": "SAT Test",
             "where": "Sports Hall"
         }
     ],
-    "2025-06-08": []
+    "2025-06-08": [
+        {
+            "when": "—",
+            "what": "Summer Fayre",
+            "where": "—"
+        },
+    ]
 }
