@@ -2,6 +2,7 @@ import os
 import io
 import html
 import json
+import time
 import datetime
 import requests
 import webbrowser
@@ -55,6 +56,7 @@ def google_credentials():
             creds.refresh(Request())
         except: 
             os.system("defaultbrowser safari")
+            time.sleep(5)
             flow = InstalledAppFlow.from_client_secrets_file(
                 "google-auth/credentials.json", SCOPES)
             creds = flow.run_local_server(port=0)
