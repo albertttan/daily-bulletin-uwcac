@@ -1509,9 +1509,9 @@
     ],
     "2025-06-07": [
         {
-            "when": "—",
+            "when": "\u2014",
             "what": "Summer Fayre",
-            "where": "—"
+            "where": "\u2014"
         },
         {
             "when": "07:30\u201311:00",
@@ -1521,9 +1521,111 @@
     ],
     "2025-06-08": [
         {
-            "when": "—",
+            "when": "\u2014",
             "what": "Summer Fayre",
-            "where": "—"
+            "where": "\u2014"
+        }
+    ],
+    "2025-06-09": [
+        {
+            "when": "15:00\u201315:30",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "15:30\u201316:00",
+            "what": "Community Gathering",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "18:00\u201318:30",
+            "what": "SLACC",
+            "where": "Great Hall"
+        },
+        {
+            "when": "19:15\u201320:00",
+            "what": "PADxAC",
+            "where": "Great Hall"
+        },
+        {
+            "when": "020:0\u201321:00",
+            "what": "StuCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-06-10": [
+        {
+            "when": "\u2014",
+            "what": "G3 Camp",
+            "where": "\u2014"
+        },
+        {
+            "when": "12:30\u201314:00",
+            "what": "College Bank Open",
+            "where": "Admin Building"
+        },
+        {
+            "when": "17:00\u201320:00",
+            "what": "College Shop Open",
+            "where": "Art Centre Gallery"
+        },
+        {
+            "when": "18:00\u201319:00",
+            "what": "FEMO",
+            "where": "Great Hall"
+        },
+        {
+            "when": "020:0\u201321:00",
+            "what": "SusCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-06-11": [
+        {
+            "when": "06:36\u201307:30",
+            "what": "KHC",
+            "where": "\u2014"
+        },
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "18:00\u201319:00",
+            "what": "WellCo \u2600\ufe0f",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-06-12": [
+        {
+            "when": "13:30\u201314:00",
+            "what": "College Bank Open",
+            "where": "Admin Building"
+        },
+        {
+            "when": "14:00\u201316:00",
+            "what": "House Clear-up",
+            "where": "Boarding Houses"
+        },
+        {
+            "when": "18:00\u201319:00",
+            "what": "PeaCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-06-13": [
+        {
+            "when": "10:00\u201310:30",
+            "what": "Bus to Heathrow",
+            "where": "Outer Arch"
+        }
+    ],
+    "2025-06-14": [
+        {
+            "when": "06:40\u201307:00",
+            "what": "Bus to Heathrow",
+            "where": "Outer Arch"
         }
     ]
 }
