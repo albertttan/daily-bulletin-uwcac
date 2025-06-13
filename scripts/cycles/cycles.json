@@ -369,5 +369,12 @@
         "weekday_str": "Friday",
         "codes": "DEFG",
         "menu_week": "B"
+    },
+    "2025-06-14": {
+        "iso": "2025-06-14",
+        "weekday_int": "6",
+        "weekday_str": "Saturday",
+        "codes": null,
+        "menu_week": "B"
     }
 }
