@@ -110,7 +110,57 @@ def render_html(date):
     return news_info[-1]
 
 
-def main(date_iso=None, recipients=None):
+def main(date_iso=None, stop_render=None, recipients=None):
+
+    if not stop_render: 
+
+        if date_iso:
+            date = [
+                datetime.date.fromisoformat(date_iso),
+                datetime.date.fromisoformat(date_iso) + datetime.timedelta(days=1),
+            ]
+        else:
+            date = [
+                datetime.date.today() + datetime.timedelta(days=1),
+                datetime.date.today() + datetime.timedelta(days=2),
+            ]
+            date_iso = date[0].isoformat()
+
+        # Manual confirmation to proceed
+        news_timestamp = render_html(date)
+
+        output_path = f"../pages/{date_iso}.html"
+        action = ""
+        while not action:
+            action = input("[V]iew / [E]dit / [R]erun / [Q]uit / [C]onfirm: ")
+            if action.lower() == "c" or action.lower() == "confirm":
+                continue
+            if action.lower() == "v" or action.lower() == "view":
+                subprocess.run(["open", "-a", "Firefox", output_path], check=True)
+            elif action.lower() == "e" or action.lower() == "edit":
+                subprocess.run(["open", "-a", "Sublime Text", output_path], check=True)
+            elif action.lower() == "r" or action.lower() == "rerun": 
+                news_timestamp = render_html(date)
+            elif action.lower() == "q" or action.lower() == "quit":
+                sys.exit(0)
+            action = ""
+
+        if news_timestamp: 
+            with open("google-auth/timestamp.txt", "w") as file:
+                file.write(news_timestamp)
+
+        with open(f"../pages/{date_iso}.html") as file:
+            output = file.read()
+
+    # Compile email & upload page
+
+    if recipients: 
+        compile_email(date_iso, recipients, output)
+        subprocess.run(
+            ["open", "-a", "Mail", f"../emails/Daily Bulletin {date_iso}.eml"], check=True
+        )
+
+    update_pages(date_iso)
 
     os.system("git add ..")
     subprocess.run(["git", "commit", "-m", f"Daily Bulletin {date_iso}"], check=True)

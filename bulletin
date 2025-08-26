@@ -1,4 +1,4 @@
 #!/bin/sh
 
 cd scripts
-python3 -c "from main import main; main('$1', '$2')"
+python3 -c "from main import main; main('$1', '$2', '$3')"
