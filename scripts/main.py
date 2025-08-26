@@ -114,6 +114,8 @@ def main(date_iso=None, recipients=None):
 
 
 
+    update_pages(date_iso)
+
     os.system("git add ..")
     subprocess.run(["git", "commit", "-m", f"Daily Bulletin {date_iso}"], check=True)
     os.system("git push origin main")
