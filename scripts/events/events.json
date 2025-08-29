@@ -1627,5 +1627,33 @@
             "what": "Bus to Heathrow",
             "where": "Outer Arch"
         }
+    ],
+    "2025-08-30": [],
+    "2025-08-31": [
+        {
+            "when": "10:00\u201311:00",
+            "what": "<b>IB1</b> SusCo Session",
+            "where": "Student Houses"
+        },
+        {
+            "when": "11:00\u201312:00",
+            "what": "Restorative Justice",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "14:00\u201315:00",
+            "what": "<b>IB1</b> ARDEI Session",
+            "where": "Student Houses"
+        },
+        {
+            "when": "15:00\u201316:00",
+            "what": "<b>IB1</b> P6 Session",
+            "where": "Student Houses"
+        },
+        {
+            "when": "20:00\u201321:00",
+            "what": "House Meeting",
+            "where": "Student Houses"
+        }
     ]
 }

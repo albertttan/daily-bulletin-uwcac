@@ -6,10 +6,10 @@ from typing import Optional
 
 # Parameters
 
-start_date = datetime.date(2025, 4, 22)
-end_date = datetime.date(2025, 6, 13)
-START_MENU = "A"
-START_CODE = "D"
+start_date = datetime.date(2025, 9, 1)
+end_date = datetime.date(2025, 10, 24)
+START_MENU = "B"
+START_CODE = "B"
 
 
 # Define rotation and exceptions
@@ -47,10 +47,11 @@ while date <= end_date:
     # Assign codes
     codes: Optional[str] = None
     if weekday_int <= 5 and iso_date not in exceptions["days"]:
-        if weekday_int in [2, 3, 4]:  # Tues–Thurs: 5 codes
-            codes = get_next_codes(5, code_sequence)
-        else:  # Mon/Fri: 4 codes
+        if weekday_int == 2:  # Tues–Thurs: 5 codes
             codes = get_next_codes(4, code_sequence)
+        else:  # Mon/Fri: 4 codes
+            codes = get_next_codes(5, code_sequence)
+            skip = get_next_codes(6, code_sequence)
 
     # Assign menus
     if (weekday_int == 1 or date == start_date) and iso_date not in exceptions["weeks"]:

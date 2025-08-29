@@ -1,6 +1,6 @@
 {
     "A1": {
-        "breakfast": "Pancake",
+        "breakfast": "Pancake / Waffle Bar \ud83c\udf31",
         "brunch": null,
         "lunch_1": "Pasta w/ Beef Bolognese",
         "lunch_2": "Pasta w/ Cheese Sauce \ud83c\udf31",
@@ -8,7 +8,7 @@
         "dinner_2": null
     },
     "A2": {
-        "breakfast": "Continental",
+        "breakfast": "Continental Counter",
         "brunch": null,
         "lunch_1": "Mushroom & Celeriac Bourguignon \ud83c\udf31",
         "lunch_2": "Spinach Falafel, Roast Onion & Jalapeno \ud83c\udf31",
@@ -16,7 +16,7 @@
         "dinner_2": "Grilled Aubergine \ud83c\udf31"
     },
     "A3": {
-        "breakfast": "Sausages",
+        "breakfast": "Hot Breakfast",
         "brunch": null,
         "lunch_1": "Moroccan Turkey Ragu",
         "lunch_2": "Green Veg & Pesto Mac & Cheese \ud83c\udf31",
@@ -24,7 +24,7 @@
         "dinner_2": "Roast Red Pepper Risotto \ud83c\udf31"
     },
     "A4": {
-        "breakfast": "Continental",
+        "breakfast": "Continental Counter",
         "brunch": null,
         "lunch_1": "Crispy Tofu \ud83c\udf31",
         "lunch_2": "Creamy Broccoli Gnocchi \ud83c\udf31",
@@ -35,28 +35,28 @@
         "breakfast": "Burrito \ud83c\udf31",
         "brunch": null,
         "lunch_1": "Fish & Chips",
-        "lunch_2": "Crispy Gluten Free Cauliflower \ud83c\udf31",
-        "dinner_1": "Veggie Enchiladas",
-        "dinner_2": "Chili Tortillas Jalapenos \ud83c\udf31"
+        "lunch_2": "Crispy Buttermilk Quorn \ud83c\udf31",
+        "dinner_1": "Pepperoni Pizza",
+        "dinner_2": "Roast Pepper & Balsamic Pizza \ud83c\udf31"
     },
     "A6": {
-        "breakfast": "Sausages",
+        "breakfast": "Hot Breakfast",
         "brunch": null,
-        "lunch_1": "Tortellini \ud83c\udf31",
-        "lunch_2": "Smokey Shakshouka \ud83c\udf31",
-        "dinner_1": "Loaded Beefy Cheese Burgers",
-        "dinner_2": "Loaded Veggie Cheese Burgers \ud83c\udf31"
+        "lunch_1": "Loaded Beefy Cheese Burgers",
+        "lunch_2": "Loaded Halloumi Cheese Burgers \ud83c\udf31",
+        "dinner_1": "Crunchy Garlic Tofu \ud83c\udf31",
+        "dinner_2": "Garlic Mushrooms, Chili & Spinach \ud83c\udf31"
     },
     "A7": {
         "breakfast": null,
-        "brunch": "Sausages",
+        "brunch": "Hot Breakfast",
         "lunch_1": null,
         "lunch_2": null,
-        "dinner_1": "Korean BBQ Chicken Legs",
-        "dinner_2": "Vegan Bibimbap Bowls w/ Bang Bang Cauliflower \ud83c\udf31"
+        "dinner_1": "Roast Turkey",
+        "dinner_2": "Roast Quorn \ud83c\udf31"
     },
     "B1": {
-        "breakfast": "Pancake",
+        "breakfast": "Pancake / Waffle Bar \ud83c\udf31",
         "brunch": null,
         "lunch_1": "Lamb Koftas",
         "lunch_2": "Sundried Tomato & Basil Gnocchi \ud83c\udf31",
@@ -64,15 +64,15 @@
         "dinner_2": null
     },
     "B2": {
-        "breakfast": "Continental",
+        "breakfast": "Continental Counter",
         "brunch": null,
         "lunch_1": "Harissa Spiced Cauliflower Bake \ud83c\udf31",
         "lunch_2": "Sweet Pea & Cannellini Bean Orzo in Tomato Sauce \ud83c\udf31",
         "dinner_1": "Honey & Mustard Roast Chicken Leg",
-        "dinner_2": "Glamorgan Sausages, Thyme Roast Onion \ud83c\udf31"
+        "dinner_2": "Glamorgan Hot Breakfast, Thyme Roast Onion \ud83c\udf31"
     },
     "B3": {
-        "breakfast": "Sausages",
+        "breakfast": "Hot Breakfast",
         "brunch": null,
         "lunch_1": "Beefy Macaroni",
         "lunch_2": "Mushroom & Leek Risotto \ud83c\udf31",
@@ -80,7 +80,7 @@
         "dinner_2": null
     },
     "B4": {
-        "breakfast": "Continental",
+        "breakfast": "Continental Counter",
         "brunch": null,
         "lunch_1": "Veggie Massaman \ud83c\udf31",
         "lunch_2": "Hoisin Marinated Roast Tofu & Peppers \ud83c\udf31",
@@ -96,7 +96,7 @@
         "dinner_2": "Lemon Roast Courgette \ud83c\udf31"
     },
     "B6": {
-        "breakfast": "Sausages",
+        "breakfast": "Hot Breakfast",
         "brunch": null,
         "lunch_1": "Szechuan Broccoli, Mushroom & Chinese Cabbage \ud83c\udf31",
         "lunch_2": "Roast Sweet Potato \ud83c\udf31",
@@ -104,14 +104,14 @@
     },
     "B7": {
         "breakfast": null,
-        "brunch": "Sausages",
+        "brunch": "Hot Breakfast",
         "lunch_1": null,
         "lunch_2": null,
         "dinner_1": "UWC Fried Chicken",
         "dinner_2": "UWC Crispy Tofu \ud83c\udf31"
     },
     "C1": {
-        "breakfast": "Pancake \ud83c\udf31",
+        "breakfast": "Pancake / Waffle Bar \ud83c\udf31 \ud83c\udf31",
         "brunch": null,
         "lunch_1": "Chicken, Root Vegetable & Barley Hot Pot",
         "lunch_2": "Tomato & Vegetable Mac & Cheese \ud83c\udf31",
@@ -119,7 +119,7 @@
         "dinner_2": null
     },
     "C2": {
-        "breakfast": "Continental",
+        "breakfast": "Continental Counter",
         "brunch": null,
         "lunch_1": "Falafel \ud83c\udf31",
         "lunch_2": null,
@@ -127,7 +127,7 @@
         "dinner_2": "Gnocchi w/ Creamy Mushroom Sauce \ud83c\udf31"
     },
     "C3": {
-        "breakfast": "Sausages",
+        "breakfast": "Hot Breakfast",
         "brunch": null,
         "lunch_1": "Roast Peri Peri Chicken Legs",
         "lunch_2": "BBQ Mushroom & Pea Protein Wrap \ud83c\udf31",
@@ -135,7 +135,7 @@
         "dinner_2": "Chili Tortillas w/ Cheese Sauce \ud83c\udf31"
     },
     "C4": {
-        "breakfast": "Continental",
+        "breakfast": "Continental Counter",
         "brunch": null,
         "lunch_1": "Crispy Tofy & Pea Protein \ud83c\udf31",
         "lunch_2": "Cauliflower Cheese Risotto \ud83c\udf31",
@@ -151,7 +151,7 @@
         "dinner_2": "Roast Peppers & Balsamic Syrup Pizza \ud83c\udf31"
     },
     "C6": {
-        "breakfast": "Sausages",
+        "breakfast": "Hot Breakfast",
         "brunch": null,
         "lunch_1": "Gochujang Mac & Cheese \ud83c\udf31",
         "lunch_2": null,
@@ -160,7 +160,7 @@
     },
     "C7": {
         "breakfast": null,
-        "brunch": "Sausages",
+        "brunch": "Hot Breakfast",
         "lunch_1": null,
         "lunch_2": null,
         "dinner_1": "Roast Chicken Drumsticks",

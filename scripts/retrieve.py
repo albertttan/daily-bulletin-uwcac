@@ -23,7 +23,10 @@ def retrieve_history(date_iso):
         "https://en.wikipedia.org/wiki/Wikipedia:Selected_anniversaries/"
         + selected_date.strftime("%B")
     )
-    soup = BeautifulSoup(requests.get(url, timeout=10).text, "html.parser")
+    headers = {
+        'User-Agent': 'DailyBulletinUWCAC/1.0 (https://albertttan.github.io/daily-bulletin-uwcac/) python-requests/2.31.0'
+    }
+    soup = BeautifulSoup(requests.get(url, headers=headers, timeout=10).text, "html.parser")
     date_name = soup.find_all("a", title=selected_date.strftime("%B %-d"))[0 if selected_date.day == 1 else 1].parent.parent
     date_history = date_name.find_next("ul").find_all("li")
 
