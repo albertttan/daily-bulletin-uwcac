@@ -1655,5 +1655,64 @@
             "what": "House Meeting",
             "where": "Student Houses"
         }
+    ],
+    "2025-09-01": [
+        {
+            "when": "08:00\u201309:00",
+            "what": "<b>IB1</b> Co-curricular Introduction",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "09:00\u201311:00",
+            "what": "<b>IB1</b> Wellbeing Workshops Rotations",
+            "where": "—"
+        },
+        {
+            "when": "11:00\u201312:00",
+            "what": "<b>IB1</b> Campus Safety Briefing",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "13:00\u201314:00",
+            "what": "<b>IB1</b> Social Media Workshop",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "14:20\u201315:30",
+            "what": "Endeavour & Prentis Fair",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "15:30\u201316:00",
+            "what": "<b>IB1</b> Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "19:00\u201320:00",
+            "what": "<b>IB1</b> Council Mini Taster Sessions",
+            "where": "—"
+        }
+    ],
+    "2025-09-02": [
+        {
+            "when": "14:30\u201316:30",
+            "what": "<b>IB1</b> CAT Testing (Besse / Sunley)",
+            "where": "IT Room / Biology East"
+        },
+        {
+            "when": "14:30\u201316:30",
+            "what": "<b>IB1</b> Emergency First Aid",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "16:30\u201310:00",
+            "what": "Endeavour Taster Sessions",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "19:00\u201320:00",
+            "what": "<b>IB1</b> Council Mini Taster Sessions",
+            "where": "—"
+        }
     ]
 }
