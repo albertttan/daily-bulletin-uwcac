@@ -10,26 +10,26 @@
     "A2": {
         "breakfast": "Continental Counter",
         "brunch": null,
-        "lunch_1": "Mushroom & Celeriac Bourguignon \ud83c\udf31",
-        "lunch_2": "Spinach Falafel, Roast Onion & Jalapeno \ud83c\udf31",
-        "dinner_1": "Lamb Koftas",
-        "dinner_2": "Grilled Aubergine \ud83c\udf31"
+        "lunch_1": "Harissa Spiced Cauliflower Bake \ud83c\udf31",
+        "lunch_2": "Creamy Orzo \ud83c\udf31",
+        "dinner_1": "Beef Taco",
+        "dinner_2": "Bean Taco \ud83c\udf31"
     },
     "A3": {
         "breakfast": "Hot Breakfast",
         "brunch": null,
-        "lunch_1": "Moroccan Turkey Ragu",
-        "lunch_2": "Green Veg & Pesto Mac & Cheese \ud83c\udf31",
-        "dinner_1": "Halloumi Traybake \ud83c\udf31",
-        "dinner_2": "Roast Red Pepper Risotto \ud83c\udf31"
+        "lunch_1": "Pasta Bar",
+        "lunch_2": null,
+        "dinner_1": "Vegan Paella \ud83c\udf31",
+        "dinner_2": "Spanish Tortilla \ud83c\udf31"
     },
     "A4": {
         "breakfast": "Continental Counter",
         "brunch": null,
-        "lunch_1": "Crispy Tofu \ud83c\udf31",
-        "lunch_2": "Creamy Broccoli Gnocchi \ud83c\udf31",
-        "dinner_1": "Ginger & Chili Beef",
-        "dinner_2": "Crispy Pea Protein & Mushroom Stir Fry \ud83c\udf31"
+        "lunch_1": "Thai Green Curry \ud83c\udf31",
+        "lunch_2": "Sesame Roast Broccoli & Courgette \ud83c\udf31",
+        "dinner_1": "Lamb & Mint Sausages",
+        "dinner_2": "Glamorgan Sausages \ud83c\udf31"
     },
     "A5": {
         "breakfast": "Burrito \ud83c\udf31",
