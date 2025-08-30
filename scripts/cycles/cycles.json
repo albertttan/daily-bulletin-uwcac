@@ -382,391 +382,391 @@
         "weekday_int": "6",
         "weekday_str": "Saturday",
         "codes": null,
-        "menu_week": "A"
+        "menu_week": "C"
     },
     "2025-08-31": {
         "iso": "2025-08-31",
         "weekday_int": "7",
         "weekday_str": "Sunday",
         "codes": null,
-        "menu_week": "A"
+        "menu_week": "C"
     },
     "2025-09-01": {
         "iso": "2025-09-01",
         "weekday_int": "1",
         "weekday_str": "Monday",
         "codes": "BCDEF",
-        "menu_week": "B"
+        "menu_week": "A"
     },
     "2025-09-02": {
         "iso": "2025-09-02",
         "weekday_int": "2",
         "weekday_str": "Tuesday",
         "codes": "FGAB",
-        "menu_week": "B"
+        "menu_week": "A"
     },
     "2025-09-03": {
         "iso": "2025-09-03",
         "weekday_int": "3",
         "weekday_str": "Wednesday",
         "codes": "CDEFG",
-        "menu_week": "B"
+        "menu_week": "A"
     },
     "2025-09-04": {
         "iso": "2025-09-04",
         "weekday_int": "4",
         "weekday_str": "Thursday",
         "codes": "GABCD",
-        "menu_week": "B"
+        "menu_week": "A"
     },
     "2025-09-05": {
         "iso": "2025-09-05",
         "weekday_int": "5",
         "weekday_str": "Friday",
         "codes": "DEFGA",
-        "menu_week": "B"
+        "menu_week": "A"
     },
     "2025-09-06": {
         "iso": "2025-09-06",
         "weekday_int": "6",
         "weekday_str": "Saturday",
         "codes": null,
-        "menu_week": "B"
+        "menu_week": "A"
     },
     "2025-09-07": {
         "iso": "2025-09-07",
         "weekday_int": "7",
         "weekday_str": "Sunday",
         "codes": null,
-        "menu_week": "B"
+        "menu_week": "A"
     },
     "2025-09-08": {
         "iso": "2025-09-08",
         "weekday_int": "1",
         "weekday_str": "Monday",
         "codes": "ABCDE",
-        "menu_week": "C"
+        "menu_week": "B"
     },
     "2025-09-09": {
         "iso": "2025-09-09",
         "weekday_int": "2",
         "weekday_str": "Tuesday",
         "codes": "EFGA",
-        "menu_week": "C"
+        "menu_week": "B"
     },
     "2025-09-10": {
         "iso": "2025-09-10",
         "weekday_int": "3",
         "weekday_str": "Wednesday",
         "codes": "BCDEF",
-        "menu_week": "C"
+        "menu_week": "B"
     },
     "2025-09-11": {
         "iso": "2025-09-11",
         "weekday_int": "4",
         "weekday_str": "Thursday",
         "codes": "FGABC",
-        "menu_week": "C"
+        "menu_week": "B"
     },
     "2025-09-12": {
         "iso": "2025-09-12",
         "weekday_int": "5",
         "weekday_str": "Friday",
         "codes": "CDEFG",
-        "menu_week": "C"
+        "menu_week": "B"
     },
     "2025-09-13": {
         "iso": "2025-09-13",
         "weekday_int": "6",
         "weekday_str": "Saturday",
         "codes": null,
-        "menu_week": "C"
+        "menu_week": "B"
     },
     "2025-09-14": {
         "iso": "2025-09-14",
         "weekday_int": "7",
         "weekday_str": "Sunday",
         "codes": null,
-        "menu_week": "C"
+        "menu_week": "B"
     },
     "2025-09-15": {
         "iso": "2025-09-15",
         "weekday_int": "1",
         "weekday_str": "Monday",
         "codes": "GABCD",
-        "menu_week": "A"
+        "menu_week": "C"
     },
     "2025-09-16": {
         "iso": "2025-09-16",
         "weekday_int": "2",
         "weekday_str": "Tuesday",
         "codes": "DEFG",
-        "menu_week": "A"
+        "menu_week": "C"
     },
     "2025-09-17": {
         "iso": "2025-09-17",
         "weekday_int": "3",
         "weekday_str": "Wednesday",
         "codes": "ABCDE",
-        "menu_week": "A"
+        "menu_week": "C"
     },
     "2025-09-18": {
         "iso": "2025-09-18",
         "weekday_int": "4",
         "weekday_str": "Thursday",
         "codes": "EFGAB",
-        "menu_week": "A"
+        "menu_week": "C"
     },
     "2025-09-19": {
         "iso": "2025-09-19",
         "weekday_int": "5",
         "weekday_str": "Friday",
         "codes": "BCDEF",
-        "menu_week": "A"
+        "menu_week": "C"
     },
     "2025-09-20": {
         "iso": "2025-09-20",
         "weekday_int": "6",
         "weekday_str": "Saturday",
         "codes": null,
-        "menu_week": "A"
+        "menu_week": "C"
     },
     "2025-09-21": {
         "iso": "2025-09-21",
         "weekday_int": "7",
         "weekday_str": "Sunday",
         "codes": null,
-        "menu_week": "A"
+        "menu_week": "C"
     },
     "2025-09-22": {
         "iso": "2025-09-22",
         "weekday_int": "1",
         "weekday_str": "Monday",
         "codes": "FGABC",
-        "menu_week": "B"
+        "menu_week": "A"
     },
     "2025-09-23": {
         "iso": "2025-09-23",
         "weekday_int": "2",
         "weekday_str": "Tuesday",
         "codes": "CDEF",
-        "menu_week": "B"
+        "menu_week": "A"
     },
     "2025-09-24": {
         "iso": "2025-09-24",
         "weekday_int": "3",
         "weekday_str": "Wednesday",
         "codes": "GABCD",
-        "menu_week": "B"
+        "menu_week": "A"
     },
     "2025-09-25": {
         "iso": "2025-09-25",
         "weekday_int": "4",
         "weekday_str": "Thursday",
         "codes": "DEFGA",
-        "menu_week": "B"
+        "menu_week": "A"
     },
     "2025-09-26": {
         "iso": "2025-09-26",
         "weekday_int": "5",
         "weekday_str": "Friday",
         "codes": "ABCDE",
-        "menu_week": "B"
+        "menu_week": "A"
     },
     "2025-09-27": {
         "iso": "2025-09-27",
         "weekday_int": "6",
         "weekday_str": "Saturday",
         "codes": null,
-        "menu_week": "B"
+        "menu_week": "A"
     },
     "2025-09-28": {
         "iso": "2025-09-28",
         "weekday_int": "7",
         "weekday_str": "Sunday",
         "codes": null,
-        "menu_week": "B"
+        "menu_week": "A"
     },
     "2025-09-29": {
         "iso": "2025-09-29",
         "weekday_int": "1",
         "weekday_str": "Monday",
         "codes": "EFGAB",
-        "menu_week": "C"
+        "menu_week": "B"
     },
     "2025-09-30": {
         "iso": "2025-09-30",
         "weekday_int": "2",
         "weekday_str": "Tuesday",
         "codes": "BCDE",
-        "menu_week": "C"
+        "menu_week": "B"
     },
     "2025-10-01": {
         "iso": "2025-10-01",
         "weekday_int": "3",
         "weekday_str": "Wednesday",
         "codes": "FGABC",
-        "menu_week": "C"
+        "menu_week": "B"
     },
     "2025-10-02": {
         "iso": "2025-10-02",
         "weekday_int": "4",
         "weekday_str": "Thursday",
         "codes": "CDEFG",
-        "menu_week": "C"
+        "menu_week": "B"
     },
     "2025-10-03": {
         "iso": "2025-10-03",
         "weekday_int": "5",
         "weekday_str": "Friday",
         "codes": "GABCD",
-        "menu_week": "C"
+        "menu_week": "B"
     },
     "2025-10-04": {
         "iso": "2025-10-04",
         "weekday_int": "6",
         "weekday_str": "Saturday",
         "codes": null,
-        "menu_week": "C"
+        "menu_week": "B"
     },
     "2025-10-05": {
         "iso": "2025-10-05",
         "weekday_int": "7",
         "weekday_str": "Sunday",
         "codes": null,
-        "menu_week": "C"
+        "menu_week": "B"
     },
     "2025-10-06": {
         "iso": "2025-10-06",
         "weekday_int": "1",
         "weekday_str": "Monday",
         "codes": "DEFGA",
-        "menu_week": "A"
+        "menu_week": "C"
     },
     "2025-10-07": {
         "iso": "2025-10-07",
         "weekday_int": "2",
         "weekday_str": "Tuesday",
         "codes": "ABCD",
-        "menu_week": "A"
+        "menu_week": "C"
     },
     "2025-10-08": {
         "iso": "2025-10-08",
         "weekday_int": "3",
         "weekday_str": "Wednesday",
         "codes": "EFGAB",
-        "menu_week": "A"
+        "menu_week": "C"
     },
     "2025-10-09": {
         "iso": "2025-10-09",
         "weekday_int": "4",
         "weekday_str": "Thursday",
         "codes": "BCDEF",
-        "menu_week": "A"
+        "menu_week": "C"
     },
     "2025-10-10": {
         "iso": "2025-10-10",
         "weekday_int": "5",
         "weekday_str": "Friday",
         "codes": "FGABC",
-        "menu_week": "A"
+        "menu_week": "C"
     },
     "2025-10-11": {
         "iso": "2025-10-11",
         "weekday_int": "6",
         "weekday_str": "Saturday",
         "codes": null,
-        "menu_week": "A"
+        "menu_week": "C"
     },
     "2025-10-12": {
         "iso": "2025-10-12",
         "weekday_int": "7",
         "weekday_str": "Sunday",
         "codes": null,
-        "menu_week": "A"
+        "menu_week": "C"
     },
     "2025-10-13": {
         "iso": "2025-10-13",
         "weekday_int": "1",
         "weekday_str": "Monday",
         "codes": "CDEFG",
-        "menu_week": "B"
+        "menu_week": "A"
     },
     "2025-10-14": {
         "iso": "2025-10-14",
         "weekday_int": "2",
         "weekday_str": "Tuesday",
         "codes": "GABC",
-        "menu_week": "B"
+        "menu_week": "A"
     },
     "2025-10-15": {
         "iso": "2025-10-15",
         "weekday_int": "3",
         "weekday_str": "Wednesday",
         "codes": "DEFGA",
-        "menu_week": "B"
+        "menu_week": "A"
     },
     "2025-10-16": {
         "iso": "2025-10-16",
         "weekday_int": "4",
         "weekday_str": "Thursday",
         "codes": "ABCDE",
-        "menu_week": "B"
+        "menu_week": "A"
     },
     "2025-10-17": {
         "iso": "2025-10-17",
         "weekday_int": "5",
         "weekday_str": "Friday",
         "codes": "EFGAB",
-        "menu_week": "B"
+        "menu_week": "A"
     },
     "2025-10-18": {
         "iso": "2025-10-18",
         "weekday_int": "6",
         "weekday_str": "Saturday",
         "codes": null,
-        "menu_week": "B"
+        "menu_week": "A"
     },
     "2025-10-19": {
         "iso": "2025-10-19",
         "weekday_int": "7",
         "weekday_str": "Sunday",
         "codes": null,
-        "menu_week": "B"
+        "menu_week": "A"
     },
     "2025-10-20": {
         "iso": "2025-10-20",
         "weekday_int": "1",
         "weekday_str": "Monday",
         "codes": "BCDEF",
-        "menu_week": "C"
+        "menu_week": "B"
     },
     "2025-10-21": {
         "iso": "2025-10-21",
         "weekday_int": "2",
         "weekday_str": "Tuesday",
         "codes": "FGAB",
-        "menu_week": "C"
+        "menu_week": "B"
     },
     "2025-10-22": {
         "iso": "2025-10-22",
         "weekday_int": "3",
         "weekday_str": "Wednesday",
         "codes": "CDEFG",
-        "menu_week": "C"
+        "menu_week": "B"
     },
     "2025-10-23": {
         "iso": "2025-10-23",
         "weekday_int": "4",
         "weekday_str": "Thursday",
         "codes": "GABCD",
-        "menu_week": "C"
+        "menu_week": "B"
     },
     "2025-10-24": {
         "iso": "2025-10-24",
         "weekday_int": "5",
         "weekday_str": "Friday",
         "codes": "DEFGA",
-        "menu_week": "C"
+        "menu_week": "B"
     }
 }
