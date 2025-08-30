@@ -1,7 +1,7 @@
 .DS_Store
-contacts-raw.txt
-contacts-students.json
-contacts-teachers.json
+contacts-raw*.txt
+contacts-students*.json
+contacts-teachers*.json
 contacts-trial.json
 *.xlsx
 *.eml
