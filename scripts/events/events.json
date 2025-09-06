@@ -1803,5 +1803,17 @@
             "what": "Endeavour & Prentis Sign-up Ends",
             "where": "—"
         }
+    ],
+    "2025-09-08": [
+        {
+            "when": "14:30\u201315:30",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "15:30\u201316:30",
+            "what": "Community Gathering",
+            "where": "Sports Hall"
+        }
     ]
 }
