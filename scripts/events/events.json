@@ -1806,14 +1806,16 @@
     ],
     "2025-09-08": [
         {
-            "when": "14:30\u201315:30",
+            "when": "14:20\u201315:15",
             "what": "Tutorial",
             "where": "Tutor Rooms"
         },
         {
-            "when": "15:30\u201316:30",
+            "when": "15:15\u201316:00",
             "what": "Community Gathering",
             "where": "Sports Hall"
         }
-    ]
+    ],
+    "2025-09-09": [],
+    "2025-09-10": []
 }
