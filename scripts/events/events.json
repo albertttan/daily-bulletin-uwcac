@@ -1830,5 +1830,36 @@
             "what": "SOSH",
             "where": "Tythe Barn"
         }
+    ],
+    "2025-09-13": [
+        {
+            "when": "\u2014",
+            "what": "<b>IB1</b> Camp",
+            "where": "\u2014"
+        },
+        {
+            "when": "07:30\u201310:00",
+            "what": "SAT Test",
+            "where": "Sports Hall"
+        }
+    ],
+    "2025-09-14": [
+        {
+            "when": "\u2014",
+            "what": "<b>IB1</b> Camp",
+            "where": "\u2014"
+        },
+        {
+            "when": "13:30\u201317:00",
+            "what": "ACFC v. Vale United",
+            "where": "Corntown"
+        }
+    ],
+    "2025-09-15": [
+        {
+            "when": "14:20\u201315:15",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        }
     ]
 }
