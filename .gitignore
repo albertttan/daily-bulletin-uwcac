@@ -3,6 +3,7 @@ contacts-raw*.txt
 contacts-students*.json
 contacts-teachers*.json
 contacts-trial.json
+contacts.txt
 *.xlsx
 *.eml
 __pycache__/
