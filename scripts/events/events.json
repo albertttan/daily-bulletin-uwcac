@@ -1665,7 +1665,7 @@
         {
             "when": "09:00\u201311:00",
             "what": "<b>IB1</b> Wellbeing Workshops Rotations",
-            "where": "—"
+            "where": "\u2014"
         },
         {
             "when": "11:00\u201312:00",
@@ -1690,7 +1690,7 @@
         {
             "when": "19:00\u201320:00",
             "what": "<b>IB1</b> Council Mini Taster Sessions",
-            "where": "—"
+            "where": "\u2014"
         }
     ],
     "2025-09-02": [
@@ -1712,12 +1712,12 @@
         {
             "when": "16:30\u201319:00",
             "what": "Endeavour Taster Sessions",
-            "where": "—"
+            "where": "\u2014"
         },
         {
             "when": "19:00\u201320:00",
             "what": "<b>IB1</b> Council Mini Taster Sessions",
-            "where": "—"
+            "where": "\u2014"
         }
     ],
     "2025-09-03": [
@@ -1749,12 +1749,12 @@
         {
             "when": "16:30\u201319:00",
             "what": "Endeavour Taster Sessions",
-            "where": "—"
+            "where": "\u2014"
         },
         {
             "when": "19:00\u201320:00",
             "what": "<b>IB1</b> Council Mini Taster Sessions",
-            "where": "—"
+            "where": "\u2014"
         }
     ],
     "2025-09-04": [
@@ -1776,19 +1776,19 @@
         {
             "when": "16:30\u201319:00",
             "what": "Endeavour Taster Sessions",
-            "where": "—"
+            "where": "\u2014"
         },
         {
             "when": "19:00\u201320:00",
             "what": "<b>IB1</b> Council Mini Taster Sessions",
-            "where": "—"
+            "where": "\u2014"
         }
     ],
     "2025-09-05": [
         {
-            "when": "—",
+            "when": "\u2014",
             "what": "Endeavour & Prentis Sign-up Starts",
-            "where": "—"
+            "where": "\u2014"
         },
         {
             "when": "14:30\u201316:30",
@@ -1801,7 +1801,7 @@
         {
             "when": "20:00",
             "what": "Endeavour & Prentis Sign-up Ends",
-            "where": "—"
+            "where": "\u2014"
         }
     ],
     "2025-09-08": [
@@ -1857,9 +1857,96 @@
     ],
     "2025-09-15": [
         {
-            "when": "14:20\u201315:15",
+            "when": "14:20\u201315:00",
             "what": "Tutorial",
             "where": "Tutor Rooms"
+        }
+    ],
+    "2025-09-16": [
+        {
+            "when": "13:00\u201319:00",
+            "what": "Pen y Fan Hike",
+            "where": NaN
+        },
+        {
+            "when": "19:30\u201320:00",
+            "what": "FEMO",
+            "where": "Great Hall"
+        },
+        {
+            "when": "020:0\u201320:30",
+            "what": "SusCo",
+            "where": "Valley"
+        }
+    ],
+    "2025-09-17": [
+        {
+            "when": "16:30\u201317:30",
+            "what": "UWC Week Food Fair",
+            "where": "Moondance"
+        },
+        {
+            "when": "19:30\u201320:00",
+            "what": "WellCo \u2600\ufe0f",
+            "where": "Great Hall"
+        },
+        {
+            "when": "020:0\u201320:30",
+            "what": "P6",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-09-18": [
+        {
+            "when": "16:00\u201317:00",
+            "what": "University Visit - St Lawrence University",
+            "where": "Great Hall"
+        },
+        {
+            "when": "17:00\u201317:45",
+            "what": "UWC Week Alumni Panel",
+            "where": "Glassroom"
+        },
+        {
+            "when": "19:30\u201320:00",
+            "what": "PeaCo",
+            "where": "Top Lawn"
+        }
+    ],
+    "2025-09-19": [
+        {
+            "when": "020:3\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
+        },
+        {
+            "when": "020:3\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        }
+    ],
+    "2025-09-20": [
+        {
+            "when": "10:00\u201317:00",
+            "what": "Open Day",
+            "where": NaN
+        },
+        {
+            "when": "18:30\u201319:30",
+            "what": "Human Library",
+            "where": "Library"
+        }
+    ],
+    "2025-09-21": [
+        {
+            "when": "13:00\u201316:30",
+            "what": "UWC Day - Performances and Workshops",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "14:00\u201317:00",
+            "what": "ACFC X AFC Rhoose",
+            "where": "Sports Field"
         }
     ]
 }
