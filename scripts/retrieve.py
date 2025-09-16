@@ -78,9 +78,10 @@ def retrieve_news_ap():
     output = []
 
     # Locate headings
-    for element in soup.find_all("div", class_="PagePromo-content")[:3]:
+    for element in soup.find_all("div", class_="PagePromo-content"):
         heading = element.find("h3")
-        output.append(heading.find("a"))
+        if heading and heading.find("a"):
+            output.append(heading.find("a"))
     
     # Clean results
     for element in output:
