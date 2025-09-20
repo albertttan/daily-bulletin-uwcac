@@ -1948,5 +1948,17 @@
             "what": "ACFC X AFC Rhoose",
             "where": "Sports Field"
         }
+    ],
+    "2025-09-22": [
+        {
+            "when": "09:00\u201309:45",
+            "what": "<b>IB1</b> Community Gathering",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "10:15\u201311:00",
+            "what": "<b>IB2</b> Community Gathering",
+            "where": "Sports Hall"
+        }
     ]
 }
