@@ -1959,6 +1959,11 @@
             "when": "10:15\u201311:00",
             "what": "<b>IB2</b> Community Gathering",
             "where": "Sports Hall"
+        },
+        {
+            "when": "20:00\u201321:00",
+            "what": "StuCo",
+            "where": "Great Hall"
         }
     ]
 }
