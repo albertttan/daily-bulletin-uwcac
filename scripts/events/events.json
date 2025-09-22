@@ -1915,14 +1915,14 @@
     ],
     "2025-09-19": [
         {
-            "when": "020:3\u201322:00",
-            "what": "SOSH",
-            "where": "Tythe Barn"
-        },
-        {
-            "when": "020:3\u201322:00",
+            "when": "20:00\u201322:00",
             "what": "Hideout",
             "where": "Moondance"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
         }
     ],
     "2025-09-20": [
@@ -1945,7 +1945,7 @@
         },
         {
             "when": "14:00\u201317:00",
-            "what": "ACFC X AFC Rhoose",
+            "what": "ACFC v. AFC Rhoose",
             "where": "Sports Field"
         }
     ],
@@ -1964,6 +1964,78 @@
             "when": "20:00\u201321:00",
             "what": "StuCo",
             "where": "Great Hall"
+        }
+    ],
+    "2025-09-23": [
+        {
+            "when": "16:30\u201317:30",
+            "what": "University Visit (Bowdoin & <a href='https://docs.google.com/spreadsheets/d/1Otxn3Pu0FOkMfPqIcYDB5koE0rscT23DK94mP1MqKLk/edit'>6 more</a>)",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "FEMO",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-09-24": [
+        {
+            "when": "16:00\u201317:00",
+            "what": "University Visit (Macalester & <a href='https://docs.google.com/spreadsheets/d/1Otxn3Pu0FOkMfPqIcYDB5koE0rscT23DK94mP1MqKLk/edit'>8 more</a>)",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "P6",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-09-25": [
+        {
+            "when": "16:00\u201317:00",
+            "what": "University Visit (Goucher & <a href='https://docs.google.com/spreadsheets/d/1Otxn3Pu0FOkMfPqIcYDB5koE0rscT23DK94mP1MqKLk/edit'>7 more</a>)",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "PeaCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-09-26": [
+        {
+            "when": "15:00\u201316:00",
+            "what": "University Visit (Yale)",
+            "where": "Library"
+        },
+        {
+            "when": "16:00\u201317:00",
+            "what": "Cafe Concert",
+            "where": "Glassroom"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2025-09-27": [
+        {
+            "when": "20:30\u201322:00",
+            "what": "British Isles National Evening",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2025-09-28": [
+        {
+            "when": "12:00\u201317:00",
+            "what": "ACFC v. Cogan Coronation",
+            "where": "Cogan"
         }
     ]
 }
