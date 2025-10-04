@@ -1,7 +1,9 @@
 import os
 import json
 import base64
+import random
 import requests
+from tkinter import Tk
 from bs4 import BeautifulSoup
 
 
@@ -31,45 +33,45 @@ def encode_image(path):
     return encoded
 
 
-def compile_email(date_iso, contacts, html):
+def compile_email(date_iso):
 
-    # Load relevant files
-    with open(f"contacts/{contacts}.json") as file:
-        recipients = ", ".join(f"{k} <{v}>" for k, v in json.load(file).items())
-    with open("../static/styles.css") as file:
-        css = file.read()
-    soup = BeautifulSoup(html, "html.parser")
+    with open(f"contacts/contacts.txt") as file:
+        recipients = file.read()
+    with open(f"cycles/cycles.json") as file:
+        cycles = json.load(file)
+        weekday_str = cycles[date_iso]["weekday_str"]
 
-    # Attach CSS
-    soup.find("link").decompose()
-    style = soup.new_tag("style")
-    style.string = css
-    soup.head.append(style)
+    to = "direct recipient|Albert Tan <a24ytan@uwcatlantic.org>"
+    bcc = f"bcc recipients|{recipients}"
+    subject = f"email subject|Daily Bulletin {date_iso}"
+    link = f"page URL|https://albertttan.github.io/pages/{date_iso}.html"
 
-    # Attach images
-    imgs = soup.find_all("img")
-    for img in imgs:
-        img["src"] = encode_image(img["src"])
+    content = "email contents|"
+    content += random.choice(["Hi ", "Hi ", "Hello ", "Greetings " ])
+    content += random.choice(["all,\n\n", "all,\n\n", "everyone,\n\n", "Atlantic College,\n\n"])
+    content += random.choice(["", "", "Good morning! ", f"Happy {weekday_str}! "])
+    content += random.choice([
+        "Here's today's Daily Bulletin!\n\n",
+        "Here's today's Daily Bulletin!\n\n",
+        "Here's today's bulletin!\n\n",
+        "Please check today's Daily Bulletin.\n\n"
+    ])
+    content += random.choice([
+        "Lots of wellbeing love,\n",
+        "Lots of wellbeing love,\n",
+        "Thanks,\n",
+        "Have a great day,\n"
+    ])
+    content += "WellCo and Albert"
 
-    # Encode HTML
-    encoded_html = base64.b64encode(str(soup).encode("utf-8")).decode(
-        "utf-8", "surrogateescape"
-    )
-
-    # Output
-    with open(f"../emails/Daily Bulletin {date_iso}.eml", "w") as file:
-        file.write(
-            f"""Subject: Daily Bulletin {date_iso}
-From: WellCo Daily Bulletin <wellco@uwcatlantic.org>
-Cc: Albert Tan <a24ytan@uwcatlantic.org>, Jane Xu <a24jxu@uwcatlantic.org>, Adonis Alexis <a24arod@uwcatlantic.org>
-Bcc: {recipients}
-Reply-To: UWCA WellCo <wellco@uwcatlantic.org>
-Content-Transfer-Encoding: base64
-Content-Type: text/html; charset=UTF-8
-
-{encoded_html}
-"""
-        )
+    for info in [to, bcc, subject, content, link]:
+        r = Tk()
+        r.withdraw()
+        r.clipboard_clear()
+        r.clipboard_append(info.split("|")[1])
+        r.update()
+        r.destroy()
+        input(f"Copied {info.split("|")[0]} to clipboard...")
 
 
 def update_pages(date_iso):

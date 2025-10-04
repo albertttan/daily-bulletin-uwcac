@@ -16,7 +16,7 @@ def render_html(date):
     date_iso = date[0].isoformat()
     env = Environment(loader=FileSystemLoader("."))
     template = env.get_template("template.html")
-    print("Processed date and template...", file=sys.stderr)
+    print(f"Processing Daily Bulletin {date_iso}...", file=sys.stderr)
 
     # Cycles
 
@@ -110,21 +110,21 @@ def render_html(date):
     return news_info[-1]
 
 
-def main(date_iso=None, stop_render=None, recipients=None):
+def main(date_iso=None, update_only=False):
 
-    if not stop_render: 
+    if date_iso:
+        date = [
+            datetime.date.fromisoformat(date_iso),
+            datetime.date.fromisoformat(date_iso) + datetime.timedelta(days=1),
+        ]
+    else:
+        date = [
+            datetime.date.today() + datetime.timedelta(days=1),
+            datetime.date.today() + datetime.timedelta(days=2),
+        ]
+        date_iso = date[0].isoformat()
 
-        if date_iso:
-            date = [
-                datetime.date.fromisoformat(date_iso),
-                datetime.date.fromisoformat(date_iso) + datetime.timedelta(days=1),
-            ]
-        else:
-            date = [
-                datetime.date.today() + datetime.timedelta(days=1),
-                datetime.date.today() + datetime.timedelta(days=2),
-            ]
-            date_iso = date[0].isoformat()
+    if not update_only: 
 
         # Manual confirmation to proceed
         news_timestamp = render_html(date)
@@ -152,19 +152,17 @@ def main(date_iso=None, stop_render=None, recipients=None):
         with open(f"../pages/{date_iso}.html") as file:
             output = file.read()
 
-    # Compile email & upload page
-
-    if recipients: 
-        compile_email(date_iso, recipients, output)
-        subprocess.run(
-            ["open", "-a", "Mail", f"../emails/Daily Bulletin {date_iso}.eml"], check=True
-        )
+    # Upload page & compile email
 
     update_pages(date_iso)
 
     os.system("git add ..")
     subprocess.run(["git", "commit", "-m", f"Daily Bulletin {date_iso}"], check=True)
     os.system("git push origin main")
+
+    compile_email(date_iso)
+
+    print("Process completed, thank you!")
 
 
 if __name__ == "__main__":
