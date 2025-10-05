@@ -44,7 +44,7 @@ def compile_email(date_iso):
     to = "direct recipient|Albert Tan <a24ytan@uwcatlantic.org>"
     bcc = f"bcc recipients|{recipients}"
     subject = f"email subject|Daily Bulletin {date_iso}"
-    link = f"page URL|https://albertttan.github.io/pages/{date_iso}.html"
+    link = f"page URL|https://albertttan.github.io/daily-bulletin-uwcac/pages/{date_iso}.html"
 
     content = "email contents|"
     content += random.choice(["Hi ", "Hi ", "Hello ", "Greetings " ])
