@@ -2047,7 +2047,7 @@
         {
             "when": "15:15\u201316:00",
             "what": "PW Briefing",
-            "where": "—"
+            "where": "\u2014"
         },
         {
             "when": "19:30\u201320:30",
@@ -2114,7 +2114,7 @@
     ],
     "2025-10-06": [
         {
-            "when": "14:20\u201315:10",
+            "when": "14:20\u201315:00",
             "what": "Tutorial",
             "where": "Tutor Rooms"
         },
@@ -2124,9 +2124,75 @@
             "where": "Sports Hall"
         },
         {
+            "when": "020:3\u201321:30",
+            "what": "Open House",
+            "where": "Valentina's House"
+        }
+    ],
+    "2025-10-07": [
+        {
             "when": "19:30\u201320:30",
-            "what": "StuCo",
+            "what": "FEMO",
             "where": "Great Hall"
+        },
+        {
+            "when": "020:3\u201321:30",
+            "what": "Candelight Vigil",
+            "where": "Bradenstoke"
+        }
+    ],
+    "2025-10-08": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "WellCo \u2600\ufe0f",
+            "where": "\u2014"
+        },
+        {
+            "when": "20:30\u201321:30",
+            "what": "Open House",
+            "where": "Emilia's House"
+        }
+    ],
+    "2025-10-09": [],
+    "2025-10-10": [
+        {
+            "when": "20:30\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "AC's Got Talent",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2025-10-11": [
+        {
+            "when": "14:00\u201316:00",
+            "what": "ACFC Vs Cardiff Sixth Form",
+            "where": "Sports Field"
+        },
+        {
+            "when": "020:3\u201322:00",
+            "what": "AfroCaribbeans National Evening",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2025-10-12": [
+        {
+            "when": "07:45\u201317:00",
+            "what": "Stonehenge Trip",
+            "where": "Stonehenge"
+        },
+        {
+            "when": "15:00\u201317:00",
+            "what": "University Visit",
+            "where": "Glassroom"
         }
     ]
 }
