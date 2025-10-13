@@ -2194,5 +2194,43 @@
             "what": "University Visit",
             "where": "Glassroom"
         }
+    ],
+    "2025-10-13": [
+        {
+            "when": "16:30\u201317:40",
+            "what": "University Visit (Wesleyan & Tulane)",
+            "where": "Great Hall"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "SLACC",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-10-14": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "SusCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-10-15": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "P6",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-10-16": [
+        {
+            "when": "16:00\u201317:00",
+            "what": "British Physics Olympiad",
+            "where": "Physics 1"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "PeaCo",
+            "where": "Great Hall"
+        }
     ]
 }
