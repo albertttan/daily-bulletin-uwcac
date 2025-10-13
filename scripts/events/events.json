@@ -2216,8 +2216,13 @@
     ],
     "2025-10-15": [
         {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
             "when": "19:30\u201320:30",
-            "what": "P6",
+            "what": "Queer Fashion Show",
             "where": "Great Hall"
         }
     ],
@@ -2228,9 +2233,26 @@
             "where": "Physics 1"
         },
         {
+            "when": "18:00\u201319:30",
+            "what": "Film Screening: Paris is Burning",
+            "where": "Tythe Barn"
+        },
+        {
             "when": "19:30\u201320:30",
             "what": "PeaCo",
             "where": "Great Hall"
+        }
+    ],
+    "2025-10-17": [
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "Percentage Ball 🏳️‍🌈",
+            "where": "Tythe Barn"
         }
     ]
 }
