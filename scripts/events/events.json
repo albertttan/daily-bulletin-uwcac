@@ -2254,5 +2254,29 @@
             "what": "Percentage Ball 🏳️‍🌈",
             "where": "Tythe Barn"
         }
+    ],
+    "2025-10-18": [
+        {
+            "when": "13:00\u201320:00",
+            "what": "Lighthouse Hackathon",
+            "where": "STP & Glassroom"
+        },
+        {
+            "when": "19:00\u201321:00",
+            "what": "Diwali Celebration",
+            "where": "Aditya's House"
+        }
+    ],
+    "2025-10-19": [
+        {
+            "when": "10:00\u201312:00",
+            "what": "Mini Apple Juice Festival",
+            "where": "Valley"
+        },
+        {
+            "when": "14:00\u201317:00",
+            "what": "ACFC v. Sully Sports FC",
+            "where": "Sully"
+        }
     ]
 }
