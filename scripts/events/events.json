@@ -2278,5 +2278,29 @@
             "what": "ACFC v. Sully Sports FC",
             "where": "Sully"
         }
+    ],
+    "2025-10-20": [
+        {
+            "when": "14:20\u201314:45",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "14:20\u201314:45",
+            "what": "<span style='font-variant: small-caps;'><b>Student Concerns Open Session</b></span>",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "StuCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-10-21": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "FEMO",
+            "where": "Great Hall"
+        }
     ]
 }

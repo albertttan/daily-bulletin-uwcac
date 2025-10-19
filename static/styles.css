@@ -23,7 +23,7 @@
 }
 
 html {
-	font-family: -apple-system, BlinkMacSystemFont, "SF Pro", "Inter", "Noto Sans SC", sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "SF Pro", "Inter", "PingFang SC", "Noto Sans SC", sans-serif;
 	--uwc-blue: rgb(0, 100, 166); /* Pantone 2945 */
 	--uwc-green: rgb(0, 144, 136); /* Pantone 3285 */
 	--wellco-lightblue: rgb(121, 175, 215);
@@ -93,6 +93,10 @@ span.note {
 
 span.serif {
 	font-family: "New York", "Baskerville", "Noto Serif SC", serif;
+}
+
+span[lang|="zh"] {
+	font-family: "PingFang SC", "Noto Sans SC", "" serif;
 }
 
 a {
