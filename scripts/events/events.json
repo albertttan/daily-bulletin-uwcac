@@ -2298,9 +2298,21 @@
     ],
     "2025-10-21": [
         {
+            "when": "08:00\u201309:00",
+            "what": "WellCo & KHC Meditation Session ☀️",
+            "where": "Great Hall"
+        },
+        {
             "when": "19:30\u201320:30",
             "what": "FEMO",
             "where": "Great Hall"
+        }
+    ],
+    "2025-10-22": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
         }
     ]
 }
