@@ -2313,6 +2313,18 @@
             "when": "17:00\u201319:00",
             "what": "Wellbeing Drop-in",
             "where": "Health Centre"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "P6",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-10-23": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "PeaCo",
+            "where": "Great Hall"
         }
     ]
 }
