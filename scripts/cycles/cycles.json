@@ -769,5 +769,18 @@
         "codes": "DEFGA",
         "menu_week": "B"
     },
-    "2025-10-25": {}
+    "2025-11-03": {
+        "iso": "2025-11-03",
+        "weekday_int": "1",
+        "weekday_str": "Monday",
+        "codes": "ABCD",
+        "menu_week": "C"
+    },
+    "2025-11-04": {
+        "iso": "2025-11-04",
+        "weekday_int": "2",
+        "weekday_str": "Tuesday",
+        "codes": "EFGA",
+        "menu_week": "C"
+    }
 }
