@@ -2251,7 +2251,7 @@
         },
         {
             "when": "20:30\u201322:00",
-            "what": "Percentage Ball 🏳️‍🌈",
+            "what": "Percentage Ball \ud83c\udff3\ufe0f\u200d\ud83c\udf08",
             "where": "Tythe Barn"
         }
     ],
@@ -2299,7 +2299,7 @@
     "2025-10-21": [
         {
             "when": "08:00\u201309:00",
-            "what": "WellCo & KHC Meditation Session ☀️",
+            "what": "WellCo & KHC Meditation Session \u2600\ufe0f",
             "where": "Great Hall"
         },
         {
@@ -2336,9 +2336,81 @@
     ],
     "2025-11-03": [
         {
+            "when": "14:00\u201315:00",
+            "what": "IB2 Community Gathering",
+            "where": "Bradenstoke"
+        },
+        {
             "when": "19:30\u201320:30",
-            "what": "SLACC",
+            "what": "StuCo",
             "where": "Great Hall"
+        }
+    ],
+    "2025-11-04": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "FEMO",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-11-05": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "020:3\u201321:30",
+            "what": "Bonfire Night",
+            "where": "Valley"
+        }
+    ],
+    "2025-11-06": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "PeaCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-11-07": [
+        {
+            "when": "14:15\u201315:15",
+            "what": "Friday Night Lecture",
+            "where": "Great Hall"
+        },
+        {
+            "when": "19:00\u201322:00",
+            "what": "Haunted Castle and Sosh",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2025-11-08": [
+        {
+            "when": "07:00\u201311:00",
+            "what": "SATs",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "18:30\u201320:30",
+            "what": "AP Event",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "020:3\u201321:30",
+            "what": "Mediterranean National Evening",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2025-11-09": [
+        {
+            "when": "13:00\u201318:30",
+            "what": "Rugby Trip",
+            "where": "Cardiff"
+        },
+        {
+            "when": "14:00\u201317:00",
+            "what": "ACFC v. Island Marine FC",
+            "where": "Sports Field"
         }
     ]
 }
