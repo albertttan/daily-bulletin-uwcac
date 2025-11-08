@@ -2396,7 +2396,7 @@
             "where": "Bradenstoke"
         },
         {
-            "when": "020:3\u201321:30",
+            "when": "20:30\u201321:30",
             "what": "Mediterranean National Evening",
             "where": "Tythe Barn"
         }
@@ -2411,6 +2411,23 @@
             "when": "14:00\u201317:00",
             "what": "ACFC v. Island Marine FC",
             "where": "Sports Field"
+        }
+    ],
+    "2025-11-10": [
+        {
+            "when": "14:00\u201315:00",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "15:00\u201316:00",
+            "what": "Community Gathering",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "SLACC",
+            "where": "Great Hall"
         }
     ]
 }
