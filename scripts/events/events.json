@@ -2423,11 +2423,57 @@
             "when": "15:00\u201316:00",
             "what": "Community Gathering",
             "where": "Sports Hall"
+        }
+    ],
+    "2025-11-11": [
+        {
+            "when": "17:30\u2013-19:00",
+            "what": "Dinner Winter Roasties Special",
+            "where": "Canteen"
         },
         {
             "when": "19:30\u201320:30",
-            "what": "SLACC",
+            "what": "SusCo",
             "where": "Great Hall"
+        }
+    ],
+    "2025-11-12": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Great Hall"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "P6",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-11-13": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "PeaCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-11-14": [
+        {
+            "when": "20:30\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "AC Talent Show",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2025-11-15": [],
+    "2025-11-16": [
+        {
+            "when": "11:45\u201316:30",
+            "what": "Lexicon",
+            "where": "Campus"
         }
     ]
 }
