@@ -2475,5 +2475,94 @@
             "what": "Lexicon",
             "where": "Campus"
         }
+    ],
+    "2025-11-17": [
+        {
+            "when": "09:00\u201316:30",
+            "what": "Lexicon",
+            "where": "Campus"
+        }
+    ],
+    "2025-11-18": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "FEMO",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-11-19": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Great Hall"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "WellCo \u2600\ufe0f",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-11-20": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "PeaCo",
+            "where": NaN
+        }
+    ],
+    "2025-11-21": [
+        {
+            "when": "16:00\u201317:00",
+            "what": "Cafe Concert",
+            "where": "Glassroom"
+        },
+        {
+            "when": "15:00\u201318:00",
+            "what": "AC Olympics: Opening and Basketball",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "19:00\u201322:00",
+            "what": "AC Olympics: Volleyball",
+            "where": "Sports Hall"
+        }
+    ],
+    "2025-11-22": [
+        {
+            "when": "09:00\u201310:00",
+            "what": "AC Olympics: Sprints & Swimming",
+            "where": "Pool/Jousting Field"
+        },
+        {
+            "when": "10:00\u201313:00",
+            "what": "AC Olympics: Kickball",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "13:00\u201315:00",
+            "what": "AC Olympics: Floorball",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "16:00\u201318:00",
+            "what": "AC Olympics: Football",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "020:3\u201322:00",
+            "what": "Eastern European National Evening",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2025-11-23": [
+        {
+            "when": "09:00\u201311:00",
+            "what": "Cardiff Sixth Form - Badminton & Netball",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "18:30\u201319:55",
+            "what": "Human Library",
+            "where": "Library"
+        }
     ]
 }
