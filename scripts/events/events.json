@@ -2504,16 +2504,21 @@
     ],
     "2025-11-20": [
         {
+            "when": "18:00\u201319:00",
+            "what": "Pocky Challenge",
+            "where": "Glassroom"
+        },
+        {
             "when": "19:30\u201320:30",
             "what": "PeaCo",
-            "where": NaN
+            "where": "Great Hall"
         }
     ],
     "2025-11-21": [
         {
-            "when": "16:00\u201317:00",
+            "when": "16:00\u201318:00",
             "what": "Cafe Concert",
-            "where": "Glassroom"
+            "where": "Glass Room"
         },
         {
             "when": "15:00\u201318:00",
@@ -2524,6 +2529,11 @@
             "when": "19:00\u201322:00",
             "what": "AC Olympics: Volleyball",
             "where": "Sports Hall"
+        },
+        {
+            "when": "020:3\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
         }
     ],
     "2025-11-22": [
@@ -2563,6 +2573,85 @@
             "when": "18:30\u201319:55",
             "what": "Human Library",
             "where": "Library"
+        }
+    ],
+    "2025-11-24": [
+        {
+            "when": "14:00\u201315:00",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "15:00\u201316:00",
+            "what": "Community Gathering",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "SLACC",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-11-25": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "SusCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-11-26": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "P6",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-11-27": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "PeaCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-11-28": [
+        {
+            "when": "16:00\u201318:00",
+            "what": "Cafe Concert",
+            "where": "Glass Room"
+        },
+        {
+            "when": "020:3\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        },
+        {
+            "when": "020:3\u201322:00",
+            "what": "Sosh",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2025-11-29": [
+        {
+            "when": "09:00\u201313:00",
+            "what": "CSFC - AC Volleyball Game",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "020:3\u201322:00",
+            "what": "North American National Evening",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2025-11-30": [
+        {
+            "when": "13:00\u201317:00",
+            "what": "Cowbridge Reindeer Parade",
+            "where": "Cowbridge"
         }
     ]
 }
