@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Daily Bulletin {{ cycle_info[0].iso }}</title>
+	<title>Daily Bulletin 2025-11-27</title>
 	<link rel="stylesheet" href="../static/styles.css" />
 	<script defer src="https://cloud.umami.is/script.js" data-website-id="c78b1615-da26-47f0-b9b2-c1eb114c4733"></script>
 </head>
@@ -17,22 +17,22 @@
 		</h1>
 		<p>
 			<time>
-				{{ cycle_info[0].iso }}
+				2025-11-27
 			</time>
 			<br />
-			{{ cycle_info[0].weekday_str }}
-			{% if cycle_info[0].codes %}
+			Thursday
+			
 				<br />
-				Codes <b>{{ cycle_info[0].codes }}</b>
-			{% endif %}
+				Codes <b>FGAB</b>
+			
 		</p>
 		<p class="note" style="margin-bottom: 2rem">
-			Does the email look ugly?<br>Check the <a href="https://albertttan.github.io/daily-bulletin-uwcac/pages/{{ cycle_info[0].iso }}.html">online version</a>!
+			Does the email look ugly?<br>Check the <a href="https://albertttan.github.io/daily-bulletin-uwcac/pages/2025-11-27.html">online version</a>!
 		</p>
 	</header></center>
 	<main>
 		<p>
-			Happy {{ cycle_info[0].weekday_str }}! Thank you for supporting the Daily Bulletin project. 
+			Happy Thursday! Thank you for supporting the Daily Bulletin project. 
 		</p>
 		<ul>
 			<li>
@@ -57,13 +57,13 @@
 		<p class="note">
 			Want to contribute to a future Daily Bulletin? <a href="https://docs.google.com/forms/d/e/1FAIpQLSdsKAzrklTWytv9KDYFEAU0KB-dMiTCkbHzKPAYGTTceCS6Mg/viewform">Share</a> your inspirations to give everyone some morning wellbeing energy!
 		</p>
-		{{ inspirations }}
-		{% if exam_info %}
-			<h2>
-				Exam Arrangements
-			</h2>
-			{{ exam_info }}
-		{% endif %}
+		<h3>Lyrics of the Day</h3>
+<blockquote>
+<p>You lose your way, just take my hand<br>
+You're lost at sea, then I'll command your boat to me again</p>
+</blockquote>
+<p class="note">Excerpt from <a href="https://music.apple.com/gb/song/mariners-apartment-complex/1474669066">Mariner's Apartment Complex</a> by Lana Del Rey.</p>
+		
 		<h2>
 			Delicious Dinings
 		</h2>
@@ -87,68 +87,105 @@
 				</tr>
 			</thead>
 			<tbody>
-				{% for index in [0, 1] %}
-					{% if menu_info[index].breakfast %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
-							<th scope="rowgroup" rowspan={{ menu_len[index] }}>
-								{{ cycle_info[index].weekday_str[:3] }}
+				
+					
+						<tr  class="highlight" >
+							<th scope="rowgroup" rowspan=5>
+								Thu
 							</th>
 							<th class="secondary" scope="row">
 								Breakfast
 							</th>
 							<td>
-								{{ menu_info[index].breakfast }}
+								Continental Counter
 							</td>
 						</tr>
-					{% endif %}
-					{% if menu_info[index].brunch %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
-							<th scope="rowgroup" rowspan={{ menu_len[index] }}>
-								{{ cycle_info[index].weekday_str[:3] }}
-							</th>
-							<th class="secondary" scope="row">
-								Brunch
-							</th>
-							<td>
-								{{ menu_info[index].brunch }}
-							</td>
-						</tr>
-					{% endif %}
-					{% if menu_info[index].lunch_1 %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
-							<th class="secondary" scope="row" {% if menu_info[index].lunch_2 %} rowspan=2 {% endif %}>
+					
+					
+					
+						<tr  class="highlight" >
+							<th class="secondary" scope="row"  rowspan=2 >
 								Lunch
 							</th>
 							<td>
-								{{ menu_info[index].lunch_1 }}
+								Thai Green Curry 🌱
 							</td>
 						</tr>
-					{% endif %}
-					{% if menu_info[index].lunch_2 %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
+					
+					
+						<tr  class="highlight" >
 							<td>
-								{{ menu_info[index].lunch_2 }}
+								Sesame Roast Broccoli & Courgette 🌱
 							</td>
 						</tr>
-					{% endif %}
-					{% if menu_info[index].dinner_1 %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
-							<th class="secondary" scope="row" {% if menu_info[index].dinner_2 %} rowspan=2 {% endif %}>
+					
+					
+						<tr  class="highlight" >
+							<th class="secondary" scope="row"  rowspan=2 >
 								Dinner
 							</th>
 							<td>
-								{{ menu_info[index].dinner_1 }}
+								Lamb & Mint Sausages
 							</td>
 						</tr>
-					{% endif %}
-					{% if menu_info[index].dinner_2 %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
+					
+					
+						<tr  class="highlight" >
 							<td>
-								{{ menu_info[index].dinner_2 }}
+								Glamorgan Sausages 🌱
 							</td>
 						</tr>
-					{% endif %}
-				{% endfor %}
+					
+				
+					
+						<tr >
+							<th scope="rowgroup" rowspan=5>
+								Fri
+							</th>
+							<th class="secondary" scope="row">
+								Breakfast
+							</th>
+							<td>
+								Burrito 🌱
+							</td>
+						</tr>
+					
+					
+					
+						<tr >
+							<th class="secondary" scope="row"  rowspan=2 >
+								Lunch
+							</th>
+							<td>
+								Fish & Chips
+							</td>
+						</tr>
+					
+					
+						<tr >
+							<td>
+								Crispy Buttermilk Quorn 🌱
+							</td>
+						</tr>
+					
+					
+						<tr >
+							<th class="secondary" scope="row"  rowspan=2 >
+								Dinner
+							</th>
+							<td>
+								Pepperoni Pizza
+							</td>
+						</tr>
+					
+					
+						<tr >
+							<td>
+								Roast Pepper & Balsamic Pizza 🌱
+							</td>
+						</tr>
+					
+				
 			</tbody>
 		</table>
 		<p>
@@ -184,26 +221,71 @@
 				</tr>
 			</thead>
 			<tbody>
-				{% for index in [0, 1] %}
-					{% for event in range(event_len[index]) %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
-							{% if event == 0 %}
-								<th scope="rowgroup" rowspan={{ event_len[index] }}>
-									{{ cycle_info[index].weekday_str[:3] }}
+				
+					
+						<tr  class="highlight" >
+							
+								<th scope="rowgroup" rowspan=1>
+									Thu
 								</th>
-							{% endif %}
+							
 							<th class="secondary" scope="row">
-								{{ event_info[index][event].when }}
+								19:30–20:30
 							</th>
 							<td>
-								{{ event_info[index][event].what }}
+								PeaCo
 							</td>
 							<td>
-								{{ event_info[index][event].where }}
+								Great Hall
 							</td>
 						</tr>
-					{% endfor %}
-				{% endfor %}
+					
+				
+					
+						<tr >
+							
+								<th scope="rowgroup" rowspan=3>
+									Fri
+								</th>
+							
+							<th class="secondary" scope="row">
+								16:00–18:00
+							</th>
+							<td>
+								Cafe Concert
+							</td>
+							<td>
+								Glass Room
+							</td>
+						</tr>
+					
+						<tr >
+							
+							<th class="secondary" scope="row">
+								20:30–22:00
+							</th>
+							<td>
+								Hideout
+							</td>
+							<td>
+								Moondance
+							</td>
+						</tr>
+					
+						<tr >
+							
+							<th class="secondary" scope="row">
+								20:30–22:00
+							</th>
+							<td>
+								Sosh
+							</td>
+							<td>
+								Tythe Barn
+							</td>
+						</tr>
+					
+				
 			</tbody>
 		</table>
 		<p class="note">
@@ -215,9 +297,11 @@
 					Today in History
 				</h2>
 				<ul>
-					{% for index in range(5) %}
-						{{ history_info[index] }}
-					{% endfor %}
+					
+						<li><a href="https://en.wikipedia.org/wiki/1895" title="1895">1895</a> – Swedish chemist and industrialist <b><a href="https://en.wikipedia.org/wiki/Alfred_Nobel" title="Alfred Nobel">Alfred Nobel</a></b>  signed his last will and testament, setting aside the bulk of his estate to establish the <a href="https://en.wikipedia.org/wiki/Nobel_Prize" title="Nobel Prize">Nobel Prize</a> after his death.</li>
+					
+						<li><a href="https://en.wikipedia.org/wiki/1945" title="1945">1945</a> – A consortium of twenty-two U.S. charities founded <b><a href="https://en.wikipedia.org/wiki/CARE_International" title="CARE International">CARE</a></b> with the mission of delivering food aid to Europe in the <a href="https://en.wikipedia.org/wiki/Aftermath_of_World_War_II" title="Aftermath of World War II">aftermath of World War II</a>.</li>
+					
 				</ul>
 				<p class="note">
 					Retrieved from <a href="https://en.wikipedia.org/wiki/Wikipedia:Selected_anniversaries">Wikipedia</a>.
@@ -228,19 +312,25 @@
 					Today in News
 				</h2>
 				<ul>
-					{% for index in range(3) %}
+					
 						<li>
-							{{ news_info[index] }}
+							<a href="https://apnews.com/article/turkey-pope-leo-xiv-orthodox-halki-seminary-b577a12b0094307c479f31b6796ec85f">Optimism ahead of pope’s visit to Turkey for reopening of Istanbul’s Greek Orthodox seminary</a>
 						</li>
-					{% endfor %}
+					
+						<li>
+							<a href="https://apnews.com/article/mideast-wars-israel-gaza-11-26-2025-5f282ab434207591ca69523d3884ee92">Israel mourns latest hostage released from Gaza as phase 1 of ceasefire winds down</a>
+						</li>
+					
+						<li>
+							<a href="https://apnews.com/article/driscoll-army-secretary-russia-ukraine-war-talks-38594adbabd1ce6a940e533cc07a505e">US Army secretary takes unlikely role as key negotiator in push to end Russia-Ukraine war</a>
+						</li>
+					
 				</ul>
 				<p class="note">
 					Retrieved
-					{% if news_info[-1] %}
-						by PeaCo News Taskforce.
-					{% else %}
+					
 						from <a href="https://apnews.com/world-news">the Associated Press</a>.
-					{% endif %}
+					
 				</p>
 			</div>
 		</div>
