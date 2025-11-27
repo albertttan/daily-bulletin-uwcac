@@ -126,7 +126,6 @@ def main(date_iso=None, update_only=False):
 
     if not update_only: 
 
-        # Manual confirmation to proceed
         news_timestamp = render_html(date)
 
         output_path = f"../pages/{date_iso}.html"
@@ -152,17 +151,15 @@ def main(date_iso=None, update_only=False):
         with open(f"../pages/{date_iso}.html") as file:
             output = file.read()
 
-    # Upload page & compile email
-
-    update_pages(date_iso)
+        update_pages(date_iso)
 
     os.system("git add ..")
     subprocess.run(["git", "commit", "-m", f"Daily Bulletin {date_iso}"], check=True)
     os.system("git push origin main")
 
-    compile_email(date_iso)
-
-    print("Please schedule the email to be delivered at 07:00. Thank you!")
+    if not update_only: 
+        compile_email(date_iso)
+        print("Please schedule the email to be delivered at 07:00. Thank you!")
 
 
 if __name__ == "__main__":
