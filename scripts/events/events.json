@@ -2653,5 +2653,79 @@
             "what": "Cowbridge Reindeer Parade",
             "where": "Cowbridge"
         }
+    ],
+    "2025-12-01": [
+        {
+            "when": "14:00\u201315:00",
+            "what": "IB1 Community Gathering",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "18:00\u201318:10",
+            "what": "Santa Lucia",
+            "where": "Dining Hall"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "StuCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-12-02": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "FEMO",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-12-03": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "WellCo \u2600\ufe0f",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-12-04": [
+        {
+            "when": "17:30\u201319:00",
+            "what": "German Christmas Market Food Service",
+            "where": "Canteen"
+        }
+    ],
+    "2025-12-05": [
+        {
+            "when": "18:00\u201322:00",
+            "what": "House Christmas Parties",
+            "where": "Various Venues"
+        }
+    ],
+    "2025-12-06": [
+        {
+            "when": "07:00\u201311:00",
+            "what": "SAT",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "10:00\u201317:00",
+            "what": "Christmas Fayre",
+            "where": "Castle, Art Centre"
+        },
+        {
+            "when": "020:3\u201322:00",
+            "what": "SEAO National Evening",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2025-12-07": [
+        {
+            "when": "10:00\u201317:00",
+            "what": "Christmas Fayre",
+            "where": "Castle, Art Centre"
+        }
     ]
 }
