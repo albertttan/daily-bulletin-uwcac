@@ -5,7 +5,7 @@ import pandas as pd
 
 # Initialization
 
-df = pd.read_excel("events.xlsx", sheet_name="01-0712", skiprows=2)[
+df = pd.read_excel("events.xlsx", sheet_name="8-1212", skiprows=2)[
     ["Unnamed: 0", "When", "What", "Where"]
 ]
 df.rename(columns={"Unnamed: 0": "Day"}, inplace=True)
@@ -51,7 +51,8 @@ for index in df.index:
         date = row["Day"].date().isoformat()
         entry_day = []
     if not pd.isna(row["When"]):
-        if row["When"][0] == "0" or row["When"][0] == "1":
+        row["When"] = str(row["When"])
+        if row["When"][0] == "0" or row["When"][0] == "1" or row["When"][0] == "2":
             time = row["When"][:5] + "–" + row["When"][-5:]
         else:
             time = "0" + row["When"][:4] + "–" + row["When"][-5:]

@@ -2661,11 +2661,6 @@
             "where": "Bradenstoke"
         },
         {
-            "when": "18:00\u201318:10",
-            "what": "Santa Lucia",
-            "where": "Dining Hall"
-        },
-        {
             "when": "19:30\u201320:30",
             "what": "StuCo",
             "where": "Great Hall"
@@ -2716,6 +2711,11 @@
             "where": "Castle, Art Centre"
         },
         {
+            "when": "19:00\u201320:15",
+            "what": "Hoedown",
+            "where": "Sports Hall"
+        },
+        {
             "when": "020:3\u201322:00",
             "what": "SEAO National Evening",
             "where": "Tythe Barn"
@@ -2726,6 +2726,81 @@
             "when": "10:00\u201317:00",
             "what": "Christmas Fayre",
             "where": "Castle, Art Centre"
+        },
+        {
+            "when": "17:00\u201319:00",
+            "what": "Hot to Go",
+            "where": "Moondance"
+        }
+    ],
+    "2025-12-08": [
+        {
+            "when": "14:00\u201315:00",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "15:00\u201316:00",
+            "what": "Community Gathering",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "18:00\u201318:10",
+            "what": "Santa Lucia",
+            "where": "Dining Hall"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "SLACC",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-12-09": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "SusCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-12-10": [
+        {
+            "when": "12:00\u201313:30",
+            "what": "Christmas Lunch",
+            "where": "Dining Hall"
+        },
+        {
+            "when": "14:00\u201316:00",
+            "what": "House Clear up",
+            "where": "Houses"
+        },
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "P6",
+            "where": "Great Hall"
+        }
+    ],
+    "2025-12-11": [
+        {
+            "when": "14:30\u201330:00",
+            "what": "Start of Winter Break",
+            "where": "\u2014"
+        },
+        {
+            "when": "22:00\u201300:00",
+            "what": "Coach to Heathrow",
+            "where": "Outer Arch"
+        }
+    ],
+    "2025-12-12": [
+        {
+            "when": "07:00\u201300:00",
+            "what": "Coach to Heathrow",
+            "where": "Outer Arch"
         }
     ]
 }
