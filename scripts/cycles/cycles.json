@@ -1041,5 +1041,12 @@
         "weekday_str": "Thursday",
         "codes": "DEFG",
         "menu_week": "C"
+    },
+    "2025-12-12": {
+        "iso": "2025-12-12",
+        "weekday_int": "5",
+        "weekday_str": "Friday",
+        "codes": "",
+        "menu_week": ""
     }
 }
