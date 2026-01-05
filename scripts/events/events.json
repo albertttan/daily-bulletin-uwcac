@@ -2802,5 +2802,68 @@
             "what": "Coach to Heathrow",
             "where": "Outer Arch"
         }
-    ]
+    ],
+    "2026-01-05": [
+        {
+            "when": "14:00\u201300:00",
+            "what": "Arrivals",
+            "where": NaN
+        }
+    ],
+    "2026-01-06": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "SusCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-01-07": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "P6",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-01-08": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "PeaCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-01-09": [
+        {
+            "when": "14:00\u201316:00",
+            "what": "IB1 University Guidance Session",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "14:00\u201316:00",
+            "what": "IB2 Election Workshop",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        }
+    ],
+    "2026-01-10": [
+        {
+            "when": "20:30\u201322:00",
+            "what": "Nordic National Evening",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2026-01-11": []
 }
