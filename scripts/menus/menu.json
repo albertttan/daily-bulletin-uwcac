@@ -2,58 +2,58 @@
     "A1": {
         "breakfast": "Pancake / Waffle Bar \ud83c\udf31",
         "brunch": null,
-        "lunch_1": "Jerk Chicken Leg",
-        "lunch_2": "Mushroom & Quorn Quesadillas \ud83c\udf31",
-        "dinner_1": "Crispy Paneer, Spinach & Coconut Curry \ud83c\udf31",
+        "lunch_1": "Tandoori Turkey",
+        "lunch_2": "Halloumi & Butterbean Korma \ud83c\udf31",
+        "dinner_1": "Vegan Mince & Vegetable Bolognese \ud83c\udf31",
         "dinner_2": null
     },
     "A2": {
         "breakfast": "Continental Counter",
         "brunch": null,
-        "lunch_1": "Harissa Spiced Cauliflower Bake \ud83c\udf31",
-        "lunch_2": "Creamy Orzo \ud83c\udf31",
-        "dinner_1": "Beef Taco",
-        "dinner_2": "Bean Taco \ud83c\udf31"
+        "lunch_1": "Leek, Potato & Sharp Cheddar Pie \ud83c\udf31",
+        "lunch_2": "Aubergine Milanese \ud83c\udf31",
+        "dinner_1": "Chermoula Style Beef Brisket",
+        "dinner_2": "Tex Mex Butterbeans \ud83c\udf31"
     },
     "A3": {
         "breakfast": "Hot Breakfast",
         "brunch": null,
-        "lunch_1": "Pasta Bar",
-        "lunch_2": null,
-        "dinner_1": "Vegan Paella \ud83c\udf31",
-        "dinner_2": "Spanish Tortilla \ud83c\udf31"
+        "lunch_1": "Beefy, Cheesy Macaroni w/ Jalapeños & Tortilla Chips",
+        "lunch_2": "Enchiladas w/ Mushroom & Pea Protein \ud83c\udf31",
+        "dinner_1": "Vegetarian Nasi Goreng Pea Protein \ud83c\udf31",
+        "dinner_2": null
     },
     "A4": {
         "breakfast": "Continental Counter",
         "brunch": null,
-        "lunch_1": "Thai Green Curry \ud83c\udf31",
+        "lunch_1": "Red Coconut Curry \ud83c\udf31",
         "lunch_2": "Sesame Roast Broccoli & Courgette \ud83c\udf31",
-        "dinner_1": "Mild Moroccan Style Lamb Pasta",
-        "dinner_2": "Glamorgan Sausages \ud83c\udf31"
+        "dinner_1": "Lamb, Aubergine & Halloumi Hot Pot",
+        "dinner_2": "Spinach Falafels \ud83c\udf31"
     },
     "A5": {
         "breakfast": "Burrito \ud83c\udf31",
         "brunch": null,
-        "lunch_1": "Fish & Chips",
-        "lunch_2": "Crispy Buttermilk Quorn \ud83c\udf31",
-        "dinner_1": "Pepperoni Pizza",
-        "dinner_2": "Roast Pepper & Balsamic Pizza \ud83c\udf31"
+        "lunch_1": "Chicken Shawarma",
+        "lunch_2": "Mushroom Shawarma \ud83c\udf31",
+        "dinner_1": "Creamy Tomato Pasta \ud83c\udf31",
+        "dinner_2": "Greens Risotto \ud83c\udf31"
     },
     "A6": {
         "breakfast": "Hot Breakfast",
         "brunch": null,
-        "lunch_1": "Loaded Beefy Cheese Burgers",
-        "lunch_2": "Loaded Halloumi Cheese Burgers \ud83c\udf31",
-        "dinner_1": "Crunchy Garlic Tofu \ud83c\udf31",
-        "dinner_2": "Garlic Mushrooms, Chili & Spinach \ud83c\udf31"
+        "lunch_1": "Tuna Fish Cakes w/ Sweetcorn & Herbs",
+        "lunch_2": "Bean Burgers \ud83c\udf31",
+        "dinner_1": "Butternut Squash, Red Pepper & Garden Pea Fajitas \ud83c\udf31",
+        "dinner_2": null
     },
     "A7": {
         "breakfast": null,
         "brunch": "Hot Breakfast",
         "lunch_1": null,
         "lunch_2": null,
-        "dinner_1": "Roast Turkey",
-        "dinner_2": "Roast Quorn \ud83c\udf31"
+        "dinner_1": "Slow Cooked Beef Brisket",
+        "dinner_2": "Quorn & Cannellini Bean Ragout \ud83c\udf31"
     },
     "B1": {
         "breakfast": "Pancake / Waffle Bar \ud83c\udf31",
