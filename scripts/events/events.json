@@ -2865,5 +2865,79 @@
             "where": "Tythe Barn"
         }
     ],
-    "2026-01-11": []
+    "2026-01-11": [
+        {
+            "when": "14:30\u201316:30",
+            "what": "Amnesty Head Shave",
+            "where": "Bradenstoke"
+        }
+    ],
+    "2026-01-12": [
+        {
+            "when": "14:00\u201315:00",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "15:00\u201316:00",
+            "what": "IB1/2 EE Gathering & Exhibition",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "StuCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-01-13": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "FeMo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-01-14": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "WellCo \u2600\ufe0f",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-01-15": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "PeaCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-01-16": [
+        {
+            "when": "14:00\u201316:00",
+            "what": "IB1 University Guidance Session",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        }
+    ],
+    "2026-01-17": [
+        {
+            "when": "20:30\u201322:00",
+            "what": "SWANA National Evening",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2026-01-18": []
 }
