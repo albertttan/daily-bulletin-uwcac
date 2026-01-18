@@ -2880,7 +2880,7 @@
         },
         {
             "when": "15:00\u201316:00",
-            "what": "EE Gathering & Exhibition",
+            "what": "IB1/2 EE Gathering & Exhibition",
             "where": "Sports Hall"
         },
         {
@@ -2922,6 +2922,95 @@
             "where": "Bradenstoke"
         },
         {
+            "when": "14:30\u201315:30",
+            "what": "SusCo Talk",
+            "where": "Great Hall"
+        },
+        {
+            "when": "19:00\u201322:00",
+            "what": "Haunted Castle",
+            "where": "Castle"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        }
+    ],
+    "2026-01-17": [
+        {
+            "when": "10:00\u201316:00",
+            "what": "Susco Tree Planting",
+            "where": "Sunley Field"
+        },
+        {
+            "when": "13:00\u201316:30",
+            "what": "STP Collaborative (Eco-Explorers Exhibition)",
+            "where": "Great Hall, Bradenstoke, Sunley Field"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SWANA National Evening",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2026-01-18": [
+        {
+            "when": "10:00\u201316:00",
+            "what": "Susco Tree Planting",
+            "where": "Sunley Fields"
+        },
+        {
+            "when": "17:00\u201319:00",
+            "what": "Hot to Go",
+            "where": "Moondance"
+        }
+    ],
+    "2026-01-19": [
+        {
+            "when": "14:00\u201315:00",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "SLACC",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-01-20": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "SusCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-01-21": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "P6",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-01-22": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "PeaCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-01-23": [
+        {
+            "when": "16:00\u201318:00",
+            "what": "Cafe Concert",
+            "where": "Glass Room"
+        },
+        {
             "when": "20:30\u201322:00",
             "what": "SOSH",
             "where": "Tythe Barn"
@@ -2932,12 +3021,6 @@
             "where": "Moondance"
         }
     ],
-    "2026-01-17": [
-        {
-            "when": "20:30\u201322:00",
-            "what": "SWANA National Evening",
-            "where": "Tythe Barn"
-        }
-    ],
-    "2026-01-18": []
+    "2026-01-24": [],
+    "2026-01-25": []
 }
