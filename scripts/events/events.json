@@ -3039,5 +3039,79 @@
             "what": "MosaiCon",
             "where": "Campus"
         }
+    ],
+    "2026-01-26": [
+        {
+            "when": "09:45\u201316:00",
+            "what": "MosaiCon",
+            "where": NaN
+        }
+    ],
+    "2026-01-27": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "FeMo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-01-28": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "WellCo \u2600\ufe0f",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-01-29": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "PeaCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-01-30": [
+        {
+            "when": "14:00\u201316:00",
+            "what": "IB1 University Guidance Session",
+            "where": "Glassroom"
+        },
+        {
+            "when": "14:00\u201316:00",
+            "what": "IB2 Exam Talk",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SLACC Chair Pass Down",
+            "where": "Tythe Barn"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        }
+    ],
+    "2026-01-31": [
+        {
+            "when": "20:30\u201322:00",
+            "what": "Subconti National Evening",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2026-02-01": [
+        {
+            "when": "09:00\u201313:00",
+            "what": "Cardiff Sixth Form - Badminton & Netball",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "18:00\u201320:00",
+            "what": "Human Library",
+            "where": "Library"
+        }
     ]
 }
