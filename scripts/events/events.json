@@ -3012,7 +3012,7 @@
         },
         {
             "when": "20:30\u201322:00",
-            "what": "SOSH",
+            "what": "Sosh",
             "where": "Tythe Barn"
         },
         {
@@ -3021,6 +3021,23 @@
             "where": "Moondance"
         }
     ],
-    "2026-01-24": [],
-    "2026-01-25": []
+    "2026-01-24": [
+        {
+            "when": "20:00\u201322:00",
+            "what": "Cinema Club: Whale Ryder",
+            "where": "Tythe Barn"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "Fu\u00dfball Olympics",
+            "where": "Moondance"
+        }
+    ],
+    "2026-01-25": [
+        {
+            "when": "11:45\u201316:00",
+            "what": "MosaiCon",
+            "where": "Campus"
+        }
+    ]
 }
