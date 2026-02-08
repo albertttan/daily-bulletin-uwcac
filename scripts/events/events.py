@@ -5,7 +5,7 @@ import pandas as pd
 
 # Initialization
 
-df = pd.read_excel("events.xlsx", sheet_name="02-0802", skiprows=2)[
+df = pd.read_excel("events.xlsx", sheet_name="9-1502", skiprows=2)[
     ["Unnamed: 0", "When", "What", "Where"]
 ]
 df.rename(columns={"Unnamed: 0": "Day"}, inplace=True)

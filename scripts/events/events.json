@@ -3169,13 +3169,8 @@
     ],
     "2026-02-06": [
         {
-            "when": "13:30\u201313:45",
-            "what": "East Asian Fashion Show",
-            "where": "Canteen"
-        },
-        {
             "when": "14:00\u201316:00",
-            "what": "<b>IB1</b> University Guidance Session",
+            "what": "IB1 University Guidance Session",
             "where": "Bradenstoke"
         },
         {
@@ -3191,7 +3186,7 @@
     ],
     "2026-02-07": [
         {
-            "when": "13:30\u201315:30",
+            "when": "13.30\u201315.30",
             "what": "RSPB Big Garden Birdwatch for Schools",
             "where": "Great Hall and Campus"
         },
@@ -3201,5 +3196,73 @@
             "where": "Tythe Barn"
         }
     ],
-    "2026-02-08": []
+    "2026-02-08": [],
+    "2026-02-09": [
+        {
+            "when": "14:00\u201315:00",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "15:00\u201316:00",
+            "what": "Community Gathering",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "StuCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-02-10": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "Femo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-02-11": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "WellCo \u2600\ufe0f",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-02-12": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "PeaCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-02-13": [
+        {
+            "when": "14:00\u201316:00",
+            "what": "IB1 University Guidance Session",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "Valentine's SOSH",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        }
+    ],
+    "2026-02-14": [
+        {
+            "when": "10:00\u201300:00",
+            "what": "Stump up for Trees",
+            "where": "Purlon Farm"
+        }
+    ],
+    "2026-02-15": []
 }
