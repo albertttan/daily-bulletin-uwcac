@@ -3243,8 +3243,13 @@
     "2026-02-13": [
         {
             "when": "14:00\u201316:00",
-            "what": "IB1 University Guidance Session",
-            "where": "Bradenstoke"
+            "what": "IB1 Election's Workshop",
+            "where": "Tythe Barn"
+        },
+        {
+            "when": "13:45\u201318:00",
+            "what": "Caving Trip",
+            "where": "Off Campus"
         },
         {
             "when": "20:30\u201322:00",
@@ -3262,7 +3267,23 @@
             "when": "10:00\u201300:00",
             "what": "Stump up for Trees",
             "where": "Purlon Farm"
+        },
+        {
+            "when": "13:00\u201315:00",
+            "what": "Watercolour and Snacks!",
+            "where": "Glassroom"
+        },
+        {
+            "when": "18:15\u201320:00",
+            "what": "SNL Friend Dates",
+            "where": "Moondance"
         }
     ],
-    "2026-02-15": []
+    "2026-02-15": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Hot to Go",
+            "where": "Moondance"
+        }
+    ]
 }
