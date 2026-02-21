@@ -3348,10 +3348,78 @@
     ],
     "2026-02-21": [
         {
+            "when": "12:00\u201316:00",
+            "what": "Race4Rights Carnival",
+            "where": "Moondance/Tennis"
+        },
+        {
             "when": "20:30\u201322:00",
             "what": "Iberolatino National Evening",
             "where": "Tythe Barn"
         }
     ],
-    "2026-02-22": []
+    "2026-02-22": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Hot to Go",
+            "where": "Moondance"
+        }
+    ],
+    "2026-02-23": [
+        {
+            "when": "14:00\u201315:00",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "StuCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-02-24": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "FEMO",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-02-25": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "WellCo \u2600\ufe0f",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-02-26": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "PeaCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-02-27": [
+        {
+            "when": "14:00\u201316:00",
+            "what": "IB1 University Guidance Session",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        }
+    ],
+    "2026-02-28": [],
+    "2026-03-01": []
 }
