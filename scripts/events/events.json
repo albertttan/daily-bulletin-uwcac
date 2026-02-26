@@ -3398,6 +3398,11 @@
     ],
     "2026-02-26": [
         {
+            "when": "07:00\u201320:00",
+            "what": "<b>IB1</b> ToK Trip",
+            "where": "Oxford"
+        },
+        {
             "when": "19:30\u201320:30",
             "what": "PeaCo",
             "where": "Great Hall"
@@ -3406,7 +3411,7 @@
     "2026-02-27": [
         {
             "when": "14:00\u201316:00",
-            "what": "IB1 University Guidance Session",
+            "what": "<b>IB1</b> University Guidance Session",
             "where": "Bradenstoke"
         },
         {
@@ -3420,6 +3425,81 @@
             "where": "Moondance"
         }
     ],
-    "2026-02-28": [],
-    "2026-03-01": []
+    "2026-02-28": [
+        {
+            "when": "10:00\u201323:59",
+            "what": "Race4Rights",
+            "where": "Sports Hall"
+        }
+    ],
+    "2026-03-01": [
+        {
+            "when": "00:00\u201310:00",
+            "what": "Race4Rights",
+            "where": "Sports Hall"
+        }
+    ],
+    "2026-03-02": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "SLACC",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-03-03": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "SusCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-03-04": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "P6",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-03-05": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "PeaCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-03-06": [
+        {
+            "when": "14:00\u201316:00",
+            "what": "<b>IB1</b> TOK Exhibition",
+            "where": NaN
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        }
+    ],
+    "2026-03-07": [
+        {
+            "when": "10:00\u201313:00",
+            "what": "CSFC Volleyball Game",
+            "where": "Sporst Hall"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "PeaCo Monologues",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2026-03-08": []
 }
