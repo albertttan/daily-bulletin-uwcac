@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Daily Bulletin {{ cycle_info[0].iso }}</title>
+	<title>Daily Bulletin 2026-02-28</title>
 	<link rel="stylesheet" href="../static/styles.css" />
 	<script defer src="https://cloud.umami.is/script.js" data-website-id="c78b1615-da26-47f0-b9b2-c1eb114c4733"></script>
 </head>
@@ -17,19 +17,16 @@
 		</h1>
 		<p>
 			<time>
-				{{ cycle_info[0].iso }}
+				2026-02-28
 			</time>
 			<br />
-			{{ cycle_info[0].weekday_str }}
-			{% if cycle_info[0].codes %}
-				<br />
-				Codes <b>{{ cycle_info[0].codes }}</b>
-			{% endif %}
+			Saturday
+			
 		</p>
 	</header></center>
 	<main>
 		<p>
-			Happy {{ cycle_info[0].weekday_str }}! Thank you for supporting the Daily Bulletin project. 
+			Happy Saturday! Today also marks the <b>anniversary</b> of the Daily Bulletin project at UWC Atlantic College. Thank you all for your continuous support over the past year. I would especially like to thank the former WellCo chairs, Jane and Adonis, as well as everyone who contributed inspirations!
 		</p>
 		<ul>
 			<li>
@@ -45,13 +42,13 @@
 		<p class="note">
 			Want to contribute to a future Daily Bulletin? <a href="https://docs.google.com/forms/d/e/1FAIpQLSdsKAzrklTWytv9KDYFEAU0KB-dMiTCkbHzKPAYGTTceCS6Mg/viewform">Share</a> your inspirations to give everyone some morning wellbeing energy!
 		</p>
-		{{ inspirations }}
-		{% if exam_info %}
-			<h2>
-				Exam Arrangements
-			</h2>
-			{{ exam_info }}
-		{% endif %}
+		<h3>Quote of the Day</h3>
+<blockquote>
+<p>The beginning is the most important part of any work.</p>
+<p class="note">— Plato</p>
+</blockquote>
+<p class="note">Retrieved from <a href="https://en.wikiquote.org/wiki/Plato">Wikiquote</a> and <a href="https://albertttan.github.io/daily-bulletin-uwcac/pages/2025-03-16.html">Daily Bulletin 2025-03-16</a>.</p>
+		
 		<h2>
 			Delicious Dinings
 		</h2>
@@ -75,68 +72,84 @@
 				</tr>
 			</thead>
 			<tbody>
-				{% for index in [0, 1] %}
-					{% if menu_info[index].breakfast %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
-							<th scope="rowgroup" rowspan={{ menu_len[index] }}>
-								{{ cycle_info[index].weekday_str[:3] }}
+				
+					
+						<tr  class="highlight" >
+							<th scope="rowgroup" rowspan=4>
+								Sat
 							</th>
 							<th class="secondary" scope="row">
 								Breakfast
 							</th>
 							<td>
-								{{ menu_info[index].breakfast }}
+								Hot Breakfast
 							</td>
 						</tr>
-					{% endif %}
-					{% if menu_info[index].brunch %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
-							<th scope="rowgroup" rowspan={{ menu_len[index] }}>
-								{{ cycle_info[index].weekday_str[:3] }}
+					
+					
+					
+						<tr  class="highlight" >
+							<th class="secondary" scope="row"  rowspan=2 >
+								Lunch
+							</th>
+							<td>
+								Tuna Fish Cakes w/ Sweetcorn & Herbs
+							</td>
+						</tr>
+					
+					
+						<tr  class="highlight" >
+							<td>
+								Bean Burgers 🌱
+							</td>
+						</tr>
+					
+					
+						<tr  class="highlight" >
+							<th class="secondary" scope="row" >
+								Dinner
+							</th>
+							<td>
+								Butternut Squash, Red Pepper & Garden Pea Fajitas 🌱
+							</td>
+						</tr>
+					
+					
+				
+					
+					
+						<tr >
+							<th scope="rowgroup" rowspan=3>
+								Sun
 							</th>
 							<th class="secondary" scope="row">
 								Brunch
 							</th>
 							<td>
-								{{ menu_info[index].brunch }}
+								Hot Breakfast
 							</td>
 						</tr>
-					{% endif %}
-					{% if menu_info[index].lunch_1 %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
-							<th class="secondary" scope="row" {% if menu_info[index].lunch_2 %} rowspan=2 {% endif %}>
-								Lunch
-							</th>
-							<td>
-								{{ menu_info[index].lunch_1 }}
-							</td>
-						</tr>
-					{% endif %}
-					{% if menu_info[index].lunch_2 %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
-							<td>
-								{{ menu_info[index].lunch_2 }}
-							</td>
-						</tr>
-					{% endif %}
-					{% if menu_info[index].dinner_1 %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
-							<th class="secondary" scope="row" {% if menu_info[index].dinner_2 %} rowspan=2 {% endif %}>
+					
+					
+					
+					
+						<tr >
+							<th class="secondary" scope="row"  rowspan=2 >
 								Dinner
 							</th>
 							<td>
-								{{ menu_info[index].dinner_1 }}
+								Braised Beef Patties
 							</td>
 						</tr>
-					{% endif %}
-					{% if menu_info[index].dinner_2 %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
+					
+					
+						<tr >
 							<td>
-								{{ menu_info[index].dinner_2 }}
+								Quorn & Cannellini Bean Ragout 🌱
 							</td>
 						</tr>
-					{% endif %}
-				{% endfor %}
+					
+				
 			</tbody>
 		</table>
 		<p>
@@ -172,26 +185,45 @@
 				</tr>
 			</thead>
 			<tbody>
-				{% for index in [0, 1] %}
-					{% for event in range(event_len[index]) %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
-							{% if event == 0 %}
-								<th scope="rowgroup" rowspan={{ event_len[index] }}>
-									{{ cycle_info[index].weekday_str[:3] }}
+				
+					
+						<tr  class="highlight" >
+							
+								<th scope="rowgroup" rowspan=1>
+									Sat
 								</th>
-							{% endif %}
+							
 							<th class="secondary" scope="row">
-								{{ event_info[index][event].when }}
+								10:00–23:59
 							</th>
 							<td>
-								{{ event_info[index][event].what }}
+								Race4Rights
 							</td>
 							<td>
-								{{ event_info[index][event].where }}
+								Sports Hall
 							</td>
 						</tr>
-					{% endfor %}
-				{% endfor %}
+					
+				
+					
+						<tr >
+							
+								<th scope="rowgroup" rowspan=1>
+									Sun
+								</th>
+							
+							<th class="secondary" scope="row">
+								00:00–10:00
+							</th>
+							<td>
+								Race4Rights
+							</td>
+							<td>
+								Sports Hall
+							</td>
+						</tr>
+					
+				
 			</tbody>
 		</table>
 		<p class="note">
@@ -203,9 +235,11 @@
 					Today in History
 				</h2>
 				<ul>
-					{% for index in range(5) %}
-						{{ history_info[index] }}
-					{% endfor %}
+					
+						<li><a href="https://en.wikipedia.org/wiki/202_BC" title="202 BC">202 BC</a> – Rebel leader Liu Bang declared himself <a href="https://en.wikipedia.org/wiki/Emperor_Gaozu_of_Han" title="Emperor Gaozu of Han">Emperor Gaozu of Han</a> after overthrowing the <b><a href="https://en.wikipedia.org/wiki/Qin_dynasty" title="Qin dynasty">Qin dynasty</a></b>, the first <a href="https://en.wikipedia.org/wiki/Dynasties_of_China" title="Dynasties of China">imperial dynasty of China</a>.</li>
+					
+						<li><a href="https://en.wikipedia.org/wiki/2025" title="2025">2025</a> – The first Daily Bulletin for <b><a href="https://en.wikipedia.org/wiki/Atlantic_College" title="Atlantic College">UWC Atlantic College</a></b> was created! <a href="2025-02-28.html">Read it here</a>.</li>
+					
 				</ul>
 				<p class="note">
 					Retrieved from <a href="https://en.wikipedia.org/wiki/Wikipedia:Selected_anniversaries">Wikipedia</a>.
@@ -216,19 +250,25 @@
 					Today in News
 				</h2>
 				<ul>
-					{% for index in range(3) %}
+					
 						<li>
-							{{ news_info[index] }}
+							<a href="https://apnews.com/article/immigration-trump-deportation-minnesota-pope-catholic-cardinals-31b1803c6c4bcc4e67878a54a915af58">In Minnesota, US cardinals and pope’s ambassador decry mass deportations and call for reconciliation</a>
 						</li>
-					{% endfor %}
+					
+						<li>
+							<a href="Cambodia takes back looted historic artifacts handled by British art dealer">Cambodia takes back looted historic artifacts handled by British art dealer</a>
+						</li>
+					
+						<li>
+							<a href="https://apnews.com/video/viral-trend-in-argentina-sees-masked-young-people-identifying-as-animals-gather-in-buenos-aires-park-f940b879057546378d5f4e9696ec638a">Viral trend in Argentina sees masked young people identifying as animals gather in Buenos Aires park</a>
+						</li>
+					
 				</ul>
 				<p class="note">
 					Retrieved
-					{% if news_info[-1] %}
-						by PeaCo News Taskforce.
-					{% else %}
+					
 						from <a href="https://apnews.com/world-news">the Associated Press</a>.
-					{% endif %}
+					
 				</p>
 			</div>
 		</div>
