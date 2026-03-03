@@ -3475,7 +3475,7 @@
     "2026-03-06": [
         {
             "when": "14:00\u201316:00",
-            "what": "<b>IB1</b> TOK Exhibition",
+            "what": "Project Week Meetings in Project Teams",
             "where": NaN
         },
         {
@@ -3493,7 +3493,7 @@
         {
             "when": "10:00\u201313:00",
             "what": "CSFC Volleyball Game",
-            "where": "Sporst Hall"
+            "where": "Spors Hall"
         },
         {
             "when": "20:00\u201322:00",
@@ -3501,5 +3501,73 @@
             "where": "Tythe Barn"
         }
     ],
-    "2026-03-08": []
+    "2026-03-08": [],
+    "2026-03-09": [
+        {
+            "when": "14:00\u201315:00",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "15:00\u201316:00",
+            "what": "Community Gathering",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "StuCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-03-10": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "FEMO",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-03-11": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "WellCo \u2600\ufe0f",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-03-12": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "PeaCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-03-13": [
+        {
+            "when": "14:00\u201316:00",
+            "what": "IB1 University Guidance",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        }
+    ],
+    "2026-03-14": [
+        {
+            "when": "07:00\u201312:00",
+            "what": "IB1 SAT",
+            "where": "Sports Hall"
+        }
+    ],
+    "2026-03-15": []
 }
