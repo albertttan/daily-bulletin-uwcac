@@ -85,7 +85,7 @@ def render_html(date):
     # On This Day / In the News
 
     history_info = retrieve_history(date_iso)
-    news_info = retrieve_news()
+    news_info = retrieve_news_ap()
     print("Processed Today in History and News...", file=sys.stderr)
 
     # Render and save page
