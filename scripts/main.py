@@ -6,7 +6,7 @@ import subprocess
 import markdown as md
 from jinja2 import Environment, FileSystemLoader
 from compile import compile_email, update_pages
-from retrieve import retrieve_history, retrieve_news
+from retrieve import retrieve_history, retrieve_news_ap
 
 
 def render_html(date):
