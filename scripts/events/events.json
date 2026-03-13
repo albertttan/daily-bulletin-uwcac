@@ -3514,6 +3514,11 @@
             "where": "Sports Hall"
         },
         {
+            "when": "16:00\u201317:30",
+            "what": "Girls Football Game AC V Llantwit Major School",
+            "where": "Football Field"
+        },
+        {
             "when": "19:30\u201320:30",
             "what": "StuCo",
             "where": "Great Hall"
@@ -3567,7 +3572,86 @@
             "when": "07:00\u201312:00",
             "what": "IB1 SAT",
             "where": "Sports Hall"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "Games Night",
+            "where": "Moondance"
         }
     ],
-    "2026-03-15": []
+    "2026-03-15": [
+        {
+            "when": "11:30\u201316:30",
+            "what": "PachaFest",
+            "where": "Campus"
+        }
+    ],
+    "2026-03-16": [
+        {
+            "when": "09:00\u201315:30",
+            "what": "PachaFest",
+            "where": NaN
+        },
+        {
+            "when": "17:30\u201319:00",
+            "what": "Closing Ceremony & Dinner",
+            "where": "Sports Hall"
+        }
+    ],
+    "2026-03-17": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "SusCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-03-18": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "Drag Show",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-03-19": [
+        {
+            "when": "19:00\u201321:00",
+            "what": "PeaCo Monologues",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2026-03-20": [
+        {
+            "when": "16:00\u201317:00",
+            "what": "Friday Night Lecture",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        }
+    ],
+    "2026-03-21": [
+        {
+            "when": "14:00\u201317:00",
+            "what": "United Women for Change Forum",
+            "where": NaN
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "As We Know It",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2026-03-22": []
 }
