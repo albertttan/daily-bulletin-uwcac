@@ -3612,7 +3612,12 @@
             "where": "Health Centre"
         },
         {
-            "when": "19:30\u201320:30",
+            "when": "15:00\u201317:00",
+            "what": "Power of the Pen Workshop",
+            "where": NaN
+        },
+        {
+            "when": "19:30\u201321:30",
             "what": "Drag Show",
             "where": "Great Hall"
         }
@@ -3653,5 +3658,51 @@
             "where": "Tythe Barn"
         }
     ],
-    "2026-03-22": []
+    "2026-03-22": [
+        {
+            "when": "14:00\u201315:00",
+            "what": "Capture the Flag in the Valley",
+            "where": "Valley"
+        },
+        {
+            "when": "17:00\u201319:00",
+            "what": "Hot to Go",
+            "where": "Moondance"
+        }
+    ],
+    "2026-03-23": [],
+    "2026-03-24": [],
+    "2026-03-25": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        }
+    ],
+    "2026-03-26": [],
+    "2026-03-27": [
+        {
+            "when": "16:00\u201317:00",
+            "what": "Friday Night Lecture",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        }
+    ],
+    "2026-03-28": [
+        {
+            "when": "20:00\u201322:00",
+            "what": "Move Show",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2026-03-29": []
 }
