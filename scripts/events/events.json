@@ -3704,5 +3704,62 @@
             "where": "Tythe Barn"
         }
     ],
-    "2026-03-29": []
+    "2026-03-29": [],
+    "2026-03-30": [
+        {
+            "when": "14:00\u201315:00",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "19:00\u201321:00",
+            "what": "IB2 VIsual Art Exhibition",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "StuCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-03-31": [
+        {
+            "when": "14:00\u201316:00",
+            "what": "IB1 TOK Exhibition",
+            "where": NaN
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "SusCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-04-01": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "P6",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-04-02": [
+        {
+            "when": "13:15\u201315:00",
+            "what": "Spring Break",
+            "where": NaN
+        }
+    ],
+    "2026-04-03": [],
+    "2026-04-04": [],
+    "2026-04-05": [
+        {
+            "when": "10:00\u201314:00",
+            "what": "Church Visit",
+            "where": "Off Campus"
+        }
+    ]
 }
