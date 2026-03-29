@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../static/styles.css" />
+  <title>Image Optimizer</title>
+</head>
+<body>
+  <center><header>
+    <h1>Image Optimizer</h1>
+  </header></center>
+
+  <p>
+    This tool will:
+  </p>
+  <ol>
+    <li>Scale the image down (75%, 50%, 33%, or 25%) if the longest side exceeds 1600px.</li>
+    <li>Compress the result to under 100 KB (as close as possible) using binary search, if needed.</li>
+  </ol>
+
+  <p><label for="fileInput">Select an image:</label>
+  <input type="file" id="fileInput" accept="image/*"></p>
+
+  <canvas id="canvas" style="display:none;"></canvas>
+
+  <p class="note" id="status"></p>
+  <p class="note" id="preview"></p>
+
+  <script>
+    const MAX_LONG_SIDE = 1600;
+    const TARGET_SIZE_BYTES = 100 * 1024; // 100 KB
+    const SCALE_STEPS = [1, 0.75, 0.5, 0.3333, 0.25];
+
+    const fileInput = document.getElementById('fileInput');
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+    const statusDiv = document.getElementById('status');
+    const previewDiv = document.getElementById('preview');
+
+    fileInput.addEventListener('change', function () {
+      const file = this.files[0];
+      if (!file) return;
+
+      if (!file.type.startsWith('image/')) {
+        setStatus('Please select a valid image file.');
+        return;
+      }
+
+      setStatus('Loading image...');
+      previewDiv.innerHTML = '';
+
+      const reader = new FileReader();
+      reader.onload = function (e) {
+        const img = new Image();
+        img.onload = function () {
+          processImage(img, file.name, file.size);
+        };
+        img.onerror = function () {
+          setStatus('Failed to load image.');
+        };
+        img.src = e.target.result;
+      };
+      reader.readAsDataURL(file);
+    });
+
+    function processImage(img, originalName, originalBytes) {
+      const originalW = img.naturalWidth;
+      const originalH = img.naturalHeight;
+      const longestSide = Math.max(originalW, originalH);
+
+      // If the original file is already under 100 KB, return it untouched
+      if (originalBytes <= TARGET_SIZE_BYTES) {
+        const originalKB = (originalBytes / 1024).toFixed(1);
+        setStatus(`Original image is ${originalKB} KB — already under 100 KB, no changes made.`);
+        offerDownload(img.src, originalName, previewDiv);
+        return;
+      }
+
+      setStatus(`Original size: ${originalW} x ${originalH}px (longest side: ${longestSide}px).`);
+
+      // Step 1: Determine scale factor so longest side < 1600px
+      let scaleFactor = 1;
+      if (longestSide > MAX_LONG_SIDE) {
+        for (const step of SCALE_STEPS) {
+          if (longestSide * step < MAX_LONG_SIDE) {
+            scaleFactor = step;
+            break;
+          }
+        }
+        // Fallback: if none of the fixed steps work (shouldn't happen), use 0.25
+        if (longestSide * scaleFactor >= MAX_LONG_SIDE) {
+          scaleFactor = 0.25;
+        }
+      }
+
+      const newW = Math.round(originalW * scaleFactor);
+      const newH = Math.round(originalH * scaleFactor);
+
+      canvas.width = newW;
+      canvas.height = newH;
+      ctx.clearRect(0, 0, newW, newH);
+      ctx.drawImage(img, 0, 0, newW, newH);
+
+      let scaleMsg = scaleFactor === 1
+        ? `No scaling needed (longest side ${longestSide}px ≤ ${MAX_LONG_SIDE}px).`
+        : `Scaled to ${Math.round(scaleFactor * 100)}% → ${newW} × ${newH}px.`;
+
+      setStatus(scaleMsg + ' Checking file size...');
+
+      // Step 2: Check if compression is needed
+      // Try WebP at quality 1.0 (the best WebP) first
+      const dataUrlWebpFull = canvas.toDataURL('image/webp', 1.0);
+      const webpFullBytes = dataUrlToBytes(dataUrlWebpFull);
+
+      if (webpFullBytes <= TARGET_SIZE_BYTES) {
+        // Even full-quality WebP is under 100 KB — use it directly
+        const finalKB = (webpFullBytes / 1024).toFixed(1);
+        setStatus(
+          scaleMsg +
+          ` Full-quality WebP is ${finalKB} KB — no compression needed.`
+        );
+        offerDownload(dataUrlWebpFull, buildOutputName(originalName), previewDiv);
+        return;
+      }
+
+      // Binary search for quality
+      setStatus(scaleMsg + ' Compressing with binary search...');
+
+      const result = binarySearchQuality(0, 1);
+      const finalKB = (result.bytes / 1024).toFixed(1);
+      const qualityPct = Math.round(result.quality * 100);
+
+      setStatus(
+        scaleMsg +
+        ` Compressed to ${finalKB} KB at quality ${qualityPct}%.`
+      );
+
+      offerDownload(result.dataUrl, buildOutputName(originalName), previewDiv);
+    }
+
+    // Binary search: find highest quality whose output is ≤ TARGET_SIZE_BYTES
+    function binarySearchQuality(lo, hi) {
+      const ITERATIONS = 16;   // enough precision
+      let bestDataUrl = null;
+      let bestBytes = 0;
+      let bestQuality = lo;
+      let low = lo;
+      let high = hi;
+
+      for (let i = 0; i < ITERATIONS; i++) {
+        const mid = (low + high) / 2;
+        const dataUrl = canvas.toDataURL('image/webp', mid);
+        const bytes = dataUrlToBytes(dataUrl);
+
+        if (bytes <= TARGET_SIZE_BYTES) {
+          // This quality fits — try higher
+          bestDataUrl = dataUrl;
+          bestBytes = bytes;
+          bestQuality = mid;
+          low = mid;
+        } else {
+          // Too big — try lower
+          high = mid;
+        }
+
+        // Stop if the range is negligibly small
+        if (high - low < 0.001) break;
+      }
+
+      // If nothing fit (even quality=0 exceeds 100 KB, very unusual), use the lowest
+      if (!bestDataUrl) {
+        bestDataUrl = canvas.toDataURL('image/webp', 0);
+        bestBytes = dataUrlToBytes(bestDataUrl);
+        bestQuality = 0;
+      }
+
+      return { dataUrl: bestDataUrl, bytes: bestBytes, quality: bestQuality };
+    }
+
+    // Convert a base64 data URL to byte count
+    function dataUrlToBytes(dataUrl) {
+      const base64 = dataUrl.split(',')[1];
+      // Each base64 char = 6 bits → 4 chars = 3 bytes; padding '=' chars don't add bytes
+      const padding = (base64.match(/=+$/) || [''])[0].length;
+      return (base64.length * 3) / 4 - padding;
+    }
+
+    function buildOutputName(originalName) {
+      const dot = originalName.lastIndexOf('.');
+      const base = dot !== -1 ? originalName.substring(0, dot) : originalName;
+      return base + '.webp';
+    }
+
+    function offerDownload(dataUrl, filename, container) {
+      container.innerHTML = '';
+
+      const img = document.createElement('img');
+      img.src = dataUrl;
+      img.alt = 'Optimized image preview';
+      img.style.display = 'block';
+      container.appendChild(img);
+
+      const p = document.createElement('p');
+      p.textContent = 'Save '
+      container.appendChild(p);
+
+      const a = document.createElement('a');
+      a.href = dataUrl;
+      a.download = filename;
+      a.textContent = filename;
+      p.appendChild(a);
+    }
+
+    function setStatus(msg) {
+      statusDiv.textContent = msg;
+    }
+  </script>
+
+</body>
+</html>
