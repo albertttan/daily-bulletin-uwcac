@@ -1657,5 +1657,12 @@
         "weekday_str": "Thursday",
         "codes": "CDEF",
         "menu_week": "C"
+    },
+    "2026-04-03": {
+        "iso": "2026-04-03",
+        "weekday_int": "5",
+        "weekday_str": "Friday",
+        "codes": "",
+        "menu_week": ""
     }
 }
