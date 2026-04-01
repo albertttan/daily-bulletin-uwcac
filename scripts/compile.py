@@ -41,7 +41,7 @@ def compile_email(date_iso):
         cycles = json.load(file)
         weekday_str = cycles[date_iso]["weekday_str"]
 
-    to = "direct recipient|Albert Tan <a24ytan@uwcatlantic.org>"
+    to = "direct recipient|UWCA WellCo <wellco@uwcatlantic.org>, Albert Tan <a24ytan@uwcatlantic.org>"
     bcc = f"bcc recipients|{recipients}"
     subject = f"email subject|Daily Bulletin {date_iso}"
     link = f"page URL|https://albertttan.github.io/daily-bulletin-uwcac/pages/{date_iso}.html"

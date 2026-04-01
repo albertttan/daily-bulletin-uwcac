@@ -158,6 +158,7 @@ def main(date_iso=None, update_only=False):
     os.system("git push origin main")
 
     if not update_only: 
+        subprocess.run(["open", "-a", "Firefox", "https://mail.google.com/mail/u/1/"], check=True)
         compile_email(date_iso)
         print("Please schedule the email to be delivered at 07:00. Thank you!")
 
