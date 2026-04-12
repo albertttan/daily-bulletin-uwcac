@@ -3761,5 +3761,89 @@
             "what": "Church Visit",
             "where": "Off Campus"
         }
+    ],
+    "2026-04-13": [
+        {
+            "when": "14:00\u201315:00",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "15:00\u201316:00",
+            "what": "Community Gathering",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "SLACC",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-04-14": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "Susco",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-04-15": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "P6",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-04-16": [
+        {
+            "when": "14:00\u201315:00",
+            "what": "IB2 Exam & IA Talk",
+            "where": NaN
+        },
+        {
+            "when": "15:00\u201316:00",
+            "what": "IB1 Exam and IA Talk",
+            "where": NaN
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "PeaCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-04-17": [
+        {
+            "when": "16:00\u201318:00",
+            "what": "Friday Night Lecture",
+            "where": "Great Hall"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        }
+    ],
+    "2026-04-18": [
+        {
+            "when": "20:00\u201322:00",
+            "what": "Human Library",
+            "where": NaN
+        }
+    ],
+    "2026-04-19": [
+        {
+            "when": "14:15\u201317:30",
+            "what": "International Show",
+            "where": NaN
+        }
     ]
 }
