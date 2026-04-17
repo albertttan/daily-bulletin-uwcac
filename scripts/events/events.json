@@ -3802,12 +3802,12 @@
         {
             "when": "14:00\u201315:00",
             "what": "IB2 Exam & IA Talk",
-            "where": NaN
+            "where": "Sports Hall"
         },
         {
             "when": "15:00\u201316:00",
             "what": "IB1 Exam and IA Talk",
-            "where": NaN
+            "where": "Sports Hall"
         },
         {
             "when": "19:30\u201320:30",
@@ -3834,16 +3834,89 @@
     ],
     "2026-04-18": [
         {
+            "when": "17:00\u201319:00",
+            "what": "National Leader Passdown",
+            "where": "Top Lawn"
+        },
+        {
             "when": "20:00\u201322:00",
             "what": "Human Library",
-            "where": NaN
+            "where": "Library"
         }
     ],
     "2026-04-19": [
         {
             "when": "14:15\u201317:30",
             "what": "International Show",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2026-04-20": [
+        {
+            "when": "14:00\u201315:00",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "StuCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-04-21": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "FEMO",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-04-22": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "WellCo \u2600\ufe0f",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-04-23": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "PeaCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-04-24": [
+        {
+            "when": "14:00\u201316:00",
+            "what": "IB1 University Guidance",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        }
+    ],
+    "2026-04-25": [
+        {
+            "when": "10:00\u201316:00",
+            "what": "Lighthouse Prize Pitches",
+            "where": "Tythe Barn"
+        },
+        {
+            "when": "16:00\u201317:00",
+            "what": "Holi & Songkran",
             "where": NaN
         }
-    ]
+    ],
+    "2026-04-26": []
 }
