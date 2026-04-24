@@ -3892,8 +3892,13 @@
     "2026-04-24": [
         {
             "when": "14:00\u201316:00",
-            "what": "IB1 University Guidance",
-            "where": "Bradenstoke"
+            "what": "IB1 V IB2 Football Game",
+            "where": "Football Field"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "Bonfire",
+            "where": "Valley"
         },
         {
             "when": "20:30\u201322:00",
@@ -3915,8 +3920,72 @@
         {
             "when": "16:00\u201317:00",
             "what": "Holi & Songkran",
-            "where": NaN
+            "where": "Jousting Field"
         }
     ],
-    "2026-04-26": []
+    "2026-04-26": [
+        {
+            "when": "15:00\u201317:00",
+            "what": "Hot to Go - Study Cafe",
+            "where": "Moondance"
+        }
+    ],
+    "2026-04-27": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "SLACC",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-04-28": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "SusCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-04-29": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "P6",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-04-30": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "PeaCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-05-01": [
+        {
+            "when": "14:00\u201316:00",
+            "what": "IB1 University Guidance",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        }
+    ],
+    "2026-05-02": [
+        {
+            "when": "07:00\u201312:00",
+            "what": "SAT Test",
+            "where": "Sports Hall"
+        }
+    ],
+    "2026-05-03": []
 }
