@@ -6,10 +6,10 @@ from typing import Optional
 
 # Parameters
 
-start_date = datetime.date(2026, 4, 13)
-end_date = datetime.date(2026, 5, 1)
-START_MENU = "C"
-START_CODE = "G"
+start_date = datetime.date(2026, 4, 27)
+end_date = datetime.date(2026, 5, 23)
+START_MENU = "A"
+START_CODE = "E"
 
 
 # Define rotation and exceptions
