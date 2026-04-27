@@ -15,7 +15,6 @@ from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
 
 
-
 def retrieve_history(date_iso):
 
     # Retrieve page
@@ -90,25 +89,12 @@ def retrieve_news_ap():
         element.find("span").unwrap()
 
     sentiment_classifier = pipeline("sentiment-analysis", model="cardiffnlp/twitter-roberta-base-sentiment-latest")
-    saliency_classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
 
     def get_sentiment_score(text):
-        result = sentiment_classifier(text[0])
+        result = sentiment_classifier(text)[0]
         return result['score'] if result['label'] == 'positive' else -result['score']
 
-    def get_saliency_score(text):
-        result = zero_shot_classifier(text, candidate_labels=["important news", "unimportant news"])
-        return result['scores'][result['labels'].index('important news')]
-
-    def get_combined_score(tag):
-        text = tag.get_text()
-        sentiment = (get_sentiment_score(text) + 1) / 2
-        saliency = get_saliency_score(text)
-        return sentiment * saliency
-
-    ranked_titles = sorted(output, key=get_combined_score, reverse=True)
-    print(ranked_titles)
-
+    output = sorted(output, key=get_sentiment_score, reverse=True)
     output.append(False)
     return output
 
