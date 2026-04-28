@@ -16,6 +16,7 @@ from googleapiclient.discovery import build
 
 
 logging.set_verbosity_error()
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 
 def retrieve_history(date_iso):
