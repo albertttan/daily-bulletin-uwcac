@@ -8,11 +8,14 @@ import requests
 import webbrowser
 import urllib.parse
 from bs4 import BeautifulSoup
-from transformers import pipeline
+from transformers import pipeline, logging
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
+
+
+logging.set_verbosity_error()
 
 
 def retrieve_history(date_iso):
@@ -90,8 +93,8 @@ def retrieve_news_ap():
 
     sentiment_classifier = pipeline("sentiment-analysis", model="cardiffnlp/twitter-roberta-base-sentiment-latest")
 
-    def get_sentiment_score(text):
-        result = sentiment_classifier(text)[0]
+    def get_sentiment_score(tag):
+        result = sentiment_classifier(tag.text)[0]
         return result['score'] if result['label'] == 'positive' else -result['score']
 
     output = sorted(output, key=get_sentiment_score, reverse=True)
