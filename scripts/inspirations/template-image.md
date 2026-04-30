@@ -1,6 +1,6 @@
 ### {{Picture / Photo / Cartoon / Meme}} of the Day
 
-<img src="../static/{{image-name}}.webp" alt="(Brief visual description)">
+<img src="../static/{{image-name}}.webp" alt="{{Brief visual description}}">
 
 Optional supplementary information.
 
