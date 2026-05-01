@@ -37,7 +37,10 @@ def retrieve_history(date_iso):
     # Clean results
     for element in date_history:
         for link in element.find_all("a"):
-            link["href"] = "https://en.wikipedia.org" + link["href"]
+            if link["href"][:6] == "/wiki/":
+                link["href"] = "https://en.wikipedia.org" + link["href"]
+            else:
+                link["href"] = "https:" + link["href"]
         for italics in element.find_all("i"):
             if italics.text.startswith("("):
                 italics.decompose()
