@@ -3932,12 +3932,22 @@
     ],
     "2026-04-27": [
         {
+            "when": "14:00\u201316:00",
+            "what": "IB1 EE Afternoon and Reflection Session",
+            "where": "Supervisor Rooms"
+        },
+        {
             "when": "19:30\u201320:30",
             "what": "SLACC",
             "where": "Great Hall"
         }
     ],
     "2026-04-28": [
+        {
+            "when": "14:30\u201316:00",
+            "what": "Managing Exams Workshop",
+            "where": "Wellbeing Hub"
+        },
         {
             "when": "19:30\u201320:30",
             "what": "SusCo",
@@ -3965,14 +3975,14 @@
     ],
     "2026-05-01": [
         {
-            "when": "14:00\u201316:00",
-            "what": "IB1 University Guidance",
-            "where": "Bradenstoke"
-        },
-        {
             "when": "20:30\u201322:00",
             "what": "SOSH",
             "where": "Tythe Barn"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "Bonfire",
+            "where": "Valley"
         },
         {
             "when": "20:00\u201322:00",
@@ -3987,5 +3997,62 @@
             "where": "Sports Hall"
         }
     ],
-    "2026-05-03": []
+    "2026-05-03": [],
+    "2026-05-04": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "StuCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-05-05": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "FEMO",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-05-06": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "WellCo \u2600\ufe0f",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-05-07": [
+        {
+            "when": "14:00\u201317:00",
+            "what": "Minibuses to Marcross for Voting",
+            "where": NaN
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "PeaCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-05-08": [
+        {
+            "when": "16:00\u201318:00",
+            "what": "Cafe Concert",
+            "where": "Glassroom"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        }
+    ],
+    "2026-05-09": [],
+    "2026-05-10": []
 }
