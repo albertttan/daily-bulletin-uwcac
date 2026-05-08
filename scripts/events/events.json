@@ -4028,7 +4028,7 @@
         {
             "when": "14:00\u201317:00",
             "what": "Minibuses to Marcross for Voting",
-            "where": NaN
+            "where": "Reception"
         },
         {
             "when": "19:30\u201320:30",
@@ -4053,6 +4053,80 @@
             "where": "Moondance"
         }
     ],
-    "2026-05-09": [],
-    "2026-05-10": []
+    "2026-05-09": [
+        {
+            "when": "15:30\u201316:45",
+            "what": "Malcolm Dixelius AC'65 Alumni Talk",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-05-10": [],
+    "2026-05-11": [
+        {
+            "when": "14:00\u201315:00",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "15:00\u201316:00",
+            "what": "Community Gathering",
+            "where": NaN
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "SLACC",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-05-12": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "SusCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-05-13": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "P6",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-05-14": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "PeaCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-05-15": [
+        {
+            "when": "14:00\u201316:00",
+            "what": "IB1 University Fair",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        }
+    ],
+    "2026-05-16": [
+        {
+            "when": "19:00\u201321:30",
+            "what": "TedX",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2026-05-17": []
 }
