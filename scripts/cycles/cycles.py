@@ -23,7 +23,8 @@ with open("exceptions.json", "r") as file:
 
 # Initialize values
 
-data = {}
+with open("events.json") as file:
+    data = json.load(file)
 date = start_date
 menu_sequence = islice(cycle(menu_alphabet), menu_alphabet.index(START_MENU), None)
 code_sequence = islice(cycle(code_alphabet), code_alphabet.index(START_CODE), None)

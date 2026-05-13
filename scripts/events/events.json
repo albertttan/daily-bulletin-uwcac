@@ -4123,10 +4123,71 @@
     ],
     "2026-05-16": [
         {
+            "when": "13:00\u201314:00",
+            "what": "Spicy Ramen Challenge",
+            "where": "Top Lawn"
+        },
+        {
+            "when": "16:00\u201318:00",
+            "what": "Letter Writing",
+            "where": "Moondance"
+        },
+        {
             "when": "19:00\u201321:30",
             "what": "TedX",
             "where": "Tythe Barn"
         }
     ],
-    "2026-05-17": []
+    "2026-05-17": [],
+    "2026-05-18": [
+        {
+            "when": "1:15 \u201317:00",
+            "what": "G4 Day",
+            "where": NaN
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "StuCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-05-19": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "Femo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-05-20": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "Wellco",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-05-21": [
+        {
+            "when": "12:30\u201317:00",
+            "what": "Alumni for Life (IB2 Only)",
+            "where": NaN
+        },
+        {
+            "when": "14:00\u201316:00",
+            "what": "House Clear up",
+            "where": NaN
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "PeaCo",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-05-22": [],
+    "2026-05-23": [],
+    "2026-05-24": []
 }
