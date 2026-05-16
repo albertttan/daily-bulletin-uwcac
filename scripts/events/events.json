@@ -4128,7 +4128,7 @@
             "where": "Top Lawn"
         },
         {
-            "when": "16:00\u201318:00",
+            "when": "11:00\u201312:00",
             "what": "Letter Writing",
             "where": "Moondance"
         },
@@ -4138,7 +4138,13 @@
             "where": "Tythe Barn"
         }
     ],
-    "2026-05-17": [],
+    "2026-05-17": [
+        {
+            "when": "16:00\u201318:00",
+            "what": "Hot to Go",
+            "where": "Valley"
+        }
+    ],
     "2026-05-18": [
         {
             "when": "1:15 \u201317:00",
