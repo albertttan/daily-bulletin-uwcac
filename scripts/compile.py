@@ -71,7 +71,7 @@ def compile_email(date_iso):
         r.clipboard_append(info.split("|")[1])
         r.update()
         r.destroy()
-        input(f"Copied {info.split("|")[0]} to clipboard...")
+        input("Copied "+str(info.split("|")[0])+" to clipboard...")
 
 
 def update_pages(date_iso):

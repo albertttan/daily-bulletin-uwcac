@@ -135,7 +135,7 @@ def main(date_iso=None, update_only=False):
             if action.lower() == "c" or action.lower() == "confirm":
                 continue
             if action.lower() == "v" or action.lower() == "view":
-                subprocess.run(["open", "-a", "Firefox", output_path], check=True)
+                subprocess.run(["open", "-a", "Google Chrome", output_path], check=True)
             elif action.lower() == "e" or action.lower() == "edit":
                 subprocess.run(["open", "-a", "Sublime Text", output_path], check=True)
             elif action.lower() == "r" or action.lower() == "rerun": 
@@ -158,7 +158,7 @@ def main(date_iso=None, update_only=False):
     os.system("git push origin main")
 
     if not update_only: 
-        subprocess.run(["open", "-a", "Firefox", "https://mail.google.com/mail/u/1/#inbox?compose=new"], check=True)
+        subprocess.run(["open", "-a", "Google Chrome", "https://mail.google.com/mail/u/1/#inbox?compose=new"], check=True)
         compile_email(date_iso)
         print("Please schedule the email to be delivered at 07:00. Thank you!")
 
