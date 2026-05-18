@@ -139,7 +139,7 @@ def main(date_iso=None, mode="compile"):
             if action.lower() == "c" or action.lower() == "confirm":
                 continue
             if action.lower() == "v" or action.lower() == "view":
-                subprocess.run(["open", "-a", "Safari", output_path], check=True)
+                subprocess.run(["open", "-a", "Google Chrome", output_path], check=True)
             elif action.lower() == "e" or action.lower() == "edit":
                 subprocess.run(["open", "-a", "Sublime Text", output_path], check=True)
             elif action.lower() == "r" or action.lower() == "rerun": 
