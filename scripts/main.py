@@ -110,7 +110,7 @@ def render_html(date):
     return news_info[-1]
 
 
-def main(date_iso=None, update_only=False):
+def main(date_iso=None, mode="compile"):
 
     if date_iso:
         date = [
@@ -124,7 +124,10 @@ def main(date_iso=None, update_only=False):
         ]
         date_iso = date[0].isoformat()
 
-    if not update_only: 
+    if mode == "compile" or mode == "update":
+        os.system("git pull")
+
+    if mode == "compile":
 
         news_timestamp = render_html(date)
 
@@ -153,11 +156,12 @@ def main(date_iso=None, update_only=False):
 
         update_pages(date_iso)
 
-    os.system("git add ..")
-    subprocess.run(["git", "commit", "-m", f"Daily Bulletin {date_iso}"], check=True)
-    os.system("git push origin main")
+    if mode == "compile" or mode == "update": 
+        os.system("git add ..")
+        subprocess.run(["git", "commit", "-m", f"Daily Bulletin {date_iso}"], check=True)
+        os.system("git push origin main")
 
-    if not update_only: 
+    if mode == "compile" or mode == "email": 
         subprocess.run(["open", "-a", "Safari", "https://mail.google.com/mail/u/1/#inbox?compose=new"], check=True)
         compile_email(date_iso)
         print("Please schedule the email to be delivered at 07:00. Thank you!")

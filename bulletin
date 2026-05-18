@@ -2,7 +2,7 @@
 
 # Default values
 DATE="None"
-UPDATE_ONLY="False"
+MODE="compile"
 
 # Parse arguments
 while [ "$#" -gt 0 ]; do
@@ -11,8 +11,12 @@ while [ "$#" -gt 0 ]; do
       DATE="'$2'"
       shift 2
       ;;
-    --update-only)
-      UPDATE_ONLY="True"
+    --update)
+      MODE="update"
+      shift
+      ;;
+    --email)
+      MODE="email"
       shift
       ;;
     *)
@@ -22,4 +26,4 @@ while [ "$#" -gt 0 ]; do
 done
 
 cd scripts
-python3 -c "from main import main; main($DATE, $UPDATE_ONLY)"
+python3 -c "from main import main; main($DATE, $MODE)"
