@@ -130,6 +130,7 @@ def main(date_iso=None, mode="compile"):
     if mode == "compile":
 
         news_timestamp = render_html(date)
+        print("11111")
 
         output_path = f"../pages/{date_iso}.html"
         action = ""

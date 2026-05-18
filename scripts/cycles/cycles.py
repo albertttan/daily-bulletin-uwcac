@@ -6,10 +6,10 @@ from typing import Optional
 
 # Parameters
 
-start_date = datetime.date(2026, 4, 27)
-end_date = datetime.date(2026, 5, 23)
-START_MENU = "A"
-START_CODE = "E"
+start_date = datetime.date(2026, 5, 25)
+end_date = datetime.date(2026, 6, 11)
+START_MENU = "B"
+START_CODE = "A"
 
 
 # Define rotation and exceptions
@@ -23,7 +23,7 @@ with open("exceptions.json", "r") as file:
 
 # Initialize values
 
-with open("events.json") as file:
+with open("cycles.json") as file:
     data = json.load(file)
 date = start_date
 menu_sequence = islice(cycle(menu_alphabet), menu_alphabet.index(START_MENU), None)
