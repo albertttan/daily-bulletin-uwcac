@@ -62,7 +62,7 @@ def compile_email(date_iso):
         "Thanks,\n",
         "Have a great day,\n"
     ])
-    content += "WellCo and Albert"
+    content += "WellCo and Iori"
 
     for info in [to, bcc, subject, content, link]:
         r = Tk()

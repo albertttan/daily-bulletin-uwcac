@@ -1,10 +1,9 @@
 .DS_Store
-contacts-raw*.txt
-contacts-students*.json
-contacts-teachers*.json
-contacts-trial.json
 contacts.txt
-contacts-teachers.txt
+contacts*.json
+contacts-students*
+contacts-teachers*
+contacts-raw*
 *.xlsx
 *.eml
 __pycache__/

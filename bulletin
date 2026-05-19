@@ -2,7 +2,7 @@
 
 # Default values
 DATE="None"
-MODE="compile"
+MODE="'compile'"
 
 # Parse arguments
 while [ "$#" -gt 0 ]; do
@@ -12,11 +12,11 @@ while [ "$#" -gt 0 ]; do
       shift 2
       ;;
     --update)
-      MODE="update"
+      MODE="'update'"
       shift
       ;;
     --email)
-      MODE="email"
+      MODE="'email'"
       shift
       ;;
     *)

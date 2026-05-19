@@ -4,21 +4,31 @@ import json
 
 # Input and setup
 
-with open("contacts-raw.txt", "r", encoding="utf-8") as file:
+with open("contacts-raw-2026.txt", "r", encoding="utf-8") as file:
     lines = list(map(str.strip, file.readlines()))
 
-students = {}
-teachers = {}
+students = ""
+teachers = ""
 
 
 # Loop through raw contacts file
 
 i = 0
 while i < len(lines):
-    name = lines[i]
+
+    # Skip empty lines, drag indicators, and sidebar lines
+    if lines[i] in ["", "drag_indicator", "Skip to main content", 
+        "Press question mark to see available shortcut keys",
+        "person", "Contacts", "domain", "Directory",
+        "history", "Frequent", "archive", "Other contacts",
+        "Fix & manage", "handyman", "Merge & fix", "download",
+        "Import", "delete", "Trash", "Labels", "Directory"]\
+        or re.match(r"\(\d*\)", lines[i]):
+        i += 1
+        continue
 
     # Skip phone numbers
-    if re.match(r".*\d", name):
+    if re.match(r".*\d", lines[i]):
         i += 1
         continue
 
@@ -29,17 +39,18 @@ while i < len(lines):
 
     # Read and record names and emails
     if i < len(lines):
-        email = lines[i]
-        i += 1
-        if re.match(r"a\d{2}\w{3,4}@uwcatlantic\.org", email):
-            students[name] = email
+        if re.match(r"a\d{2}\w{3,4}@uwcatlantic\.org", lines[i]):
+            students += f"{lines[i-1]} <{lines[i]}>,\n"
         else:
-            teachers[name] = email
+            teachers += f"{lines[i-1]} <{lines[i]}>,\n"
+        i += 1
 
 
 # Save to JSON files
 
-with open("contacts-students.json", "w") as file:
-    json.dump(students, file, indent=4)
-with open("contacts-teachers.json", "w") as file:
-    json.dump(teachers, file, indent=4)
+print(students[:-2])
+
+with open("contacts-students.txt", "w") as file:
+    file.write(students[:-2])
+with open("contacts-teachers.txt", "w") as file:
+    file.write(teachers[:-2])
