@@ -48,8 +48,6 @@ while i < len(lines):
 
 # Save to JSON files
 
-print(students[:-2])
-
 with open("contacts-students.txt", "w") as file:
     file.write(students[:-2])
 with open("contacts-teachers.txt", "w") as file:
