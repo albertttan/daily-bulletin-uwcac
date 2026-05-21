@@ -4193,7 +4193,67 @@
             "where": "Great Hall"
         }
     ],
-    "2026-05-22": [],
-    "2026-05-23": [],
+    "2026-05-22": [
+        {
+            "when": "10:00\u201312:30",
+            "what": "IB2: Time Capsule",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "13:00\u201315:30",
+            "what": "Graduation Rehearsal",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "14:30\u201314:50",
+            "what": "IB1 Ceremony Rehearsal",
+            "where": "Moondance"
+        },
+        
+         {
+            "when": "18:30\u201322:30",
+            "what": "Prom",
+            "where": "Top Lawn, Bradenstoke"
+        },
+         {
+            "when": "22:30\u201323:00",
+            "what": "Check in",
+            "where": "Houses"
+        },
+      
+        {
+            "when": "23:00\u20131:00",
+            "what": "Socialising between house dayrooms and Yearbook signing",
+            "where": "Dayrooms"
+        }
+    ],
+    "2026-05-23": [
+        {
+            "when": "9:00\u201311:30",
+            "what": "Brunch",
+            "where": "Dining Hall"
+        },
+          {
+            "when": "13:00\u201315:15",
+            "what": "Graduation Ceremony",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "18:00\u201319:30",
+            "what": "Dinner",
+            "where": "Dining Hall"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "Bonfire",
+            "where": "Valley"
+        },
+        {
+            "when": "22:0\u20130:00",
+            "what": "Bus to Bridgend Sarn",
+            "where": "Reception"
+        }
+
+    ],
     "2026-05-24": []
 }
