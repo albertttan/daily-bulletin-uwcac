@@ -4255,5 +4255,17 @@
         }
 
     ],
-    "2026-05-24": []
+    "2026-05-24": [
+        {
+            "when": "02:00",
+            "what": "Bus to Sarn",
+            "where": "Reception"
+        },
+        {
+            "when": "09:00",
+            "what": "Minibuses to Sarn",
+            "where": "Reception"
+        }
+
+    ]
 }
