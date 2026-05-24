@@ -4267,5 +4267,36 @@
             "where": "Reception"
         }
 
+    ],
+      "2026-05-25": [
+        {
+            "when": "8:00\u20139:00",
+            "what": "Breakfast with Tutors",
+            "where": "Dining Hall"
+        },
+        {
+            "when": "14:00\u201314:30",
+            "what": "Camp/Community Briefing",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "14:30\u201316:00",
+            "what": "IO Prep Time",
+            "where": NaN
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "SLACC",
+            "where": "Great Hall"
+        }
+
+    ],
+      "2026-05-26": [
+        {
+            "when": "9:30\u201320:30",
+            "what": "SusCo",
+            "where": "Great Hall"
+        }
+
     ]
 }
