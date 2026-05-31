@@ -4326,5 +4326,45 @@
             "what": "Hay Festival Trip",
             "where": "Hay-on-Wye"
         }
+    ],
+    "2026-06-01": [],
+    "2026-06-02": [],
+    "2026-06-03": [],
+    "2026-06-04": [],
+    "2026-06-05": [
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        }
+    ],
+    "2026-06-06": [
+        {
+            "when": "07:00\u201312:00",
+            "what": "SAT",
+            "where": NaN
+        },
+        {
+            "when": "10:00\u201317:00",
+            "what": "Summer Fayre",
+            "where": NaN
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "AC Vision",
+            "where": NaN
+        }
+    ],
+    "2026-06-07": [
+        {
+            "when": "10:00\u201317:00",
+            "what": "Summer Fayre",
+            "where": NaN
+        }
     ]
 }
