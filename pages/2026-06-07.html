@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Daily Bulletin {{ cycle_info[0].iso }}</title>
+	<title>Daily Bulletin 2026-06-07</title>
 	<link rel="stylesheet" href="../static/styles.css" />
 	<script defer src="https://cloud.umami.is/script.js" data-website-id="c78b1615-da26-47f0-b9b2-c1eb114c4733"></script>
 </head>
@@ -17,19 +17,16 @@
 		</h1>
 		<p>
 			<time>
-				{{ cycle_info[0].iso }}
+				2026-06-07
 			</time>
 			<br />
-			{{ cycle_info[0].weekday_str }}
-			{% if cycle_info[0].codes %}
-				<br />
-				Codes <b>{{ cycle_info[0].codes }}</b>
-			{% endif %}
+			Sunday
+			
 		</p>
 	</header></center>
 	<main>
 		<p>
-			Happy {{ cycle_info[0].weekday_str }}! Thank you for supporting the Daily Bulletin project. 
+			Happy Sunday! Thank you for supporting the Daily Bulletin project. 
 		</p>
 		<ul>
 			<li>
@@ -45,13 +42,20 @@
 		<p class="note">
 			Want to contribute to a future Daily Bulletin? <a href="https://docs.google.com/forms/d/e/1FAIpQLSdsKAzrklTWytv9KDYFEAU0KB-dMiTCkbHzKPAYGTTceCS6Mg/viewform">Share</a> your inspirations to give everyone some morning wellbeing energy!
 		</p>
-		{{ inspirations }}
-		{% if exam_info %}
-			<h2>
-				Exam Arrangements
-			</h2>
-			{{ exam_info }}
-		{% endif %}
+		<h3>Poem of the Day</h3>
+<blockquote>
+<h4><span style="font-size: smaller;">Excerpt from</span><br>Onions</h4>
+<p class="note">William Matthews</p>
+<p>How easily happiness begins by<br>
+dicing onions. A lump of sweet butter<br>
+Walking, I find my hairpin under pillow stray.<br>
+slithers and swirls across the floor<br>
+of the sauté pan, especially if its<br>
+errant path crosses a tiny slick<br>
+of olive oil. Then a tumble of onions.</p>
+</blockquote>
+<p class="note">Retrieved from <a href="https://www.poetryfoundation.org/poetrymagazine/poems/37525/onions">Poetry Foundation</a>.</p>
+		
 		<h2>
 			Delicious Dinings
 		</h2>
@@ -75,68 +79,58 @@
 				</tr>
 			</thead>
 			<tbody>
-				{% for index in [0, 1] %}
-					{% if menu_info[index].breakfast %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
-							<th scope="rowgroup" rowspan={{ menu_len[index] }}>
-								{{ cycle_info[index].weekday_str[:3] }}
-							</th>
-							<th class="secondary" scope="row">
-								Breakfast
-							</th>
-							<td>
-								{{ menu_info[index].breakfast }}
-							</td>
-						</tr>
-					{% endif %}
-					{% if menu_info[index].brunch %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
-							<th scope="rowgroup" rowspan={{ menu_len[index] }}>
-								{{ cycle_info[index].weekday_str[:3] }}
-							</th>
-							<th class="secondary" scope="row">
-								Brunch
-							</th>
-							<td>
-								{{ menu_info[index].brunch }}
-							</td>
-						</tr>
-					{% endif %}
-					{% if menu_info[index].lunch_1 %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
-							<th class="secondary" scope="row" {% if menu_info[index].lunch_2 %} rowspan=2 {% endif %}>
-								Lunch
-							</th>
-							<td>
-								{{ menu_info[index].lunch_1 }}
-							</td>
-						</tr>
-					{% endif %}
-					{% if menu_info[index].lunch_2 %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
-							<td>
-								{{ menu_info[index].lunch_2 }}
-							</td>
-						</tr>
-					{% endif %}
-					{% if menu_info[index].dinner_1 %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
-							<th class="secondary" scope="row" {% if menu_info[index].dinner_2 %} rowspan=2 {% endif %}>
-								Dinner
-							</th>
-							<td>
-								{{ menu_info[index].dinner_1 }}
-							</td>
-						</tr>
-					{% endif %}
-					{% if menu_info[index].dinner_2 %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
-							<td>
-								{{ menu_info[index].dinner_2 }}
-							</td>
-						</tr>
-					{% endif %}
-				{% endfor %}
+				
+					
+					
+						<tr class="highlight">
+    <th scope="rowgroup" rowspan="5">Sun</th>
+    <th class="secondary" scope="row">Breakfast</th>
+    <td><b>In Houses</b></td>
+</tr>
+
+<tr class="highlight">
+    <th class="secondary" scope="row">Lunch</th>
+    <td>
+        Street food counters, Grab'n'Go -
+        <b>12:00 - 13:00</b>
+    </td>
+</tr>
+
+<tr class="highlight">
+    <th class="secondary" scope="row" rowspan="2">Dinner</th>
+    <td>Halal Beef Meatloaf</td>
+</tr>
+
+<tr class="highlight">
+    <td>Quorn Roast 🌱</td>
+</tr>
+
+<tr class="highlight">
+    <td></td>
+</tr>
+
+<tr>
+    <th scope="rowgroup" rowspan="4">Mon</th>
+    <th class="secondary" scope="row">Breakfast</th>
+    <td>Pancake / Waffle Bar 🌱</td>
+</tr>
+
+<tr>
+    <th class="secondary" scope="row" rowspan="2">Lunch</th>
+    <td>Tandoori Turkey</td>
+</tr>
+
+<tr>
+    <td>Halloumi &amp; Butterbean Korma 🌱</td>
+</tr>
+
+<tr>
+    <th class="secondary" scope="row">Dinner</th>
+    <td>Vegan Mince &amp; Vegetable Bolognese 🌱</td>
+</tr>
+					
+					
+				
 			</tbody>
 		</table>
 		<p>
@@ -172,26 +166,28 @@
 				</tr>
 			</thead>
 			<tbody>
-				{% for index in [0, 1] %}
-					{% for event in range(event_len[index]) %}
-						<tr {% if index == 0 %} class="highlight" {% endif %}>
-							{% if event == 0 %}
-								<th scope="rowgroup" rowspan={{ event_len[index] }}>
-									{{ cycle_info[index].weekday_str[:3] }}
+				
+					
+						<tr  class="highlight" >
+							
+								<th scope="rowgroup" rowspan=1>
+									Sun
 								</th>
-							{% endif %}
+							
 							<th class="secondary" scope="row">
-								{{ event_info[index][event].when }}
+								10:00–17:00
 							</th>
 							<td>
-								{{ event_info[index][event].what }}
+								Summer Fayre
 							</td>
 							<td>
-								{{ event_info[index][event].where }}
+								nan
 							</td>
 						</tr>
-					{% endfor %}
-				{% endfor %}
+					
+				
+					
+				
 			</tbody>
 		</table>
 		<p class="note">
@@ -203,9 +199,13 @@
 					Today in History
 				</h2>
 				<ul>
-					{% for index in range(5) %}
-						{{ history_info[index] }}
-					{% endfor %}
+					
+					
+						<li><a href="https://en.wikipedia.org/wiki/1900" title="1900">1900</a> – <a href="https://en.wikipedia.org/wiki/Temperance_movement_in_the_United_States" title="Temperance movement in the United States">American temperance activist</a> <b><a href="https://en.wikipedia.org/wiki/Carrie_Nation" title="Carrie Nation">Carrie Nation</a></b> entered a saloon in <a href="https://en.wikipedia.org/wiki/Kiowa,_Kansas" title="Kiowa, Kansas">Kiowa, Kansas</a>, and destroyed its stock of alcoholic beverages with rocks.</li>
+					
+						<li><a href="https://en.wikipedia.org/wiki/1929" title="1929">1929</a> – The <b><a href="https://en.wikipedia.org/wiki/Lateran_Treaty" title="Lateran Treaty">Lateran Treaty</a></b> was ratified to bring <a href="https://en.wikipedia.org/wiki/Vatican_City" title="Vatican City">Vatican City</a> into existence, thus ending the "<a href="https://en.wikipedia.org/wiki/Roman_question" title="Roman question">Roman question</a>".</li>
+					
+					
 				</ul>
 				<p class="note">
 					Retrieved from <a href="https://en.wikipedia.org/wiki/Wikipedia:Selected_anniversaries">Wikipedia</a>.
@@ -216,27 +216,29 @@
 					Today in News
 				</h2>
 				<ul>
-					{% if news_info[-1] %}
-						{% for index in range(3) %}
+					
+						
 							<li>
-								{{ news_info[index] }}
+								<a href="https://apnews.com/article/slovenia-zoo-tiger-cubs-5e1e9281c37fd895d6b11fcae7855b6a">Excitement and joy at Ljubljana Zoo after birth of 3 Siberian tiger cubs</a>
 							</li>
-						{% endfor %}
-					{% else %}
-						{% for index in range(6) %}
+						
 							<li>
-								{{ news_info[index] }}
+								<a href="https://apnews.com/article/taiwan-china-red-pandas-taipei-zoo-6542521b51c4ff546d95c2387cb57f34">Taipei Zoo welcomes a pair of red pandas from China, first in over a decade</a>
 							</li>
-						{% endfor %}
-					{% endif %}
+						
+							<li>
+								<a href="https://apnews.com/article/new-zealand-india-cricket-7e4d0413e85e730c35aa03f60c183578">India set for a blockbuster 12-match New Zealand tour, the biggest in a generation</a>
+							</li>
+						
+							
+						
+					
 				</ul>
 				<p class="note">
 					Retrieved
-					{% if news_info[-1] %}
-						by PeaCo News Taskforce.
-					{% else %}
+					
 						from <a href="https://apnews.com/world-news">the Associated Press</a>.
-					{% endif %}
+					
 				</p>
 			</div>
 		</div>
