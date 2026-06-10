@@ -2084,5 +2084,12 @@
         "weekday_str": "Thursday",
         "codes": "EFGA",
         "menu_week": "A"
+    },
+    "2026-06-12": {
+        "iso": "2026-06-12",
+        "weekday_int": "5",
+        "weekday_str": "Friday",
+        "codes": null,
+        "menu_week": "A"
     }
 }

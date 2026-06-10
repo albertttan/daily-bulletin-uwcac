@@ -4409,5 +4409,12 @@
             "what": "Bus to Heathrow",
             "where": NaN
         }
+    ],
+    "2026-06-12": [
+        {
+            "when": "07:00",
+            "what": "Bus to Heathrow",
+            "where": NaN
+        }
     ]
 }

@@ -119,8 +119,8 @@ def main(date_iso=None, mode="compile"):
         ]
     else:
         date = [
+            datetime.date.today(),
             datetime.date.today() + datetime.timedelta(days=1),
-            datetime.date.today() + datetime.timedelta(days=2),
         ]
         date_iso = date[0].isoformat()
 
@@ -169,4 +169,5 @@ def main(date_iso=None, mode="compile"):
 
 
 if __name__ == "__main__":
-    main()
+    date_arg = sys.argv[1] if len(sys.argv) > 1 else None
+    main(date_iso=date_arg)
