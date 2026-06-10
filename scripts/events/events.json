@@ -4388,5 +4388,26 @@
 
     "2026-06-09": [
         
+    ],
+    "2026-06-10": [
+        {
+            "when": "14:00\u201316:00",
+            "what": "House Clear-up",
+            "where": "Houses"
+        },
+        
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        }
+    ],
+
+    "2026-06-11": [
+        {
+            "when": "22:00",
+            "what": "Bus to Heathrow",
+            "where": NaN
+        }
     ]
 }
