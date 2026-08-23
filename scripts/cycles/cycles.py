@@ -6,8 +6,8 @@ from typing import Optional
 
 # Parameters
 
-start_date = datetime.date(2026, 5, 25)
-end_date = datetime.date(2026, 6, 11)
+start_date = datetime.date(2026, 8, 24)
+end_date = datetime.date(2026, 9, 29)
 START_MENU = "B"
 START_CODE = "A"
 

@@ -4416,5 +4416,12 @@
             "what": "Bus to Heathrow",
             "where": NaN
         }
+    ],
+      "2026-08-24": [
+        {
+            "when": "13:00",
+            "what": "Fisties Arrival",
+            "where": NaN
+        }
     ]
 }
