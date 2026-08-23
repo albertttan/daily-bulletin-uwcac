@@ -39,7 +39,7 @@ while i < len(lines):
 
     # Read and record names and emails
     if i < len(lines):
-        if re.match(r"a\d{2}\w{3,4}@uwcatlantic\.org", lines[i]):
+        if re.match(r"a\d{2}\w{5,6}@uwcatlantic\.org", lines[i]):
             students += f"{lines[i-1]} <{lines[i]}>,\n"
         else:
             teachers += f"{lines[i-1]} <{lines[i]}>,\n"
