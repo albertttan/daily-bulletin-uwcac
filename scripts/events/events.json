@@ -4423,5 +4423,23 @@
             "what": "Fisties Arrival",
             "where": NaN
         }
+    ],
+        "2026-08-25": [
+        {
+            "when": "8:00",
+            "what": "Breakfast at houses",
+            "where": "houses"
+        },
+        {
+            "when": "15:00-16:00",
+            "what": "Capture the Flag/Dodgeball",
+            "where": "Jousting Field/Tennis Courts"
+        },
+        {
+            "when": "19:00",
+            "what": "House Bondings",
+            "where": "Houses"
+        }
+
     ]
 }
