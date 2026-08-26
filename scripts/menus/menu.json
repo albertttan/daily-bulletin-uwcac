@@ -138,18 +138,18 @@
     "C4": {
         "breakfast": "Continental Counter",
         "brunch": null,
-        "lunch_1": "Chilli non Carne \ud83c\udf31",
+        "lunch_1": "Pasta bar \ud83c\udf31",
         "lunch_2": null,
-        "dinner_1": "Katsu Chicken",
-        "dinner_2": "Katsu Tofu \ud83c\udf31"
+        "dinner_1": "Vegetarian Nasi Goreng \ud83c\udf31",
+        "dinner_2": "Sticky tofu \ud83c\udf31"
     },
     "C5": {
         "breakfast": "Burrito",
         "brunch": null,
         "lunch_1": "Fish & Chips",
         "lunch_2": "Crispy Buttermilk Quorn \ud83c\udf31",
-        "dinner_1": "Veggie Burrito \ud83c\udf31",
-        "dinner_2": null
+        "dinner_1": "Bbq chicken pizza \ud83c\udf31",
+        "dinner_2": "Roast pepper & balsamic deep pan pizza \ud83c\udf31"
     },
     "C6": {
         "breakfast": "Hot Breakfast",
