@@ -5,7 +5,7 @@ import pandas as pd
 
 # Initialization
 
-df = pd.read_excel("events.xlsx", sheet_name="01-0706", skiprows=2)[
+df = pd.read_excel("events.xlsx", sheet_name="3108-0609", skiprows=3)[
     ["Unnamed: 0", "When", "What", "Where"]
 ]
 df.rename(columns={"Unnamed: 0": "Day"}, inplace=True)
@@ -38,8 +38,7 @@ def title_case(s):
     return " ".join(result).replace("Drop in", "Drop-in").replace("WellCo", "WellCo ☀️")
 
 
-df = df.applymap(title_case)
-
+df = df.map(title_case)
 
 # Iterating through rows
 

@@ -4367,7 +4367,6 @@
             "where": NaN
         }
     ],
-
     "2026-06-08": [
         {
             "when": "14:00\u201315:15",
@@ -4385,24 +4384,19 @@
             "where": "Great Hall"
         }
     ],
-
-    "2026-06-09": [
-        
-    ],
+    "2026-06-09": [],
     "2026-06-10": [
         {
             "when": "14:00\u201316:00",
             "what": "House Clear-up",
             "where": "Houses"
         },
-        
         {
             "when": "17:00\u201319:00",
             "what": "Wellbeing Drop-in",
             "where": "Health Centre"
         }
     ],
-
     "2026-06-11": [
         {
             "when": "22:00",
@@ -4417,14 +4411,14 @@
             "where": NaN
         }
     ],
-      "2026-08-24": [
+    "2026-08-24": [
         {
             "when": "13:00",
             "what": "Fisties Arrival",
             "where": NaN
         }
     ],
-        "2026-08-25": [
+    "2026-08-25": [
         {
             "when": "8:00",
             "what": "Breakfast at houses",
@@ -4440,16 +4434,171 @@
             "what": "House Bondings",
             "where": "Houses"
         }
-
     ],
-    "2026-08-26": [
-        
-    ],
+    "2026-08-26": [],
     "2026-08-27": [
-         {
+        {
             "when": "18:00",
             "what": "PeaCo",
             "where": "Great Hall"
+        }
+    ],
+    "2026-08-31": [
+        {
+            "when": "14:00\u201314:30",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "14:30\u201315:00",
+            "what": "IB1 Cas Fair",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "19:00\u201320:00",
+            "what": "IB1/IB2 Council Mini Taster Sessions",
+            "where": "Various"
+        }
+    ],
+    "2026-09-01": [
+        {
+            "when": "14:00\u201316:00",
+            "what": "IB2 Mandatory EE Afternoon",
+            "where": "Various"
+        },
+        {
+            "when": "14:00\u201316:00",
+            "what": "IB1 CAT Testing (Besse and Sunley)",
+            "where": "IT Room/ Bio East"
+        },
+        {
+            "when": "14:00\u201315:00",
+            "what": "Castle Tour (PK)",
+            "where": "Glass Room"
+        },
+        {
+            "when": "14:00\u201315:00",
+            "what": "Castle Tour (Whitaker)",
+            "where": "Glass Room"
+        },
+        {
+            "when": "16:30\u201319:00",
+            "what": "CAS Try-Outs & Taster Sessions",
+            "where": "Various"
+        },
+        {
+            "when": "19:00\u201320:00",
+            "what": "IB1/IB2 Council Mini Taster Sessions",
+            "where": "Various"
+        }
+    ],
+    "2026-09-02": [
+        {
+            "when": "14:00\u201316:00",
+            "what": "IB2 Mandatory EE/IA Catch up",
+            "where": "Various"
+        },
+        {
+            "when": "14:00\u201316:00",
+            "what": "IB1 CAT Testing (Powys and Tice)",
+            "where": "IT Room/ Bio East"
+        },
+        {
+            "when": "14:00\u201315:00",
+            "what": "Castle Tour (KH)",
+            "where": "Glass Room"
+        },
+        {
+            "when": "15:00\u201316:00",
+            "what": "Castle Tour (Sunley)",
+            "where": "Glass Room"
+        },
+        {
+            "when": "16:30\u201319:00",
+            "what": "CAS Try-Outs & Taster Sessions",
+            "where": "Various"
+        },
+        {
+            "when": "19:00\u201320:00",
+            "what": "IB1/IB2 Council Mini Taster Sessions",
+            "where": "Various"
+        }
+    ],
+    "2026-09-03": [
+        {
+            "when": "14:00\u201316:00",
+            "what": "IB2 Mandatory EE Afternoon",
+            "where": "Various"
+        },
+        {
+            "when": "14:00\u201316:00",
+            "what": "IB1 CAT Testing (Gwynedd and KH)",
+            "where": "IT Room/Bio East"
+        },
+        {
+            "when": "14:00\u201315:00",
+            "what": "Castle Tour (Powys)",
+            "where": "Glass Room"
+        },
+        {
+            "when": "14:00\u201315:00",
+            "what": "Castle Tour (Tice)",
+            "where": "Glass Room"
+        },
+        {
+            "when": "16:30\u201319:00",
+            "what": "CAS Try-Outs & Taster Sessions",
+            "where": "Various"
+        },
+        {
+            "when": "19:00\u201320:00",
+            "what": "IB1/IB2 Council Mini Taster Sessions",
+            "where": "Various"
+        }
+    ],
+    "2026-09-04": [
+        {
+            "when": "14:00\u201316:00",
+            "what": "IB1 CAT Testing (PK and Whitaker)",
+            "where": "IT Room/Bio East"
+        },
+        {
+            "when": "14:00\u201315:00",
+            "what": "IB2 Emergency First Aid (Besse, Gwyn, KH, PK)",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "14:00\u201315:00",
+            "what": "IB1 Castle Tour (Besse)",
+            "where": "Glass Room"
+        },
+        {
+            "when": "15:00\u201316:00",
+            "what": "IB2 Emergency First Aid (Powys, Sunley, Tice, Whit)",
+            "where": "Bradenstoke"
+        },
+        {
+            "when": "15:00\u201316:00",
+            "what": "IB1 Castle Tour (Gwynedd)",
+            "where": "Glass Room"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2026-09-05": [],
+    "2026-09-06": [
+        {
+            "when": "14:00\u201316:00",
+            "what": "ACFC V Llantwit Major AFC",
+            "where": "Sports Field"
         }
     ]
 }

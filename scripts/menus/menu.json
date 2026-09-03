@@ -26,10 +26,10 @@
     "A4": {
         "breakfast": "Continental Counter",
         "brunch": null,
-        "lunch_1": "Red Coconut Curry \ud83c\udf31",
-        "lunch_2": "Sesame Roast Broccoli & Courgette \ud83c\udf31",
-        "dinner_1": "Lamb, Aubergine & Halloumi Hot Pot",
-        "dinner_2": "Spinach Falafels \ud83c\udf31"
+        "lunch_1": "Chilli non Carne \ud83c\udf31",
+        "lunch_2": "Baked potato \ud83c\udf31",
+        "dinner_1": "Moroccan lamb burger",
+        "dinner_2": "Grilled Halloumi with roast vegetables & fresh herbs \ud83c\udf31"
     },
     "A5": {
         "breakfast": "Burrito \ud83c\udf31",
@@ -138,26 +138,26 @@
     "C4": {
         "breakfast": "Continental Counter",
         "brunch": null,
-        "lunch_1": "Pasta bar \ud83c\udf31",
-        "lunch_2": null,
-        "dinner_1": "Vegetarian Nasi Goreng \ud83c\udf31",
-        "dinner_2": "Sticky tofu \ud83c\udf31"
+        "lunch_1": "Chilli non Carne \ud83c\udf31",
+        "lunch_2": "Baked potato \ud83c\udf31",
+        "dinner_1": "Moroccan lamb burger",
+        "dinner_2": "Grilled Halloumi with roast vegetables & fresh herbs \ud83c\udf31"
     },
     "C5": {
         "breakfast": "Burrito",
         "brunch": null,
         "lunch_1": "Fish & Chips",
         "lunch_2": "Crispy Buttermilk Quorn \ud83c\udf31",
-        "dinner_1": "Bbq chicken pizza \ud83c\udf31",
-        "dinner_2": "Roast pepper & balsamic deep pan pizza \ud83c\udf31"
+        "dinner_1": "Vegan Chow Mein Noodles \ud83c\udf31",
+        "dinner_2": "Crispy Quorn \ud83c\udf31"
     },
     "C6": {
         "breakfast": "Hot Breakfast",
         "brunch": null,
-        "lunch_1": "Spiced Crispy Chicken Burger",
-        "lunch_2": "Onion Bhaji Burger \ud83c\udf31",
-        "dinner_1": "Creamy Cavolo Nero Conchiglie \ud83c\udf31",
-        "dinner_2":  "Moroccan Freekeh Traybake \ud83c\udf31"
+        "lunch_1": "Bbq beef burgers",
+        "lunch_2": "Bbq Quorn burgers \ud83c\udf31",
+        "dinner_1": "Vegetarian Cottage pie \ud83c\udf31",
+        "dinner_2":  "Braised red cabbage \ud83c\udf31"
     },
     "C7": {
         "breakfast": null,
