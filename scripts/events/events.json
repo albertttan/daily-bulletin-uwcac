@@ -4601,7 +4601,86 @@
             "where": "Sports Field"
         }
     ],
-      "2026-09-07": [
-       
-    ]
+    "2026-09-07": [
+        {
+            "when": "14:00\u201314:30",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "14:30\u201315:00",
+            "what": "IB1 10 X Challenge",
+            "where": "Bradenstoke"
+        }
+    ],
+    "2026-09-08": [
+        {
+            "when": "14:00\u201314:30",
+            "what": "IB1/IB2 Media Briefing (Besse)",
+            "where": "Glass Room"
+        },
+        {
+            "when": "14:45\u201315:15",
+            "what": "IB1/IB2 Media Briefing (Gwynedd)",
+            "where": "Glass Room"
+        },
+        {
+            "when": "15:30\u201316:00",
+            "what": "IB1/IB2 Media Briefing (KH)",
+            "where": "Glass Room"
+        }
+    ],
+    "2026-09-09": [
+        {
+            "when": "14:00\u201314:30",
+            "what": "IB1/IB2 Media Briefing (PK)",
+            "where": "Glass Room"
+        },
+        {
+            "when": "14:45\u201315:15",
+            "what": "IB1/IB2 Media Briefing (Powys)",
+            "where": "Glass Room"
+        },
+        {
+            "when": "15:30\u201316:00",
+            "what": "IB1/IB2 Media Briefing (Sunley)",
+            "where": "Glass Room"
+        }
+    ],
+    "2026-09-10": [
+        {
+            "when": "14:00\u201314:30",
+            "what": "IB1/IB2 Media Briefing (Tice)",
+            "where": "Glass Room"
+        },
+        {
+            "when": "14:45\u201315:15",
+            "what": "IB1/IB2 Media Briefing (Gwynedd)",
+            "where": "Glass Room"
+        }
+    ],
+    "2026-09-11": [
+        {
+            "when": "14:00\u201314:30",
+            "what": "IB1 Camp Briefing",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "14:00\u201314:30",
+            "what": "IB2 Tutorial",
+            "where": NaN
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2026-09-12": [],
+    "2026-09-13": []
 }
