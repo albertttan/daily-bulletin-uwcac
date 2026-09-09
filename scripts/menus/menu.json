@@ -82,10 +82,10 @@
     "B4": {
         "breakfast": "Continental Counter",
         "brunch": null,
-        "lunch_1": "Roast Cauliflower Dahl \ud83c\udf31",
-        "lunch_2": "Frittata \ud83c\udf31",
-        "dinner_1": "Barbeque Chicken Legs",
-        "dinner_2": "Veggie Quesadillas \ud83c\udf31"
+        "lunch_1": "Vegetable Paella \ud83c\udf31",
+        "lunch_2": "Tomato & mozzarella fusilli \ud83c\udf31",
+        "dinner_1": "Chicken Cajun pasta bake",
+        "dinner_2": "Roast red pepper and tomato risotto \ud83c\udf31"
     },
     "B5": {
         "breakfast": "Burrito",
