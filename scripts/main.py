@@ -6,7 +6,7 @@ import subprocess
 import markdown as md
 from jinja2 import Environment, FileSystemLoader
 from compile import compile_email, update_pages
-from retrieve import retrieve_history, retrieve_news_ap
+from retrieve import retrieve_history, retrieve_news
 
 
 def render_html(date):
@@ -85,7 +85,7 @@ def render_html(date):
     # On This Day / In the News
 
     history_info = retrieve_history(date_iso)
-    news_info = retrieve_news_ap()
+    news_info = retrieve_news()
     print("Processed Today in History and News...", file=sys.stderr)
 
     # Render and save page

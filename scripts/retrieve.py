@@ -82,8 +82,12 @@ def retrieve_news_ap():
 
     # Retrieve page
     url = "https://apnews.com/world-news"
+    headers = {
+        'User-Agent': 'DailyBulletinUWCAC/1.0 (https://albertttan.github.io/daily-bulletin-uwcac/) python-requests/2.31.0'
+    }
     soup = BeautifulSoup(requests.get(url, timeout=10).text, "html.parser")
     output = []
+    print(soup)
 
     # Locate headings
     for element in soup.find_all("div", class_="PagePromo-content"):
@@ -115,6 +119,7 @@ def retrieve_news(document_id="1ChvbzaBUOMUft4mUmKghzQpI_VnBbOUsBHGxbfyed4w"):
     with open("google-auth/timestamp.txt") as file:
         last_timestamp = file.read()
     current_timestamp = service.files().get(fileId=document_id, fields="modifiedTime").execute()["modifiedTime"]
+    print(current_timestamp, last_timestamp)
     if current_timestamp == last_timestamp:
         return retrieve_news_ap()
 
@@ -136,4 +141,4 @@ def retrieve_news(document_id="1ChvbzaBUOMUft4mUmKghzQpI_VnBbOUsBHGxbfyed4w"):
     output.append(current_timestamp)
     return output
 
-retrieve_news_ap()
+retrieve_news()
