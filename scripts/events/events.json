@@ -4682,5 +4682,109 @@
         }
     ],
     "2026-09-12": [],
-    "2026-09-13": []
+    "2026-09-13": [],
+    "2026-09-14": [
+        {
+            "when": "14:00\u201314:30",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "18:30\u201320:00",
+            "what": "Human Library",
+            "where": "Library"
+        }
+    ],
+    "2026-09-15": [
+        {
+            "when": "18:30\u201319:30",
+            "what": "FEMO Takeover",
+            "where": "Great Hall"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "SusCo Takeover",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-09-16": [
+        {
+            "when": "06:36\u2013 7:36",
+            "what": "KHC Takeover",
+            "where": NaN
+        },
+        {
+            "when": "14:00\u201316:00",
+            "what": "10x Challenge Fair",
+            "where": NaN
+        },
+        {
+            "when": "19:00\u201320:00",
+            "what": "P6 X WellCo \u2600\ufe0f Takeover",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-09-17": [
+        {
+            "when": "17:00\u201318:00",
+            "what": "Wall for Peace",
+            "where": "Top Lawn"
+        },
+        {
+            "when": "18:00\u201319:00",
+            "what": "PeaCo Takeover",
+            "where": "Great Hall"
+        },
+        {
+            "when": "19:00\u201321:00",
+            "what": "Film Club",
+            "where": NaN
+        }
+    ],
+    "2026-09-18": [
+        {
+            "when": "13:30\u201314:00",
+            "what": "Fashion Show",
+            "where": "Dining Hall"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2026-09-19": [
+        {
+            "when": "16:30\u201317:30",
+            "what": "UWC Day Food Fair",
+            "where": "Moondance"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "SLACC Bonfire?",
+            "where": NaN
+        }
+    ],
+    "2026-09-20": [
+        {
+            "when": "12:00\u201313:00",
+            "what": "UWC Day Opening Ceremony",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "13:00\u201314:00",
+            "what": "UWC Day Performances",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "14:15\u201316:25",
+            "what": "UWC Day Workshops",
+            "where": "Campus"
+        }
+    ]
 }
