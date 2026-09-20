@@ -4786,5 +4786,83 @@
             "what": "UWC Day Workshops",
             "where": "Campus"
         }
-    ]
+    ],
+    "2026-09-21": [
+        {
+            "when": "16:00\u201318:00",
+            "what": "IB2 Mandatory University Fair",
+            "where": "Bradenstoke"
+        }
+    ],
+    "2026-09-22": [
+        {
+            "when": "16:00\u201317:00",
+            "what": "University Visits",
+            "where": "Bradenstoke"
+        }
+    ],
+    "2026-09-23": [
+        {
+            "when": "15:30\u201316:30",
+            "what": "University Visits",
+            "where": "Glass Room"
+        }
+    ],
+    "2026-09-24": [
+        {
+            "when": "16:00\u201317:00",
+            "what": "University Visits",
+            "where": "Bradenstoke"
+        }
+    ],
+    "2026-09-25": [
+        {
+            "when": "14:00\u201314:30",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "14:30\u201315:00",
+            "what": "Community Gathering",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "15:00\u201316:00",
+            "what": "University Visits",
+            "where": "Library"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2026-09-26": [
+        {
+            "when": "08:00\u2013 9:00",
+            "what": "Breakfast",
+            "where": "Dinning Hall"
+        },
+        {
+            "when": "10:00\u201316:00",
+            "what": "Open Day",
+            "where": "Campus"
+        },
+        {
+            "when": "11:00\u201311:45",
+            "what": "Takeout Lunch Collection (pizza + Flapjack)",
+            "where": "Dinning Hall"
+        },
+        {
+            "when": "17:00\u201319:00",
+            "what": "Dinner",
+            "where": "Dinning Hall"
+        }
+    ],
+    "2026-09-27": []
 }
