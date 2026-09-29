@@ -8,3 +8,4 @@ contacts-raw*
 *.eml
 __pycache__/
 google-auth/
+scripts/credecitals.json
