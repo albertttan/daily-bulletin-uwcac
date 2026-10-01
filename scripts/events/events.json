@@ -4865,10 +4865,97 @@
         }
     ],
     "2026-09-27": [],
-    
-    "2026-09-28": [],
-
-     "2026-09-29": [],
-    "2026-09-30": [],
-    "2026-10-01": []
+    "2026-09-28": [
+        {
+            "when": "14:00\u201314:30",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "16:00\u201317:00",
+            "what": "University Visit",
+            "where": "Glassroom"
+        }
+    ],
+    "2026-09-29": [
+        {
+            "when": "19:30\u201320:30",
+            "what": "Student Lane Swim",
+            "where": "Pool"
+        }
+    ],
+    "2026-09-30": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "19:30\u201320:30",
+            "what": "Student Lane Swim",
+            "where": "Pool"
+        }
+    ],
+    "2026-10-01": [],
+    "2026-10-02": [
+        {
+            "when": "14:00\u201314:30",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "14:30\u201315:30",
+            "what": "Community Gathering",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2026-10-03": [
+        {
+            "when": "07:00\u201312:00",
+            "what": "SAT",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "Savage",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2026-10-04": [
+        {
+            "when": "13:00\u201314:00",
+            "what": "Student Lane Swim",
+            "where": "Pool"
+        },
+        {
+            "when": "14:00\u201315:00",
+            "what": "Student Swim",
+            "where": "Pool"
+        },
+        {
+            "when": "14:00\u201317:00",
+            "what": "ACFC V Sully FC",
+            "where": "Football Field"
+        },
+        {
+            "when": "15:00\u201316:00",
+            "what": "Student Female Swim",
+            "where": "Pool"
+        },
+        {
+            "when": "15:00\u201317:00",
+            "what": "Cinema Club",
+            "where": "Tythe Barn"
+        }
+    ]
 }
