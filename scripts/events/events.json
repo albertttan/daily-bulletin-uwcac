@@ -5039,5 +5039,82 @@
             "what": "Hot to Go",
             "where": "Moondance"
         }
+    ],
+    "2026-10-12": [
+        {
+            "when": "14:00\u201314:30",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        }
+    ],
+    "2026-10-13": [],
+    "2026-10-14": [
+        {
+            "when": "16:00\u201317:00",
+            "what": "University Visit",
+            "where": "Glass Room"
+        },
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "19:30\u201321:00",
+            "what": "P6 Fashion Show",
+            "where": "Dining Hall"
+        }
+    ],
+    "2026-10-15": [],
+    "2026-10-16": [
+        {
+            "when": "16:00\u201317:00",
+            "what": "Cafe Concert",
+            "where": "Glass Room"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "Percentage Ball",
+            "where": "Bradenstoke"
+        }
+    ],
+    "2026-10-17": [
+        {
+            "when": "18:30\u201319:30",
+            "what": "P6 Human Library",
+            "where": "Bradenstoke"
+        }
+    ],
+    "2026-10-18": [
+        {
+            "when": "07:50\u201317:30",
+            "what": "Stonehenge Trip",
+            "where": "Outer Arch"
+        },
+        {
+            "when": "13:00\u201314:00",
+            "what": "Student Lane Swim",
+            "where": "Pool"
+        },
+        {
+            "when": "14:00\u201315:00",
+            "what": "Student Swim",
+            "where": "Pool"
+        },
+        {
+            "when": "15:00\u201316:00",
+            "what": "Student Female Swim",
+            "where": "Pool"
+        },
+        {
+            "when": "15:00\u201317:00",
+            "what": "Cinema Club",
+            "where": "Tythe Barn"
+        }
     ]
 }
