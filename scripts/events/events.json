@@ -5116,5 +5116,13 @@
             "what": "Cinema Club",
             "where": "Tythe Barn"
         }
+    ],
+    
+            "2026-10-19": [
+        {
+            "when": "14:00\u201314:30",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        }
     ]
 }
