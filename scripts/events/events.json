@@ -5117,18 +5117,75 @@
             "where": "Tythe Barn"
         }
     ],
-    
-            "2026-10-19": [
+    "2026-10-19": [
         {
             "when": "14:00\u201314:30",
             "what": "Tutorial",
             "where": "Tutor Rooms"
         }
     ],
-
-            "2026-10-22": [
+    "2026-10-22": [
+        {}
+    ],
+    "2026-11-02": [
         {
-           
+            "when": "14:00\u201314:30",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
         }
-            ]
+    ],
+    "2026-11-03": [],
+    "2026-11-04": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "18:15\u201321:30",
+            "what": "Film Screening: Pride Vs Prejudice",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2026-11-05": [],
+    "2026-11-06": [
+        {
+            "when": "14:00\u201314:30",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "14:30\u201315:30",
+            "what": "Community Gathering",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "15:30\u201316:30",
+            "what": "University Visit",
+            "where": "Library"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "AC Got Talent",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2026-11-07": [
+        {
+            "when": "14:30\u201320:00",
+            "what": "Rugby Trip: Wales V Japan",
+            "where": "Cardiff"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Library Event",
+            "where": "Library"
+        }
+    ],
+    "2026-11-08": []
 }
