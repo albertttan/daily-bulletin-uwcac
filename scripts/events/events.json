@@ -5197,5 +5197,31 @@
             "where": "Health Centre"
         }
     ],
-    "2026-11-12": []
+    "2026-11-12": [],
+    "2026-11-13": [
+            {
+            "when": "14:00\u201314:30",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+          {
+            "when": "14:30\u201315:30",
+            "what": "Community Gathering",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": "Tythe Barn"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        }
+
+
+    ]
 }
+
+   
