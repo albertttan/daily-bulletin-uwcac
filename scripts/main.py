@@ -163,7 +163,11 @@ def main(date_iso=None, mode="compile"):
         os.system("git push origin main")
 
     if mode == "compile" or mode == "email": 
-        subprocess.run(["open", "-a", "Safari", "https://mail.google.com/mail/u/1/#inbox?compose=new"], check=True)
+        subprocess.run([
+    "open",
+    "-a", "Safari",
+    "https://mail.google.com/mail/?authuser=wellco@uwcatlantic.org#inbox?compose=new"
+], check=True)
         compile_email(date_iso)
         print("Please schedule the email to be delivered at 07:00. Thank you!")
 

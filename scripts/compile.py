@@ -33,16 +33,16 @@ def encode_image(path):
     return encoded
 
 
+
 def compile_email(date_iso):
 
-    with open(f"contacts/contacts.txt") as file:
-        recipients = file.read()
-    with open(f"cycles/cycles.json") as file:
+    with open("cycles/cycles.json") as file:
         cycles = json.load(file)
         weekday_str = cycles[date_iso]["weekday_str"]
 
-    to = "direct recipient|UWCA WellCo <wellco@uwcatlantic.org>, Iori Sawa <a25isaw@uwcatlantic.org>"
-    bcc = f"bcc recipients|{recipients}"
+    # Direct recipients
+    to = "direct recipients|Students First Year <students.1styear@uwcatlantic.org>, Students Second Year <students.2ndyear@uwcatlantic.org>"
+
     subject = f"email subject|Daily Bulletin {date_iso}"
     link = f"page URL|https://albertttan.github.io/daily-bulletin-uwcac/pages/{date_iso}.html"
 
@@ -64,14 +64,15 @@ def compile_email(date_iso):
     ])
     content += "WellCo and Iori"
 
-    for info in [to, bcc, subject, content, link]:
+    # Copy each item to clipboard
+    for info in [to, subject, content, link]:
         r = Tk()
         r.withdraw()
         r.clipboard_clear()
-        r.clipboard_append(info.split("|")[1])
+        r.clipboard_append(info.split("|", 1)[1])
         r.update()
         r.destroy()
-        input("Copied "+str(info.split("|")[0])+" to clipboard...")
+        input("Copied " + info.split("|", 1)[0] + " to clipboard...")
 
 
 def update_pages(date_iso):
