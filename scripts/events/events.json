@@ -5191,7 +5191,7 @@
     "2026-11-09": [],
     "2026-11-10": [],
     "2026-11-11": [
-          {
+        {
             "when": "17:00\u201319:00",
             "what": "Wellbeing Drop-in",
             "where": "Health Centre"
@@ -5199,12 +5199,12 @@
     ],
     "2026-11-12": [],
     "2026-11-13": [
-            {
+        {
             "when": "14:00\u201314:30",
             "what": "Tutorial",
             "where": "Tutor Rooms"
         },
-          {
+        {
             "when": "14:30\u201315:30",
             "what": "Community Gathering",
             "where": "Sports Hall"
@@ -5219,8 +5219,6 @@
             "what": "Hideout",
             "where": "Moondance"
         }
-
-
     ],
     "2026-11-15": [
         {
@@ -5228,7 +5226,88 @@
             "what": "CeltiCon",
             "where": "Campus"
         }
+    ],
+    "2026-11-16": [
+        {
+            "when": "09:00\u201316:00",
+            "what": "CeltiCon",
+            "where": NaN
+        }
+    ],
+    "2026-11-17": [],
+    "2026-11-18": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        }
+    ],
+    "2026-11-19": [
+        {
+            "when": "17:30\u201319:00",
+            "what": "Dinner: Stacked (hash Brown Concept With Tasty Toppings.)",
+            "where": NaN
+        },
+        {
+            "when": "19:00\u201320:00",
+            "what": "Owl Walk With Aditya",
+            "where": "Susco Cabin"
+        }
+    ],
+    "2026-11-20": [
+        {
+            "when": "16:30\u201317:00",
+            "what": "AC Olympics: Opening Ceremony",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "17:00\u201319:00",
+            "what": "AC Olympics: Volleyball",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Moondance"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "AC Olympics: Basketball",
+            "where": "Sports Hall"
+        }
+    ],
+    "2026-11-21": [
+        {
+            "when": "10:00\u201311:00",
+            "what": "AC Olympics: Swimming and Sprints",
+            "where": "Pool/Jousting"
+        },
+        {
+            "when": "12:00\u201314:00",
+            "what": "AC Olympics: Football",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "15:30\u201317:00",
+            "what": "AC Olympics: Waterpolo",
+            "where": "Pool"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "Eastern European National Evening",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2026-11-22": [
+        {
+            "when": "12:00\u201314:00",
+            "what": "AC Olympics: Kickball",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "14:30\u201316:30",
+            "what": "AC Olympics: Floorball",
+            "where": "Sports Hall"
+        }
     ]
 }
-
-   
