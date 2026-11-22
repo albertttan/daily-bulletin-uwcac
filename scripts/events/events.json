@@ -5309,5 +5309,77 @@
             "what": "AC Olympics: Floorball",
             "where": "Sports Hall"
         }
-    ]
+    ],
+    "2026-11-23": [
+        {
+            "when": "14:00\u201314:30",
+            "what": "Tutorial",
+            "where": "Tutor Rooms"
+        },
+        {
+            "when": "20:00\u201321:00",
+            "what": "Pocky Challenge",
+            "where": "Glassroom"
+        }
+    ],
+    "2026-11-24": [
+        {
+            "when": "17:30\u201318:45",
+            "what": "Sushi and Techo (featuring Raldo)",
+            "where": "Dining Hall"
+        }
+    ],
+    "2026-11-25": [
+        {
+            "when": "17:00\u201319:00",
+            "what": "Wellbeing Drop-in",
+            "where": "Health Centre"
+        },
+        {
+            "when": "18:00\u201319:00",
+            "what": "Movember. Strong Enough to Talk.",
+            "where": "Great Hall"
+        }
+    ],
+    "2026-11-26": [],
+    "2026-11-27": [
+        {
+            "when": "09:00\u201317:30",
+            "what": "IB1 - Lighthouse Hackathon",
+            "where": NaN
+        },
+        {
+            "when": "16:00\u201317:00",
+            "what": "Seasonal Cafe Concert",
+            "where": "Glassroom"
+        },
+        {
+            "when": "20:00\u201322:00",
+            "what": "Hideout",
+            "where": "Valentina"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SOSH",
+            "where": NaN
+        }
+    ],
+    "2026-11-28": [
+        {
+            "when": "10:00\u201313:00",
+            "what": "Open Morning",
+            "where": NaN
+        },
+        {
+            "when": "09:00\u201313:00",
+            "what": "CSFC Volleyball Friendly",
+            "where": "Sports Hall"
+        },
+        {
+            "when": "20:30\u201322:00",
+            "what": "SEAO National Evening",
+            "where": "Tythe Barn"
+        }
+    ],
+    "2026-11-29": []
 }
