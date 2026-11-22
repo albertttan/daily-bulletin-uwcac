@@ -7,6 +7,7 @@ import datetime
 import requests
 import webbrowser
 import urllib.parse
+import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
 from transformers import pipeline, logging
 
@@ -77,28 +78,27 @@ def google_credentials():
     
     return creds
 
+def retrieve_news_bbc():
 
-def retrieve_news_ap():
-
-    # Retrieve page
-    url = "https://apnews.com/world-news"
+    # Retrieve RSS feed
+    url = "https://feeds.bbci.co.uk/news/world/rss.xml"
     headers = {
         'User-Agent': 'DailyBulletinUWCAC/1.0 (https://albertttan.github.io/daily-bulletin-uwcac/) python-requests/2.31.0'
     }
-    soup = BeautifulSoup(requests.get(url, timeout=10).text, "html.parser")
-    output = []
-    print(soup)
+    response = requests.get(url, headers=headers, timeout=10)
+    response.raise_for_status()
+    root = ET.fromstring(response.content)
 
-    # Locate headings
-    for element in soup.find_all("div", class_="PagePromo-content"):
-        heading = element.find("h3")
-        if heading and heading.find("a"):
-            output.append(heading.find("a"))
-    
-    # Clean results
-    for element in output:
-        del element["class"]
-        element.find("span").unwrap()
+    # Turn each <item> into <a href="link">title</a>
+    soup = BeautifulSoup("", "html.parser")
+    output = []
+    for item in root.iter("item"):
+        title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        if title and link:
+            tag = soup.new_tag("a", href=link)
+            tag.string = title
+            output.append(tag)
 
     sentiment_classifier = pipeline("sentiment-analysis", model="cardiffnlp/twitter-roberta-base-sentiment-latest")
 
@@ -109,6 +109,38 @@ def retrieve_news_ap():
     output = sorted(output, key=get_sentiment_score, reverse=True)
     output.append(False)
     return output
+
+# def retrieve_news_ap():
+
+#     # Retrieve page
+#     url = "https://apnews.com/world-news"
+#     headers = {
+#         'User-Agent': 'DailyBulletinUWCAC/1.0 (https://albertttan.github.io/daily-bulletin-uwcac/) python-requests/2.31.0'
+#     }
+#     soup = BeautifulSoup(requests.get(url, timeout=10).text, "html.parser")
+#     output = []
+#     print(soup)
+
+#     # Locate headings
+#     for element in soup.find_all("div", class_="PagePromo-content"):
+#         heading = element.find("h3")
+#         if heading and heading.find("a"):
+#             output.append(heading.find("a"))
+    
+#     # Clean results
+#     for element in output:
+#         del element["class"]
+#         element.find("span").unwrap()
+
+#     sentiment_classifier = pipeline("sentiment-analysis", model="cardiffnlp/twitter-roberta-base-sentiment-latest")
+
+#     def get_sentiment_score(tag):
+#         result = sentiment_classifier(tag.text)[0]
+#         return result['score'] if result['label'] == 'positive' else -result['score']
+
+#     output = sorted(output, key=get_sentiment_score, reverse=True)
+#     output.append(False)
+#     return output
 
 
 def retrieve_news(document_id="1ChvbzaBUOMUft4mUmKghzQpI_VnBbOUsBHGxbfyed4w"):
@@ -121,7 +153,7 @@ def retrieve_news(document_id="1ChvbzaBUOMUft4mUmKghzQpI_VnBbOUsBHGxbfyed4w"):
     current_timestamp = service.files().get(fileId=document_id, fields="modifiedTime").execute()["modifiedTime"]
     print(current_timestamp, last_timestamp)
     if current_timestamp == last_timestamp:
-        return retrieve_news_ap()
+        return retrieve_news_bbc()
 
     # Retrieve document content as HTML
     request = service.files().export_media(fileId=document_id, mimeType="text/html")
@@ -141,4 +173,4 @@ def retrieve_news(document_id="1ChvbzaBUOMUft4mUmKghzQpI_VnBbOUsBHGxbfyed4w"):
     output.append(current_timestamp)
     return output
 
-retrieve_news()
+# retrieve_news()
